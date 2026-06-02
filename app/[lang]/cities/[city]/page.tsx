@@ -19,7 +19,7 @@ import { CityCard } from '@/components/CityCard';
 import { GuideCard } from '@/components/GuideCard';
 import { FaqSection } from '@/components/FaqSection';
 import { cityFaqs } from '@/lib/faq-templates';
-import { getGuidesForCity } from '@/lib/data/guides';
+import { getGuidesForCity, getGuidesByTopic } from '@/lib/data/guides';
 import { JobsCTA } from '@/components/JobsCTA';
 import { HeroImage } from '@/components/HeroImage';
 import { PromoBanner } from '@/components/PromoBanner';
@@ -69,6 +69,10 @@ export default async function CityDetailPage({ params }: Props) {
     ? getCitiesByCountry(country.slug).filter((c) => c.slug !== city.slug)
     : [];
   const guides = getGuidesForCity(city.slug);
+  const relatedSlugs = new Set(guides.map((g) => g.slug));
+  const workGuides = getGuidesByTopic('freelancing').filter((g) => !relatedSlugs.has(g.slug)).slice(0, 3);
+  const toolGuides = getGuidesByTopic('tools').filter((g) => !relatedSlugs.has(g.slug)).slice(0, 3);
+  const moreGuides = [...workGuides, ...toolGuides];
 
   const place = {
     '@context': 'https://schema.org',
@@ -177,6 +181,19 @@ export default async function CityDetailPage({ params }: Props) {
           </h2>
           <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {guides.map((g) => (
+              <li key={g.slug}>
+                <GuideCard guide={g} locale={params.lang} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {moreGuides.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold tracking-tightish">Working from {name}</h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {moreGuides.map((g) => (
               <li key={g.slug}>
                 <GuideCard guide={g} locale={params.lang} />
               </li>

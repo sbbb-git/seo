@@ -13,7 +13,7 @@ import { VisaCard } from '@/components/VisaCard';
 import { GuideCard } from '@/components/GuideCard';
 import { FaqSection } from '@/components/FaqSection';
 import { countryFaqs } from '@/lib/faq-templates';
-import { getGuidesForCountry } from '@/lib/data/guides';
+import { getGuidesForCountry, getGuidesByTopic } from '@/lib/data/guides';
 import { JobsCTA } from '@/components/JobsCTA';
 import { HeroImage } from '@/components/HeroImage';
 import { PromoBanner } from '@/components/PromoBanner';
@@ -59,6 +59,12 @@ export default async function CountryDetailPage({ params }: Props) {
   const cities = getCitiesByCountry(country.slug);
   const visas = getVisasByCountry(country.slug);
   const guides = getGuidesForCountry(country.slug);
+  // Surface broadly useful nomad guides too (working & tools), so each country
+  // page links to a wide range of guides — kills orphan-link patterns.
+  const relatedSlugs = new Set(guides.map((g) => g.slug));
+  const workGuides = getGuidesByTopic('freelancing').filter((g) => !relatedSlugs.has(g.slug)).slice(0, 3);
+  const toolGuides = getGuidesByTopic('tools').filter((g) => !relatedSlugs.has(g.slug)).slice(0, 3);
+  const moreGuides = [...workGuides, ...toolGuides];
 
   const placeLd = {
     '@context': 'https://schema.org',
@@ -171,6 +177,19 @@ export default async function CountryDetailPage({ params }: Props) {
           </h2>
           <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {guides.map((g) => (
+              <li key={g.slug}>
+                <GuideCard guide={g} locale={params.lang} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {moreGuides.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold tracking-tightish">Working from {name}</h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {moreGuides.map((g) => (
               <li key={g.slug}>
                 <GuideCard guide={g} locale={params.lang} />
               </li>
