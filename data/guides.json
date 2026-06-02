@@ -2744,5 +2744,697 @@
         "a": "Often yes. A lifetime deal on a stock photo, video or icon library at $49-99 pays back within a few months versus per-asset purchases or premium subs. Pick one that fits your style; you do not need three."
       }
     ]
+  },
+  {
+    "slug": "best-ai-tools-for-digital-nomads-2026",
+    "topic": "tools",
+    "title": {
+      "en": "Best AI Tools for Digital Nomads in 2026",
+      "fr": "Meilleurs outils IA pour nomades digitaux en 2026",
+      "es": "Mejores herramientas de IA para nómadas digitales 2026",
+      "pt": "Melhores ferramentas IA para nómadas digitais em 2026",
+      "it": "Migliori strumenti IA per nomadi digitali nel 2026",
+      "de": "Beste KI-Tools für digitale Nomaden 2026",
+      "pl": "Najlepsze narzędzia AI dla cyfrowych nomadów w 2026"
+    },
+    "description": {
+      "en": "The AI stack a remote worker actually needs in 2026: writing, meetings, voice, automation. What replaces an assistant, what saves hours every week, and what to skip.",
+      "fr": "La stack IA dont un travailleur à distance a vraiment besoin en 2026 : écriture, réunions, voix, automatisation. Ce qui remplace un assistant et fait gagner des heures.",
+      "es": "El stack de IA que necesita de verdad un trabajador remoto en 2026: escritura, reuniones, voz, automatización. Qué sustituye a un asistente y qué ahorra horas.",
+      "pt": "O stack de IA de que um trabalhador remoto precisa em 2026: escrita, reuniões, voz, automação. O que substitui um assistente e o que poupa horas.",
+      "it": "Lo stack IA che serve davvero a un remote worker nel 2026: scrittura, riunioni, voce, automazione. Cosa sostituisce un assistente e cosa fa risparmiare ore.",
+      "de": "Der KI-Stack, den ein Remote-Worker 2026 wirklich braucht: Schreiben, Meetings, Stimme, Automatisierung. Was einen Assistenten ersetzt und Stunden spart.",
+      "pl": "Stack AI naprawdę potrzebny zdalnemu pracownikowi w 2026: pisanie, spotkania, głos, automatyzacja. Co zastępuje asystenta i oszczędza godziny tygodniowo."
+    },
+    "faq": [
+      {
+        "q": "What is the minimum AI stack a nomad should run?",
+        "a": "One general-purpose LLM for writing, research and coding; one meeting transcriber for client calls; and one voice tool for fast voice notes or content. Add automation tools once you spot a repeating task."
+      },
+      {
+        "q": "Should I pay for one premium AI or many cheap ones?",
+        "a": "One excellent general LLM beats five mediocre wrappers. Pay full price for the best model you can run your work through, then add specialised tools (voice, transcription, image) only where they solve a specific workflow."
+      },
+      {
+        "q": "How do I handle AI in poor-connection countries?",
+        "a": "Use tools with desktop apps and offline caching where possible, keep a fallback eSIM with data, and batch heavy AI work for stable wifi windows. Lightweight local models can cover quick tasks when you are truly offline."
+      },
+      {
+        "q": "Are AI tools safe to use with client data?",
+        "a": "Read each tool’s data policy. Prefer providers that do not train on your inputs, offer enterprise/admin controls, and let you delete history. Redact sensitive client info before pasting it into anything you do not trust."
+      },
+      {
+        "q": "How much should AI tools cost me per month?",
+        "a": "A solid nomad AI stack runs $30-80/month — one premium LLM, one meeting tool, one voice tool. Anything more is usually overlap. Audit your stack quarterly and cut tools you do not open weekly."
+      }
+    ]
+  },
+  {
+    "slug": "best-meeting-transcription-tools-2026",
+    "topic": "tools",
+    "title": {
+      "en": "Best Meeting Transcription Tools for Remote Work",
+      "fr": "Meilleurs outils de transcription de réunion à distance",
+      "es": "Mejores herramientas de transcripción de reuniones",
+      "pt": "Melhores ferramentas de transcrição de reuniões",
+      "it": "Migliori strumenti di trascrizione meeting da remoto",
+      "de": "Beste Meeting-Transkriptions-Tools für Remote",
+      "pl": "Najlepsze narzędzia do transkrypcji spotkań zdalnych"
+    },
+    "description": {
+      "en": "Meeting transcription compared in 2026: which tool joins which platform, accuracy, multilingual, pricing, and the one most digital nomads stick with after testing.",
+      "fr": "Comparatif transcription de réunion 2026 : quelle plateforme couverte, précision, multilingue, tarif, et celle que la plupart des nomades gardent après test.",
+      "es": "Transcripción de reuniones comparada en 2026: plataformas compatibles, precisión, multilingüe, precios y la que más nómadas mantienen tras probarla.",
+      "pt": "Transcrição de reuniões comparada em 2026: plataformas suportadas, precisão, multilingue, preços e a que mais nómadas mantêm após testar.",
+      "it": "Trascrizione meeting a confronto nel 2026: piattaforme coperte, precisione, multilingua, prezzi e quale rimane in stack ai nomadi dopo i test.",
+      "de": "Meeting-Transkription im Vergleich 2026: welche Plattform, Genauigkeit, Mehrsprachigkeit, Preise — und welches Tool Nomaden nach Tests behalten.",
+      "pl": "Porównanie transkrypcji spotkań w 2026: obsługiwane platformy, dokładność, wielojęzyczność, ceny i to, które nomadowie zostawiają po testach."
+    },
+    "faq": [
+      {
+        "q": "Why bother with a meeting transcriber?",
+        "a": "You stop being the note-taker. Action items, decisions and quotes are searchable after every call, you can rejoin a dropped meeting via the transcript, and you can repurpose conversations into client emails, content or status updates."
+      },
+      {
+        "q": "Which one works with Zoom, Meet and Teams?",
+        "a": "A good transcriber joins all three as a bot or via desktop capture. Confirm before buying — some tools cover only one platform well. For nomads who hop between client setups, multi-platform support is the must-have."
+      },
+      {
+        "q": "How accurate is meeting transcription in 2026?",
+        "a": "For clear audio in English, expect ~95% accuracy. Accuracy drops with noise, accents, or rapid-fire crosstalk. Editing 5-10% is normal; the time saved versus manual notes is still huge."
+      },
+      {
+        "q": "Can transcribers handle non-English calls?",
+        "a": "Most major tools now transcribe French, Spanish, Portuguese, German and more. Check the language list before you buy if you mix languages; bilingual calls are still where most tools struggle."
+      },
+      {
+        "q": "Is there a privacy concern with auto-joining bots?",
+        "a": "In some regions you must inform participants that a recording is happening. Always announce the bot at the start of the call and check what your transcriber stores, for how long, and whether it trains on your audio."
+      }
+    ]
+  },
+  {
+    "slug": "best-newsletter-platforms-for-nomads",
+    "topic": "tools",
+    "title": {
+      "en": "Best Newsletter Platforms for Nomads (2026)",
+      "fr": "Meilleures plateformes de newsletter pour nomades (2026)",
+      "es": "Mejores plataformas de newsletter para nómadas (2026)",
+      "pt": "Melhores plataformas de newsletter para nómadas (2026)",
+      "it": "Migliori piattaforme newsletter per nomadi (2026)",
+      "de": "Beste Newsletter-Plattformen für Nomaden (2026)",
+      "pl": "Najlepsze platformy newsletterowe dla nomadów (2026)"
+    },
+    "description": {
+      "en": "Beehiiv vs Substack vs ConvertKit vs AWeber for a nomad creator in 2026: pricing, deliverability, monetisation, automations and what each gets right.",
+      "fr": "Beehiiv vs Substack vs ConvertKit vs AWeber pour un créateur nomade en 2026 : prix, délivrabilité, monétisation, automatisations et points forts.",
+      "es": "Beehiiv vs Substack vs ConvertKit vs AWeber para un creador nómada en 2026: precios, entrega, monetización, automatizaciones y puntos fuertes.",
+      "pt": "Beehiiv vs Substack vs ConvertKit vs AWeber para um criador nómada em 2026: preços, entrega, monetização, automações e pontos fortes.",
+      "it": "Beehiiv vs Substack vs ConvertKit vs AWeber per un creator nomade nel 2026: prezzi, deliverability, monetizzazione, automazioni e punti forti.",
+      "de": "Beehiiv vs. Substack vs. ConvertKit vs. AWeber für Nomaden-Creator 2026: Preise, Zustellbarkeit, Monetarisierung, Automationen und Stärken.",
+      "pl": "Beehiiv vs Substack vs ConvertKit vs AWeber dla nomada-twórcy w 2026: ceny, dostarczalność, monetyzacja, automaty i mocne strony."
+    },
+    "faq": [
+      {
+        "q": "Which newsletter platform is best for nomad creators in 2026?",
+        "a": "Beehiiv leads for monetisation (ads, premium, recommendations) and growth tools. ConvertKit/Kit suits course/coach creators with deeper automations. Substack is easiest to start, AWeber is the cost-conscious choice for solopreneurs under 500 subscribers."
+      },
+      {
+        "q": "Does the platform affect deliverability much?",
+        "a": "Yes, especially in the inbox. Top platforms warm IPs, manage authentication and discourage spammy senders. A reputable platform plus clean list hygiene matters more than fancy features for open rates."
+      },
+      {
+        "q": "When should I switch newsletter platforms?",
+        "a": "When your growth goal is blocked: lack of paid features, fragile automations, or rising send costs. Switching is rarely fun, so pick the platform that fits your 12-month plan rather than reverting every quarter."
+      },
+      {
+        "q": "How fast can I monetise a newsletter?",
+        "a": "Affiliate and sponsor income often starts around 1k engaged subscribers; paid subscriptions usually click around 5k. The platform sets the ceiling; your niche and writing set the timeline."
+      },
+      {
+        "q": "How do I keep growing while travelling?",
+        "a": "Batch issues so you can publish on slow travel days, schedule across time zones, lean on cross-promo recommendations on platforms that have them, and run guest swaps with fellow nomad creators."
+      }
+    ]
+  },
+  {
+    "slug": "best-ai-voice-tools-2026",
+    "topic": "tools",
+    "title": {
+      "en": "Best AI Voice Tools in 2026: Cloning, TTS & Voiceover",
+      "fr": "Meilleurs outils IA vocaux 2026 : clonage, TTS et voix off",
+      "es": "Mejores herramientas de voz IA 2026: clonación, TTS y voiceover",
+      "pt": "Melhores ferramentas IA de voz 2026: clonagem, TTS e locução",
+      "it": "Migliori strumenti IA per la voce 2026: cloning, TTS e voiceover",
+      "de": "Beste KI-Stimm-Tools 2026: Cloning, TTS und Voiceover",
+      "pl": "Najlepsze narzędzia AI głosowe 2026: klonowanie, TTS i voiceover"
+    },
+    "description": {
+      "en": "ElevenLabs, Murf and Speechify compared in 2026: voice cloning quality, languages, pricing, and which AI voice tool fits podcasting, video, courses or accessibility.",
+      "fr": "ElevenLabs, Murf et Speechify comparés en 2026 : qualité du clonage, langues, tarifs, et quel outil IA convient au podcast, vidéo, cours ou accessibilité.",
+      "es": "ElevenLabs, Murf y Speechify comparados en 2026: clonación de voz, idiomas, precios y cuál encaja en podcast, vídeo, cursos o accesibilidad.",
+      "pt": "ElevenLabs, Murf e Speechify comparados em 2026: clonagem de voz, idiomas, preços e qual serve para podcast, vídeo, cursos ou acessibilidade.",
+      "it": "ElevenLabs, Murf e Speechify a confronto nel 2026: qualità del cloning, lingue, prezzi e quale tool IA si adatta a podcast, video, corsi o accessibilità.",
+      "de": "ElevenLabs, Murf und Speechify im Vergleich 2026: Stimm-Cloning, Sprachen, Preise und welches KI-Stimm-Tool für Podcast, Video, Kurse oder Barrierefreiheit passt.",
+      "pl": "ElevenLabs, Murf i Speechify w 2026: jakość klonowania, języki, ceny i które narzędzie pasuje do podcastu, wideo, kursów lub dostępności."
+    },
+    "faq": [
+      {
+        "q": "What can AI voice tools actually do in 2026?",
+        "a": "Clone your voice in 30 seconds, generate natural narration in dozens of languages, dub videos automatically, and read articles aloud. Quality is now close to indistinguishable from human for short formats."
+      },
+      {
+        "q": "Is AI voice cloning legal and safe?",
+        "a": "You can legally clone your own voice or a voice you have written permission for. Cloning someone else without consent breaks most providers’ terms and many local laws. Use watermarks and disclose AI use where appropriate."
+      },
+      {
+        "q": "Which AI voice tool is best for content creators?",
+        "a": "For premium quality and emotion, ElevenLabs leads. For ready-to-use library voices and video workflows, Murf is hard to beat. For TTS reading and accessibility, Speechify wins on UX. Most creators end up with two of the three."
+      },
+      {
+        "q": "How do AI voice tools save nomad time?",
+        "a": "Voice your courses, video explainers or audiobook chapters without setting up a mic and quiet room in every Airbnb. One clean recording day creates a voice clone you can use anywhere on the road."
+      },
+      {
+        "q": "How much do AI voice tools cost?",
+        "a": "Useful tiers usually start at $5-22/month for moderate output and scale to $99+ for studio-grade quality and longer credits. Lifetime deals also appear on AppSumo for adjacent tools — worth checking before you subscribe."
+      }
+    ]
+  },
+  {
+    "slug": "productivity-stack-for-solopreneurs",
+    "topic": "tools",
+    "title": {
+      "en": "Productivity Stack for Solopreneurs in 2026",
+      "fr": "Stack productivité pour solopreneurs en 2026",
+      "es": "Stack de productividad para solopreneurs en 2026",
+      "pt": "Stack de produtividade para solopreneurs em 2026",
+      "it": "Stack di produttività per solopreneur nel 2026",
+      "de": "Produktivitäts-Stack für Solopreneure 2026",
+      "pl": "Stack produktywności dla solopreneurów w 2026"
+    },
+    "description": {
+      "en": "The lean tools a solopreneur actually needs to ship in 2026: tasks, calls, AI, email, payments. A boring stack that beats a 25-tool dashboard every time.",
+      "fr": "Les outils sobres dont un solopreneur a vraiment besoin pour avancer en 2026 : tâches, calls, IA, email, paiements. Une stack ennuyeuse qui bat un dashboard de 25 outils.",
+      "es": "Las herramientas mínimas que un solopreneur necesita para entregar en 2026: tareas, calls, IA, email, pagos. Un stack aburrido gana a un panel de 25 herramientas.",
+      "pt": "As ferramentas mínimas que um solopreneur precisa para entregar em 2026: tarefas, calls, IA, email, pagamentos. Um stack aborrecido bate um dashboard de 25 ferramentas.",
+      "it": "Gli strumenti essenziali a un solopreneur per consegnare nel 2026: task, call, IA, email, pagamenti. Uno stack noioso batte una dashboard da 25 tool.",
+      "de": "Die nüchternen Tools, die ein Solopreneur 2026 zum Liefern braucht: Tasks, Calls, KI, E-Mail, Zahlungen. Ein langweiliger Stack schlägt ein 25-Tool-Dashboard.",
+      "pl": "Tylko niezbędne narzędzia, których solopreneur potrzebuje w 2026: zadania, rozmowy, AI, email, płatności. Nudny stack bije panel z 25 narzędzi."
+    },
+    "faq": [
+      {
+        "q": "What does a working solopreneur stack look like?",
+        "a": "A simple task system (notes + a tracker), calendar and scheduling, an AI assistant, a meeting recorder, an email/CRM, and an invoicing/payments setup. Add a CMS or newsletter if your business runs on content."
+      },
+      {
+        "q": "How many tools is too many?",
+        "a": "If a new tool does not replace an existing one or unlock measurable revenue, you do not need it. Most solopreneurs over $5k/month run 6-10 tools, not 25. Adding tools usually adds maintenance, not output."
+      },
+      {
+        "q": "What is the highest-ROI category to invest in?",
+        "a": "Calendar/scheduling + AI assistant. Together they remove the most predictable friction (meetings, drafts, summaries) and pay back every week. Everything else is secondary until those two are dialled in."
+      },
+      {
+        "q": "Should I run everything from one super-app?",
+        "a": "A do-it-all hub sounds clean but rarely wins. Best-in-class single-purpose tools, lightly integrated, beat a super-app you wrestle with. Pick boring, sturdy tools you can replace independently."
+      },
+      {
+        "q": "When do I move from solopreneur tools to \"real\" SaaS?",
+        "a": "When a tool blocks growth — usage caps, missing features, fragile automations — replace it. Until then, the cheaper, simpler tool is the right one. Premature scaling is a tax on your time."
+      }
+    ]
+  },
+  {
+    "slug": "ai-labeling-jobs-for-nomads",
+    "topic": "freelancing",
+    "title": {
+      "en": "AI Labeling & Training Jobs for Nomads (2026)",
+      "fr": "Jobs de labellisation IA pour nomades (2026)",
+      "es": "Trabajos de etiquetado de IA para nómadas (2026)",
+      "pt": "Trabalhos de rotulagem de IA para nómadas (2026)",
+      "it": "Lavori di etichettatura IA per nomadi (2026)",
+      "de": "KI-Labeling- und Trainingsjobs für Nomaden (2026)",
+      "pl": "Praca przy etykietowaniu i trenowaniu AI dla nomadów (2026)"
+    },
+    "description": {
+      "en": "How nomads earn $25-60/hour training large language models on their expertise in 2026 — who pays, how to qualify, and how to run it as remote-friendly side income.",
+      "fr": "Comment des nomades gagnent 25-60 $/h en entraînant des LLM sur leur expertise en 2026 — qui paie, comment se qualifier, et l’organiser comme revenu d’appoint.",
+      "es": "Cómo nómadas ganan 25-60 $/h entrenando LLM con su experiencia en 2026 — quién paga, cómo cualificar y cómo gestionarlo como ingreso extra remoto.",
+      "pt": "Como nómadas ganham 25-60 $/h a treinar LLM com a sua experiência em 2026 — quem paga, como qualificar e gerir como rendimento extra remoto.",
+      "it": "Come i nomadi guadagnano 25-60 $/h addestrando LLM con la propria expertise nel 2026 — chi paga, come qualificarsi e gestirlo come reddito extra remoto.",
+      "de": "Wie Nomaden 2026 25-60 $/h verdienen, indem sie LLMs auf ihrem Fachgebiet trainieren — wer zahlt, wie qualifizieren, als Remote-Nebenjob organisieren.",
+      "pl": "Jak nomadowie zarabiają 25-60 $/h, ucząc LLM ze swojej specjalizacji w 2026 — kto płaci, jak się zakwalifikować i prowadzić jako zdalny dodatek."
+    },
+    "faq": [
+      {
+        "q": "What is AI labeling and why do labs pay for it?",
+        "a": "AI labs need real human experts to rate, correct and demonstrate model outputs in their field. Lawyers, doctors, engineers, writers, multilingual experts — labs pay an hourly rate for high-quality examples that train better models."
+      },
+      {
+        "q": "How much can you earn from AI training work?",
+        "a": "Rates typically range from $25-60/hour, with specialists (medicine, law, advanced coding, rare languages) earning $80-120+. Hours are usually flexible — work a few hours a week between client projects."
+      },
+      {
+        "q": "Where do nomads find this work?",
+        "a": "Platforms like Mercor and similar match domain experts with AI labs. You apply with your expertise, pass a short assessment, then pick up tasks on your own schedule. Most work is asynchronous and remote-friendly."
+      },
+      {
+        "q": "How does this fit a nomad schedule?",
+        "a": "Perfectly. Tasks are bite-sized, deadlines are usually generous, and you work from any decent connection. Many nomads use it to top up income between client retainers or while travelling between bases."
+      },
+      {
+        "q": "Is this work going away as AI improves?",
+        "a": "Demand has grown, not shrunk — better models still need expert humans to set the bar, catch mistakes and cover edge cases. Specialist domains and underserved languages keep paying for a long time."
+      }
+    ]
+  },
+  {
+    "slug": "tech-freelance-marketplaces-compared",
+    "topic": "freelancing",
+    "title": {
+      "en": "Tech Freelance Marketplaces Compared (2026)",
+      "fr": "Marketplaces de freelance tech comparées (2026)",
+      "es": "Marketplaces de freelance tech comparados (2026)",
+      "pt": "Marketplaces de freelance tech comparados (2026)",
+      "it": "Marketplace di freelance tech a confronto (2026)",
+      "de": "Tech-Freelance-Marktplätze im Vergleich (2026)",
+      "pl": "Marketplace’y freelance tech porównane (2026)"
+    },
+    "description": {
+      "en": "Toptal, Braintrust, Fiverr, Upwork, Contra: where tech freelancers actually win clients in 2026, fees compared, and which marketplace fits a nomad earning $80-200/hour.",
+      "fr": "Toptal, Braintrust, Fiverr, Upwork, Contra : où les freelances tech gagnent vraiment des clients en 2026, frais comparés, et quelle marketplace pour un nomade à 80-200 $/h.",
+      "es": "Toptal, Braintrust, Fiverr, Upwork, Contra: dónde ganan clientes los freelancers tech en 2026, comisiones comparadas y cuál encaja a un nómada de 80-200 $/h.",
+      "pt": "Toptal, Braintrust, Fiverr, Upwork, Contra: onde freelancers tech ganham clientes em 2026, taxas comparadas e qual encaixa num nómada de 80-200 $/h.",
+      "it": "Toptal, Braintrust, Fiverr, Upwork, Contra: dove i freelance tech trovano clienti nel 2026, commissioni e qual è il marketplace giusto per un nomade da 80-200 $/h.",
+      "de": "Toptal, Braintrust, Fiverr, Upwork, Contra: wo Tech-Freelancer 2026 wirklich Kunden gewinnen, Gebühren im Vergleich, und welche Plattform für 80-200 $/h-Nomaden passt.",
+      "pl": "Toptal, Braintrust, Fiverr, Upwork, Contra: gdzie freelancerzy tech zdobywają klientów w 2026, prowizje i co pasuje nomadowi 80-200 $/h."
+    },
+    "faq": [
+      {
+        "q": "Which marketplace pays the highest hourly rates?",
+        "a": "Vetted marketplaces (Toptal, Braintrust) clear the highest rates — typically $80-200/hour for senior tech roles — because they screen sellers and pre-qualify clients. Trade-off: longer onboarding and stricter quality bar."
+      },
+      {
+        "q": "What do Fiverr and Upwork offer that Toptal does not?",
+        "a": "Speed. You can be live and earning within hours on Fiverr/Upwork. They suit productised offers and shorter contracts, while Toptal/Braintrust suit ongoing senior contracts. Many nomads run more than one in parallel."
+      },
+      {
+        "q": "How do fees compare?",
+        "a": "Fiverr 20%. Upwork 10%. Braintrust charges clients a fee but does not take a cut from freelancers. Toptal takes a margin built into rates. Factor fees into your hourly target before quoting on any platform."
+      },
+      {
+        "q": "Which marketplace is best for first contracts?",
+        "a": "For a first contract within a week, Fiverr (inbound) or Upwork (outbound) are fastest. For repeat senior contracts at high rates, Braintrust and Toptal are slower to start but compound far better over a year."
+      },
+      {
+        "q": "Can I run multiple marketplaces at once?",
+        "a": "Yes, and most successful nomad freelancers do — Fiverr for productised inbound, Upwork or Braintrust for bespoke, Toptal for premium long-term. Keep delivery quality consistent across all and reuse case studies between profiles."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-make-5k-month-nomad-freelancer",
+    "topic": "freelancing",
+    "title": {
+      "en": "How to Make $5k/Month as a Nomad Freelancer",
+      "fr": "Comment gagner 5 000 $/mois en freelance nomade",
+      "es": "Cómo ganar 5.000 $/mes como freelancer nómada",
+      "pt": "Como ganhar 5.000 $/mês como freelancer nómada",
+      "it": "Come guadagnare 5.000 $/mese da freelance nomade",
+      "de": "Wie du 5.000 $/Monat als Nomaden-Freelancer verdienst",
+      "pl": "Jak zarabiać 5 000 $/miesiąc jako nomada-freelancer"
+    },
+    "description": {
+      "en": "A realistic 90-day plan to $5k/month as a nomad freelancer in 2026: niche, offer, marketplaces, pricing, retainers — and where most freelancers leak income.",
+      "fr": "Un plan réaliste en 90 jours pour atteindre 5 000 $/mois en freelance nomade en 2026 : niche, offre, marketplaces, prix, retainers — et où les freelances perdent leur revenu.",
+      "es": "Un plan realista a 90 días para llegar a 5.000 $/mes como freelancer nómada en 2026: nicho, oferta, marketplaces, precios, retainers — y dónde se fugan ingresos.",
+      "pt": "Um plano realista a 90 dias para chegar a 5.000 $/mês como freelancer nómada em 2026: nicho, oferta, marketplaces, preços, retainers — e onde se perde renda.",
+      "it": "Un piano realistico in 90 giorni per arrivare a 5.000 $/mese da freelance nomade nel 2026: nicchia, offerta, marketplace, prezzi, retainer — e dove si perde reddito.",
+      "de": "Ein realistischer 90-Tage-Plan zu 5.000 $/Monat als Nomaden-Freelancer 2026: Nische, Angebot, Marktplätze, Preise, Retainer — und wo Einnahmen verloren gehen.",
+      "pl": "Realistyczny 90-dniowy plan na 5 000 $/miesiąc jako nomada-freelancer w 2026: nisza, oferta, marketplace, ceny, retainery — i gdzie ucieka przychód."
+    },
+    "faq": [
+      {
+        "q": "How long does $5k/month freelance income realistically take?",
+        "a": "For most people pursuing it deliberately, 3-9 months. The pace depends on niche (tech and AI lift faster), how many hours/week you dedicate, your willingness to charge premium, and whether you build retainers vs. one-off projects."
+      },
+      {
+        "q": "What is the fastest path to $5k/month?",
+        "a": "A specific niche (e.g. SEO for SaaS), a productised offer, one channel you commit to (marketplace or outbound), and three retainers at $1.5-2k each. Retainers beat hourly because revenue stops being daily reinvention."
+      },
+      {
+        "q": "How important is niching down?",
+        "a": "Critical. Narrow niches let you charge 2-3x what generalists charge and convert traffic far better. \"Email copywriter\" loses to \"Email copywriter for fitness coaches\". Niching down is the highest-ROI single change most freelancers can make."
+      },
+      {
+        "q": "Should I price hourly or fixed?",
+        "a": "Fixed-fee productised work beats hourly for income and lifestyle. Hourly caps your earnings and rewards slow work. Productise your offer (\"Sprint $2,500: 4-week landing page redesign + copy\") so each deliverable has a known scope and price."
+      },
+      {
+        "q": "What kills nomad freelancer income most often?",
+        "a": "Three things: pricing too low, taking gigs outside your niche to pay bills, and skipping retainer conversations. Fix those and income gets predictable enough to plan a year of travel around."
+      }
+    ]
+  },
+  {
+    "slug": "best-freelance-niches-2026",
+    "topic": "freelancing",
+    "title": {
+      "en": "Best Freelance Niches in 2026 (and What They Pay)",
+      "fr": "Meilleures niches freelance en 2026 (et ce qu’elles paient)",
+      "es": "Mejores nichos freelance en 2026 (y lo que pagan)",
+      "pt": "Melhores nichos freelance em 2026 (e quanto pagam)",
+      "it": "Migliori nicchie freelance nel 2026 (e quanto pagano)",
+      "de": "Beste Freelance-Nischen 2026 (und was sie zahlen)",
+      "pl": "Najlepsze nisze freelance w 2026 (i ile płacą)"
+    },
+    "description": {
+      "en": "The freelance niches paying the most in 2026 — AI, growth, video, ops — with realistic hourly bands, demand signals, and how to break into each from zero portfolio.",
+      "fr": "Les niches freelance qui paient le mieux en 2026 — IA, growth, vidéo, ops — avec fourchettes horaires, demande, et comment y entrer sans portfolio.",
+      "es": "Los nichos freelance mejor pagados en 2026 — IA, growth, vídeo, ops — con tarifas, demanda y cómo entrar sin portafolio.",
+      "pt": "Os nichos freelance mais bem pagos em 2026 — IA, growth, vídeo, ops — com tarifas, procura e como entrar sem portefólio.",
+      "it": "Le nicchie freelance più pagate nel 2026 — IA, growth, video, ops — con tariffe orarie, segnali di domanda e come iniziare senza portfolio.",
+      "de": "Die bestbezahlten Freelance-Nischen 2026 — KI, Growth, Video, Ops — mit realistischen Stundensätzen, Nachfrage und Einstieg ohne Portfolio.",
+      "pl": "Najlepiej płatne nisze freelance w 2026 — AI, growth, wideo, ops — z realistycznymi stawkami, popytem i sposobem wejścia bez portfolio."
+    },
+    "faq": [
+      {
+        "q": "Which freelance niches pay the most in 2026?",
+        "a": "AI integration and automation, growth/lifecycle marketing for SaaS, short-form video editing and YouTube production, technical SEO, conversion copywriting, and fractional operations roles. Specialist tech and creative skills top hourly rates."
+      },
+      {
+        "q": "Are old niches like writing and design still viable?",
+        "a": "Yes, but only with a sharper edge. Generic writing and design are commoditised by AI. Premium niches inside them — high-converting copy, brand systems, niche SEO writing — still pay full rates because the result is measurable."
+      },
+      {
+        "q": "How do I pick a niche when I have no idea what to choose?",
+        "a": "Combine three filters: pain you can already solve, a buyer with money (B2B SaaS, agencies, ecommerce, professional services), and a deliverable you can repeat. Niche emerges from action — pick a wide direction, ship work, narrow as feedback arrives."
+      },
+      {
+        "q": "How do I break into a niche from zero?",
+        "a": "Make 2-3 unsolicited but high-quality examples for ideal-client brands. Publish them, pitch them, or post on the marketplaces. One sharp sample beats a long CV. Your first paid niche client is almost always a referral from this."
+      },
+      {
+        "q": "Should I niche by industry or by skill?",
+        "a": "Both, in sequence. Start by skill (\"conversion copy\") to ship faster, then layer an industry (\"for B2B SaaS\") to lift rates. Industry niches compound — case studies, vocabulary and referrals all stack inside a category."
+      }
+    ]
+  },
+  {
+    "slug": "personal-brand-for-digital-nomads",
+    "topic": "freelancing",
+    "title": {
+      "en": "Personal Brand for Digital Nomads in 2026",
+      "fr": "Personal branding pour nomades digitaux en 2026",
+      "es": "Marca personal para nómadas digitales en 2026",
+      "pt": "Marca pessoal para nómadas digitais em 2026",
+      "it": "Personal brand per nomadi digitali nel 2026",
+      "de": "Personal Branding für digitale Nomaden 2026",
+      "pl": "Marka osobista dla cyfrowych nomadów w 2026"
+    },
+    "description": {
+      "en": "Why nomads need a personal brand in 2026 and how to build one in three months: positioning, one platform, one signature offer, and content that brings clients to you.",
+      "fr": "Pourquoi les nomades ont besoin d’une marque personnelle en 2026 et comment la bâtir en trois mois : positionnement, une plateforme, une offre signature, contenu.",
+      "es": "Por qué los nómadas necesitan marca personal en 2026 y cómo construirla en tres meses: posicionamiento, una plataforma, una oferta firma, contenido.",
+      "pt": "Porque os nómadas precisam de marca pessoal em 2026 e como construí-la em três meses: posicionamento, uma plataforma, uma oferta principal, conteúdo.",
+      "it": "Perché i nomadi hanno bisogno di personal brand nel 2026 e come costruirlo in tre mesi: posizionamento, una piattaforma, un’offerta signature, contenuto.",
+      "de": "Warum Nomaden 2026 ein Personal Brand brauchen und wie du es in drei Monaten baust: Positionierung, eine Plattform, ein Signature-Angebot, Content.",
+      "pl": "Dlaczego nomadowie potrzebują marki osobistej w 2026 i jak ją zbudować w trzy miesiące: pozycjonowanie, jedna platforma, jedna oferta, content."
+    },
+    "faq": [
+      {
+        "q": "Why does a nomad need a personal brand?",
+        "a": "A brand pulls clients to you instead of you chasing them. For a nomad who changes city every quarter, a brand is the only \"local market\" that travels with you — buyers find you by what you publish, not by where you live."
+      },
+      {
+        "q": "Which platform should I pick first?",
+        "a": "One where your buyers already are. For B2B and freelance services that is usually LinkedIn or X. For creative work, Instagram or YouTube. For deep-niche audiences, a newsletter. Pick one, post weekly for 90 days, then layer a second."
+      },
+      {
+        "q": "What should I actually post about?",
+        "a": "Three buckets: the work (case studies, results), the perspective (your take on your niche), and the journey (real nomad life behind the work). Avoid generic motivational content — specificity wins, and only specifics generate inbound DMs."
+      },
+      {
+        "q": "How long until a personal brand pays off?",
+        "a": "Real inbound usually starts around 90 days of consistent publishing in a clear niche, and snowballs over 6-12 months. The compounding payoff is huge but it requires showing up weekly for the first quarter without quitting."
+      },
+      {
+        "q": "How do I keep a brand going while travelling?",
+        "a": "Batch content on slow weeks, write evergreen pieces you can re-share, and use AI to compress drafting time. Treat publishing like brushing teeth — a non-negotiable daily/weekly habit, not a mood-based decision."
+      }
+    ]
+  },
+  {
+    "slug": "lisbon-coworking-guide-2026",
+    "topic": "city-guide",
+    "title": {
+      "en": "Lisbon Coworking Guide for Nomads (2026)",
+      "fr": "Guide coworking Lisbonne pour nomades (2026)",
+      "es": "Guía de coworking en Lisboa para nómadas (2026)",
+      "pt": "Guia de coworking em Lisboa para nómadas (2026)",
+      "it": "Guida coworking a Lisbona per nomadi (2026)",
+      "de": "Lissabon-Coworking-Guide für Nomaden (2026)",
+      "pl": "Przewodnik po coworkingach w Lizbonie dla nomadów (2026)"
+    },
+    "description": {
+      "en": "Picking a coworking space in Lisbon in 2026: which neighbourhoods, hot-desk prices, community vibe, internet speeds, and what to know before you sign for the month.",
+      "fr": "Choisir un coworking à Lisbonne en 2026 : quartiers, tarifs hot-desk, ambiance, vitesse internet, et ce qu’il faut savoir avant de signer pour le mois.",
+      "es": "Elegir un coworking en Lisboa en 2026: barrios, tarifas hot-desk, ambiente, velocidad de internet y qué saber antes de pagar el mes.",
+      "pt": "Escolher um coworking em Lisboa em 2026: bairros, tarifas hot-desk, comunidade, velocidade da internet e o que saber antes de assinar o mês.",
+      "it": "Scegliere un coworking a Lisbona nel 2026: quartieri, tariffe hot-desk, community, velocità internet e cosa sapere prima di pagare il mese.",
+      "de": "Coworking in Lissabon 2026 wählen: Viertel, Hot-Desk-Preise, Community, Internet — und was du vor dem Monatsabo wissen solltest.",
+      "pl": "Jak wybrać coworking w Lizbonie w 2026: dzielnice, ceny hot-desk, atmosfera, prędkość internetu i co sprawdzić przed opłatą za miesiąc."
+    },
+    "relatedCountries": [
+      "portugal"
+    ],
+    "relatedCities": [
+      "lisbon"
+    ],
+    "faq": [
+      {
+        "q": "Which Lisbon neighbourhood is best for coworking?",
+        "a": "Marvila and Beato lead for industrial-loft spaces and quieter focus, Príncipe Real and Santos for design-led smaller hubs, and Avenidas Novas for corporate-feel offices. Pick by commute, not Instagram aesthetic — Lisbon hills cost time."
+      },
+      {
+        "q": "How much should I budget for a Lisbon coworking space?",
+        "a": "Hot-desk monthly passes typically run €120-220, dedicated desks €220-380, private offices €600+. Add €5-15/day for café-style \"pay as you go\" spaces if you only need 1-2 days a week."
+      },
+      {
+        "q": "Is Lisbon internet good enough for video calls?",
+        "a": "In coworking spaces, yes — most have 200-500 Mbps fibre. Home internet in older neighbourhoods can lag; if you take many client calls, do not rely solely on Airbnb wifi. Carry a backup eSIM with a generous data plan."
+      },
+      {
+        "q": "How do I pick a community vibe that matches me?",
+        "a": "Most spaces will offer a trial day. Visit two or three before committing: focused tech crowd, social entrepreneur scene, creative agency vibe, or hybrid hostel-coworking all exist in Lisbon. Drop into the kitchen at 12:30 to see who is around."
+      },
+      {
+        "q": "Do I need a Portuguese tax number to join a coworking?",
+        "a": "For a hot-desk pass with a passport, usually no. For a long-term contract or invoice in your name, many spaces ask for a NIF. Get a NIF early if you plan to stay — it unlocks bank accounts and proper contracts too."
+      }
+    ]
+  },
+  {
+    "slug": "bali-for-first-time-nomads",
+    "topic": "city-guide",
+    "title": {
+      "en": "Bali for First-Time Digital Nomads (2026)",
+      "fr": "Bali pour nomades digitaux débutants (2026)",
+      "es": "Bali para nómadas digitales primerizos (2026)",
+      "pt": "Bali para nómadas digitais iniciantes (2026)",
+      "it": "Bali per nomadi digitali alle prime armi (2026)",
+      "de": "Bali für erstmalige digitale Nomaden (2026)",
+      "pl": "Bali dla początkujących cyfrowych nomadów (2026)"
+    },
+    "description": {
+      "en": "Everything a first-time nomad needs to land in Bali in 2026: visa, where to base (Canggu vs Ubud vs Uluwatu), monthly budget, internet, scooter rules and what to avoid.",
+      "fr": "Tout ce qu’un débutant doit savoir avant Bali en 2026 : visa, où s’installer (Canggu vs Ubud vs Uluwatu), budget mensuel, internet, scooter et pièges à éviter.",
+      "es": "Lo que necesita un nómada primerizo en Bali en 2026: visado, dónde alojarse (Canggu vs Ubud vs Uluwatu), presupuesto mensual, internet y errores a evitar.",
+      "pt": "O que um nómada de primeira viagem precisa em Bali em 2026: visto, onde ficar (Canggu vs Ubud vs Uluwatu), orçamento mensal, internet e erros a evitar.",
+      "it": "Cosa serve sapere a un nomade alle prime armi a Bali nel 2026: visto, dove stare (Canggu vs Ubud vs Uluwatu), budget mensile, internet ed errori da evitare.",
+      "de": "Alles, was Erstnomaden 2026 für Bali brauchen: Visum, wo wohnen (Canggu vs. Ubud vs. Uluwatu), Monatsbudget, Internet, Roller und Stolperfallen.",
+      "pl": "Wszystko, czego początkujący nomad potrzebuje w Bali w 2026: wiza, gdzie się zatrzymać (Canggu vs Ubud vs Uluwatu), budżet, internet i czego unikać."
+    },
+    "relatedCountries": [
+      "indonesia"
+    ],
+    "relatedCities": [
+      "bali"
+    ],
+    "faq": [
+      {
+        "q": "Which Bali area should a first-time nomad pick?",
+        "a": "Canggu for nomad community, beaches and the most coworking density; Ubud for slower-paced wellness, jungles and creative crowd; Uluwatu for surf and quieter focus. Most first-timers start in Canggu, then explore once settled."
+      },
+      {
+        "q": "What is a realistic monthly budget for Bali?",
+        "a": "A comfortable nomad spend lands around $1,200-1,800/month including a 1-bed villa, food, scooter, coworking and weekend trips. Tighter $900/month is doable; $2,500+ buys premium villas and frequent dining out."
+      },
+      {
+        "q": "Is internet in Bali reliable enough for client calls?",
+        "a": "In coworking spaces, generally yes — 100-300 Mbps fibre. Villa wifi varies wildly; always test before paying for the month. A solid eSIM and tethering plan are essential for the day the home wifi disappears."
+      },
+      {
+        "q": "Do I need a special visa for Bali?",
+        "a": "Most nomads arrive on a visa on arrival or B211A social/business visa for longer stays. Indonesia’s digital-nomad-friendly options have evolved — check current rules before you fly, including stay limits and extension procedures."
+      },
+      {
+        "q": "What do new nomads underestimate in Bali?",
+        "a": "Scooter accidents (insurance + a real licence matter), Bali belly the first week, the wet season (Nov-Mar) and how spread out the island is. Pick one base for the first month, settle, then explore on weekends."
+      }
+    ]
+  },
+  {
+    "slug": "mexico-city-vs-medellin-for-nomads",
+    "topic": "city-guide",
+    "title": {
+      "en": "Mexico City vs Medellín for Digital Nomads (2026)",
+      "fr": "Mexico vs Medellín pour nomades digitaux (2026)",
+      "es": "Ciudad de México vs Medellín para nómadas (2026)",
+      "pt": "Cidade do México vs Medellín para nómadas (2026)",
+      "it": "Città del Messico vs Medellín per nomadi (2026)",
+      "de": "Mexiko-Stadt vs. Medellín für Nomaden (2026)",
+      "pl": "Meksyk vs Medellín dla cyfrowych nomadów (2026)"
+    },
+    "description": {
+      "en": "Mexico City or Medellín in 2026? Cost, climate, safety, neighbourhoods, internet, scene and visa pathways compared for nomads choosing a Latin-American base.",
+      "fr": "Mexico ou Medellín en 2026 ? Coût, climat, sécurité, quartiers, internet, scène et visas comparés pour nomades qui cherchent une base en Amérique latine.",
+      "es": "Ciudad de México o Medellín en 2026? Coste, clima, seguridad, barrios, internet, escena y visados comparados para elegir base en Latinoamérica.",
+      "pt": "Cidade do México ou Medellín em 2026? Custo, clima, segurança, bairros, internet, cena e vistos comparados para nómadas com base na América Latina.",
+      "it": "Città del Messico o Medellín nel 2026? Costo, clima, sicurezza, quartieri, internet, scena e visti a confronto per scegliere una base in America Latina.",
+      "de": "Mexiko-Stadt oder Medellín 2026? Kosten, Klima, Sicherheit, Viertel, Internet, Szene und Visa für die Wahl einer lateinamerikanischen Basis.",
+      "pl": "Meksyk czy Medellín w 2026? Koszty, klimat, bezpieczeństwo, dzielnice, internet, scena i wizy porównane dla wyboru bazy w Ameryce Łacińskiej."
+    },
+    "relatedCountries": [
+      "mexico",
+      "colombia"
+    ],
+    "relatedCities": [
+      "mexico-city",
+      "medellin"
+    ],
+    "faq": [
+      {
+        "q": "Which is cheaper, Mexico City or Medellín?",
+        "a": "Medellín runs noticeably cheaper across rent, food and services — a comfortable nomad budget lands around $1,200-1,600/month vs $1,500-2,200 in CDMX. Both are still well below most European or US bases."
+      },
+      {
+        "q": "Which has better weather year-round?",
+        "a": "Medellín lives up to \"city of eternal spring\" — 18-26°C year-round with short showers. Mexico City is mild and dry most of the year, with a real rainy season June-September. Both beat most North American cities for spring-like baselines."
+      },
+      {
+        "q": "Which feels safer for first-timers?",
+        "a": "Both require normal big-city awareness. CDMX safest neighbourhoods (Roma, Condesa, Polanco, Juárez) feel calm and walkable. Medellín’s El Poblado and Laureles are similar. Stick to well-trafficked areas at night and you will be fine in both."
+      },
+      {
+        "q": "Where is the nomad scene stronger?",
+        "a": "Medellín has a denser, more concentrated nomad community in El Poblado/Laureles. CDMX is bigger and more spread out, with more local Mexican life around you. Medellín wins for instant community; CDMX for depth and culture."
+      },
+      {
+        "q": "Which fits long-stay visas better?",
+        "a": "Mexico is well known for its temporary resident route that many nomads use to base legally for 1-4 years. Colombia’s digital nomad visa is more recent and has income thresholds. Long-term, Mexico is the more established legal base."
+      }
+    ]
+  },
+  {
+    "slug": "bangkok-long-stay-nomad-guide",
+    "topic": "city-guide",
+    "title": {
+      "en": "Bangkok Long-Stay Guide for Nomads (2026)",
+      "fr": "Guide long séjour Bangkok pour nomades (2026)",
+      "es": "Guía de estancia larga en Bangkok para nómadas (2026)",
+      "pt": "Guia de longa estadia em Banguecoque para nómadas (2026)",
+      "it": "Guida soggiorno lungo a Bangkok per nomadi (2026)",
+      "de": "Bangkok-Langzeit-Guide für Nomaden (2026)",
+      "pl": "Przewodnik długiego pobytu w Bangkoku dla nomadów (2026)"
+    },
+    "description": {
+      "en": "Where to base, what it costs, internet, visa options and the right neighbourhoods to live not tourist in Bangkok in 2026 — a calm, productive month-or-more in the city.",
+      "fr": "Où s’installer, combien ça coûte, internet, visas, et les vrais quartiers pour vivre Bangkok en 2026 — un mois ou plus calme et productif, pas en mode touriste.",
+      "es": "Dónde vivir, cuánto cuesta, internet, visas y los barrios para vivir Bangkok como nómada en 2026, no como turista — un mes o más tranquilo y productivo.",
+      "pt": "Onde ficar, quanto custa, internet, vistos e os bairros para viver Banguecoque em 2026 como nómada — um mês ou mais calmo e produtivo, não turístico.",
+      "it": "Dove stare, quanto costa, internet, visti e i quartieri giusti per vivere Bangkok da nomade nel 2026 — un mese o più produttivo, lontano dal modo turista.",
+      "de": "Wo wohnen, was es kostet, Internet, Visa und die richtigen Viertel, um Bangkok 2026 zu leben statt als Tourist zu besuchen — produktiv und ruhig.",
+      "pl": "Gdzie się zatrzymać, ile to kosztuje, internet, wizy i właściwe dzielnice, by mieszkać w Bangkoku w 2026 jak nomad, nie turysta — spokojny miesiąc i więcej."
+    },
+    "relatedCountries": [
+      "thailand"
+    ],
+    "relatedCities": [
+      "bangkok"
+    ],
+    "faq": [
+      {
+        "q": "Which Bangkok neighbourhoods are best for nomads?",
+        "a": "Thonglor, Ekkamai and Phrom Phong for quiet, modern living and good coworking; Ari for indie cafés and a slower pace; Silom for a downtown-business feel; Asok for transit and convenience. Avoid Khao San and Sukhumvit Soi 4-11 for long stays."
+      },
+      {
+        "q": "What does a comfortable Bangkok month cost?",
+        "a": "A 1-bed condo in a nomad-friendly area runs $700-1,400/month. Add food, transport, a coworking pass and weekends — total comfortable spend is roughly $1,300-2,200/month, well below most Western capitals."
+      },
+      {
+        "q": "Is Bangkok internet good?",
+        "a": "Excellent. Most condos and coworking spaces have 300-1000 Mbps fibre at low cost. Take client calls from condos directly. Backup eSIM still worth carrying for travel days and brief outages."
+      },
+      {
+        "q": "Which visa works for long-stay nomads in Bangkok?",
+        "a": "Thailand offers a tourist visa with extensions, an Education Visa for those studying Thai or Muay Thai, the Long-Term Resident programmes for higher earners, and other routes. Rules evolve — check current options before flying."
+      },
+      {
+        "q": "What should new nomads know about Bangkok?",
+        "a": "Traffic is brutal at peak hours — live near a BTS/MRT station. Air quality dips in the dry season (Feb-Apr). Tap water is not for drinking. Pace yourself with the heat: late mornings indoors, work in cool cafés, social evenings."
+      }
+    ]
+  },
+  {
+    "slug": "183-day-rule-explained-for-nomads",
+    "topic": "tax",
+    "title": {
+      "en": "The 183-Day Rule Explained for Digital Nomads",
+      "fr": "La règle des 183 jours expliquée pour les nomades",
+      "es": "La regla de los 183 días explicada para nómadas",
+      "pt": "A regra dos 183 dias explicada para nómadas",
+      "it": "La regola dei 183 giorni spiegata per i nomadi",
+      "de": "Die 183-Tage-Regel für Nomaden erklärt",
+      "pl": "Zasada 183 dni wyjaśniona dla nomadów"
+    },
+    "description": {
+      "en": "What the 183-day rule actually means for tax residency in 2026, where it applies, where it does not, and the traps that catch nomads who think 183 days is the whole story.",
+      "fr": "Ce que dit vraiment la règle des 183 jours pour la résidence fiscale en 2026, où elle s’applique, où non, et les pièges qui rattrapent les nomades.",
+      "es": "Qué significa de verdad la regla de 183 días para la residencia fiscal en 2026, dónde aplica, dónde no y las trampas que pillan a los nómadas.",
+      "pt": "O que a regra dos 183 dias significa de facto para residência fiscal em 2026, onde se aplica, onde não e as armadilhas que apanham nómadas.",
+      "it": "Cosa significa davvero la regola dei 183 giorni per la residenza fiscale nel 2026, dove vale, dove no e le trappole che colpiscono i nomadi.",
+      "de": "Was die 183-Tage-Regel 2026 für die Steuerresidenz wirklich bedeutet, wo sie gilt, wo nicht, und welche Fallen Nomaden übersehen.",
+      "pl": "Co naprawdę oznacza zasada 183 dni dla rezydencji podatkowej w 2026, gdzie obowiązuje, gdzie nie i jakie pułapki łapią nomadów."
+    },
+    "relatedCountries": [
+      "portugal",
+      "spain",
+      "thailand",
+      "mexico"
+    ],
+    "faq": [
+      {
+        "q": "What is the 183-day rule?",
+        "a": "A common test where spending 183 days or more in a country during a 12-month period typically makes you tax resident there. Many countries use it, but the exact counting (calendar year, rolling 12 months, fiscal year) and tie-breakers differ."
+      },
+      {
+        "q": "Is 183 days the only way to become tax resident?",
+        "a": "No, and this is where nomads get caught. Countries also look at \"centre of vital interests\" — family, home, business — and habitual abode. You can become tax resident with fewer than 183 days if your life clearly centres there."
+      },
+      {
+        "q": "Does staying under 183 days mean I owe no tax?",
+        "a": "Not by itself. You may still owe tax in your country of origin if you have not formally exited tax residency, or in a country where you derive income or have permanent ties. \"Nomad with no tax residency\" is mostly a myth."
+      },
+      {
+        "q": "How do I prove I left tax residency in my home country?",
+        "a": "Country-specific — often you must file an exit, deregister, close ties (housing, registered address, healthcare), and establish residency elsewhere. Talk to a cross-border tax advisor before assuming you have left."
+      },
+      {
+        "q": "What is the safest strategy for nomads?",
+        "a": "Pick one country to be tax resident in (Portugal, Spain’s Beckham, Cyprus, Malta, Mexico, Thailand-LTR and others are popular), have your paperwork match, and stay under 183 days everywhere else. Most nomads end up paying tax somewhere — pick wisely rather than dodge."
+      }
+    ]
   }
 ]

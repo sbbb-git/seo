@@ -18,6 +18,7 @@ import { PartnerStack } from '@/components/PartnerStack';
 import { CountryCard } from '@/components/CountryCard';
 import { CityCard } from '@/components/CityCard';
 import { VisaCard } from '@/components/VisaCard';
+import { GuideCard } from '@/components/GuideCard';
 import { AiToolsCTA } from '@/components/AiToolsCTA';
 import { JobsCTA } from '@/components/JobsCTA';
 import { TopicCallouts } from '@/components/TopicCallouts';
@@ -88,6 +89,9 @@ export default async function GuideDetailPage({ params }: Props) {
   const relatedVisas = (guide.relatedVisas || [])
     .map(getVisa)
     .filter((v): v is NonNullable<typeof v> => Boolean(v));
+  const moreOnTopic = getAllGuides()
+    .filter((g) => g.topic === guide.topic && g.slug !== guide.slug)
+    .slice(0, 6);
 
   return (
     <article className="py-14">
@@ -154,6 +158,19 @@ export default async function GuideDetailPage({ params }: Props) {
             {relatedVisas.map((v) => (
               <li key={v.slug}>
                 <VisaCard visa={v} locale={params.lang} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {moreOnTopic.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold tracking-tightish">More on {guide.topic.replace('-', ' ')}</h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {moreOnTopic.map((g) => (
+              <li key={g.slug}>
+                <GuideCard guide={g} locale={params.lang} />
               </li>
             ))}
           </ul>
