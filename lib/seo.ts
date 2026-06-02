@@ -68,6 +68,9 @@ export function buildPageMetadata(input: PageMetaInput): Metadata {
     alternates: {
       canonical,
       languages: buildLanguageAlternates(input.pathForLocale),
+      types: {
+        'application/rss+xml': `${SITE_URL}/feed.xml`,
+      },
     },
     openGraph: {
       title,

@@ -49,6 +49,29 @@ export default async function HomePage({ params }: Props) {
     url: SITE_URL,
     inLanguage: params.lang,
     description: dict.home.heroSubtitle,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${SITE_URL}/${params.lang}/search?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.svg` },
+    },
+  };
+
+  const organizationLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/icon.svg`,
+    description: dict.home.heroSubtitle,
   };
 
   // Pick a featured city for the hero background (top nomad score with a real photo)
@@ -322,6 +345,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <JsonLd data={websiteLd} />
+      <JsonLd data={organizationLd} />
     </>
   );
 }
