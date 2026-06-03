@@ -59,17 +59,30 @@ export default async function GuideDetailPage({ params }: Props) {
       }
     : null;
 
+  const articleUrl = `${SITE_URL}/${params.lang}/guides/${guide.slug}`;
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: title,
     description,
     inLanguage: params.lang,
-    url: `${SITE_URL}/${params.lang}/guides/${guide.slug}`,
+    url: articleUrl,
+    mainEntityOfPage: articleUrl,
+    image: [`${SITE_URL}/og`],
     datePublished: '2026-01-01',
     dateModified: new Date().toISOString().slice(0, 10),
-    author: { '@type': 'Organization', name: SITE_NAME },
-    publisher: { '@type': 'Organization', name: SITE_NAME },
+    author: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.svg` },
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.svg` },
+    },
     articleSection: guide.topic,
   };
 
