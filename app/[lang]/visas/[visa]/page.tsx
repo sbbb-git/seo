@@ -17,7 +17,7 @@ import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
 export const dynamicParams = false;
-export const revalidate = false;
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; visa: string } };
 

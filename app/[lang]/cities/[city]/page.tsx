@@ -27,7 +27,7 @@ import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 import { cityPhoto, flagSvg } from '@/lib/images';
 
 export const dynamicParams = false;
-export const revalidate = false;
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; city: string } };
 

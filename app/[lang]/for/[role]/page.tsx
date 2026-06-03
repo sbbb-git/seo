@@ -12,6 +12,7 @@ import { AiToolsCTA } from '@/components/AiToolsCTA';
 import { PartnerStack } from '@/components/PartnerStack';
 
 export const runtime = 'edge';
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; role: string } };
 

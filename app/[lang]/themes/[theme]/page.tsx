@@ -11,6 +11,7 @@ import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
 export const runtime = 'edge';
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; theme: string } };
 

@@ -11,6 +11,7 @@ import { PartnerStack } from '@/components/PartnerStack';
 const VALID: Visa['type'][] = ['digital-nomad', 'passive-income', 'investor', 'freelance'];
 
 export const runtime = 'edge';
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; type: Visa['type'] } };
 

@@ -14,6 +14,7 @@ import { PartnerStack } from '@/components/PartnerStack';
 import { JobsCTA } from '@/components/JobsCTA';
 
 export const runtime = 'edge';
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; nationality: string } };
 

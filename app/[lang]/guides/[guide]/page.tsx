@@ -25,6 +25,7 @@ import { TopicCallouts } from '@/components/TopicCallouts';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
 export const runtime = 'edge';
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; guide: string } };
 

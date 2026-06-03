@@ -12,6 +12,7 @@ import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 import { PartnerStack } from '@/components/PartnerStack';
 
 export const runtime = 'edge';
+export const revalidate = 600;
 
 type Props = { params: { lang: Locale; region: string } };
 
