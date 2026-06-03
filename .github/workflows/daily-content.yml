@@ -1,0 +1,56 @@
+name: Daily content drop
+
+# Scheduled workflows on GitHub Actions only run when defined on the default
+# branch (main), so this file lives on main even though it operates on the
+# content branch. It checks out the content branch, runs the publish script,
+# and pushes back, which then triggers the existing deploy workflow.
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # 08:00 UTC daily (10:00 Paris, 09:00 London)
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: Content branch to publish on
+        required: false
+        default: claude/amazing-pasteur-S4Nq5
+
+env:
+  CONTENT_BRANCH: ${{ inputs.branch || 'claude/amazing-pasteur-S4Nq5' }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout content branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.CONTENT_BRANCH }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publish due guides
+        run: node scripts/publish-queued-guides.mjs
+
+      - name: Commit and push if anything new
+        run: |
+          if [ ! -f /tmp/commit-msg.txt ]; then
+            echo "Nothing to publish today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/guides.json data/guides-queue.json
+          if git diff --cached --quiet; then
+            echo "No tracked changes — skipping push."
+            exit 0
+          fi
+          git commit -F /tmp/commit-msg.txt
+          git push origin "${CONTENT_BRANCH}"
