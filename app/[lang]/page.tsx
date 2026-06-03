@@ -18,6 +18,7 @@ import { cityPhoto, countryPhoto, flagSvg } from '@/lib/images';
 import { getCity, getCityName } from '@/lib/data/cities';
 import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
+import { FiverrCTA } from '@/components/FiverrCTA';
 
 export const runtime = 'edge';
 
@@ -343,6 +344,8 @@ export default async function HomePage({ params }: Props) {
           </Link>
         </div>
       </section>
+
+      <FiverrCTA locale={params.lang} />
 
       <JsonLd data={websiteLd} />
       <JsonLd data={organizationLd} />

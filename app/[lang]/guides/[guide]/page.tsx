@@ -23,6 +23,24 @@ import { AiToolsCTA } from '@/components/AiToolsCTA';
 import { JobsCTA } from '@/components/JobsCTA';
 import { TopicCallouts } from '@/components/TopicCallouts';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
+import { FiverrCTA } from '@/components/FiverrCTA';
+import { AppSumoCTA } from '@/components/AppSumoCTA';
+import { BeehiivCTA } from '@/components/BeehiivCTA';
+import { WiseCTA } from '@/components/WiseCTA';
+import { SafetyWingCTA } from '@/components/SafetyWingCTA';
+
+function pickSponsoredCTA(topic: string, slug: string, locale: Locale) {
+  if (topic === 'freelancing') return <FiverrCTA locale={locale} />;
+  if (topic === 'visas') return <SafetyWingCTA locale={locale} />;
+  if (topic === 'tax' || topic === 'cost') return <WiseCTA locale={locale} />;
+  if (topic === 'tools') {
+    if (slug.includes('newsletter') || slug.includes('beehiiv')) {
+      return <BeehiivCTA locale={locale} />;
+    }
+    return <AppSumoCTA locale={locale} />;
+  }
+  return null;
+}
 
 export const runtime = 'edge';
 export const revalidate = 600;
@@ -207,6 +225,7 @@ export default async function GuideDetailPage({ params }: Props) {
             : ['banking', 'insurance', 'esim', 'accommodation']
         }
       />
+      {pickSponsoredCTA(guide.topic, guide.slug, params.lang)}
       <JsonLd data={articleLd} />
       {faqLd && <JsonLd data={faqLd} />}
     </article>

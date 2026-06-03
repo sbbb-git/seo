@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({ url: `${SITE_URL}/${lang}/about`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 });
     entries.push({ url: `${SITE_URL}/${lang}/contact`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 });
     entries.push({ url: `${SITE_URL}/${lang}/legal`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 });
+    entries.push({ url: `${SITE_URL}/${lang}/disclosure`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 });
 
     // Country pages
     for (const c of getAllCountries()) {

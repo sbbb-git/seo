@@ -44,6 +44,7 @@ export function Footer({ locale, dict }: Props) {
         { href: `/${locale}/about`, label: dict.nav.about },
         { href: `/${locale}/contact`, label: dict.footer.contact },
         { href: `/${locale}/legal`, label: dict.footer.legal },
+        { href: `/${locale}/disclosure`, label: dict.footer.disclosure },
         { href: `/${locale}/search`, label: 'Search' },
       ],
     },

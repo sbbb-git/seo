@@ -50,6 +50,7 @@ export type Dictionary = {
     contact: string;
     rights: string;
     affiliateNotice: string;
+    disclosure: string;
   };
   home: {
     heroTitle: string;

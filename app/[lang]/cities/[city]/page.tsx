@@ -25,6 +25,7 @@ import { HeroImage } from '@/components/HeroImage';
 import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 import { cityPhoto, flagSvg } from '@/lib/images';
+import { WiseCTA } from '@/components/WiseCTA';
 
 export const dynamicParams = false;
 export const revalidate = 600;
@@ -209,6 +210,7 @@ export default async function CityDetailPage({ params }: Props) {
         heading={`${dict.detail.setupBefore} — ${name}`}
       />
       <FaqSection faqs={cityFaqs(city, name, params.lang)} />
+      <WiseCTA locale={params.lang} />
       <JsonLd data={place} />
     </article>
   );

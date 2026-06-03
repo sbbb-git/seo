@@ -203,6 +203,7 @@ const BRAND_HOST: Record<string, string> = {
   'ablink.affiliates.fiverr.com': 'fiverr.com',
   'go.fiverr.com': 'fiverr.com',
   'appsumo.8odi.net': 'appsumo.com',
+  'app.usebraintrust.com': 'usebraintrust.com',
   'wise.prf.hn': 'wise.com',
   'refer-nordvpn.com': 'nordvpn.com',
   'try.elevenlabs.io': 'elevenlabs.io',

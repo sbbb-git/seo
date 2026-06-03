@@ -72,7 +72,7 @@ export function PromoBanner({ locale, variant, className = '' }: Props) {
     <a
       href={url}
       target="_blank"
-      rel="sponsored noopener"
+      rel="nofollow noopener sponsored"
       className={`group relative block overflow-hidden rounded-2xl border ${TONE_CLASSES[cfg.tone]} px-5 py-5 sm:px-6 sm:py-6 card-hover ${className}`}
     >
       <div className="flex items-start gap-4">

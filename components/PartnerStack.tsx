@@ -29,7 +29,7 @@ export function PartnerStack({
             <a
               href={url}
               target="_blank"
-              rel="sponsored noopener"
+              rel="nofollow noopener sponsored"
               className="flex items-start gap-3 rounded-lg border border-line bg-paper px-4 py-3 card-hover"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}

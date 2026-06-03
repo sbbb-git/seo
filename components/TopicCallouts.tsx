@@ -96,7 +96,7 @@ export function TopicCallouts({ guide, locale }: Props) {
                   <a
                     href={url}
                     target="_blank"
-                    rel="sponsored noopener"
+                    rel="nofollow noopener sponsored"
                     className="font-semibold text-accent hover:text-accent-deep underline underline-offset-4 transition-colors whitespace-nowrap"
                   >
                     {p.name} ↗

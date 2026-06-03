@@ -15,6 +15,7 @@ import { getGuidesForVisa } from '@/lib/data/guides';
 import { JobsCTA } from '@/components/JobsCTA';
 import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
+import { SafetyWingCTA } from '@/components/SafetyWingCTA';
 
 export const dynamicParams = false;
 export const revalidate = 600;
@@ -238,6 +239,7 @@ export default async function VisaDetailPage({ params }: Props) {
         heading={dict.detail.setupBeforeApply}
       />
       <FaqSection faqs={visaFaqs(visa, params.lang)} />
+      <SafetyWingCTA locale={params.lang} />
       <JsonLd data={govPermit} />
       <JsonLd data={howToLd} />
     </article>

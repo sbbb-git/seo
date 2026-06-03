@@ -269,7 +269,7 @@ export const PARTNERS: Partner[] = [
   {
     id: 'braintrust',
     name: 'Braintrust',
-    url: 'https://www.usebraintrust.com/r/sacha67/',
+    url: 'https://app.usebraintrust.com/r/sacha67/',
     blurb: 'Tech freelance marketplace with no platform fees. For devs, designers, PMs.',
     category: 'earn-while-traveling',
     tier: 'primary',

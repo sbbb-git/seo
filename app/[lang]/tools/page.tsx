@@ -103,7 +103,7 @@ export default async function ToolsPage({ params }: Props) {
                     <a
                       href={p.url}
                       target="_blank"
-                      rel="sponsored noopener"
+                      rel="nofollow noopener sponsored"
                       className="flex flex-col h-full rounded-xl border border-line bg-paper px-5 py-5 card-hover"
                     >
                       <div className="flex items-baseline justify-between gap-3">

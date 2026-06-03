@@ -28,7 +28,7 @@ export function FeaturedPartners({ locale, categories, heading = 'Set up in 2 mi
             <a
               href={url}
               target="_blank"
-              rel="sponsored noopener"
+              rel="nofollow noopener sponsored"
               className="flex items-start gap-2 rounded-lg bg-paper border border-line px-4 py-3 hover:border-ink card-hover h-full"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
