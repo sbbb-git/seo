@@ -28,11 +28,29 @@ import { AppSumoCTA } from '@/components/AppSumoCTA';
 import { BeehiivCTA } from '@/components/BeehiivCTA';
 import { WiseCTA } from '@/components/WiseCTA';
 import { SafetyWingCTA } from '@/components/SafetyWingCTA';
+import { MercorCTA } from '@/components/MercorCTA';
 
 function pickSponsoredCTA(topic: string, slug: string, locale: Locale) {
-  if (topic === 'freelancing') return <FiverrCTA locale={locale} />;
   if (topic === 'visas') return <SafetyWingCTA locale={locale} />;
   if (topic === 'tax' || topic === 'cost') return <WiseCTA locale={locale} />;
+  if (topic === 'freelancing') {
+    // AI training / labeling / expert work routes to Mercor; rest to Fiverr.
+    if (
+      slug.includes('mercor') ||
+      slug.includes('ai-training') ||
+      slug.includes('ai-labeling') ||
+      slug.includes('ai-labelling') ||
+      slug.includes('expert-side-income') ||
+      slug.includes('side-income') ||
+      slug.includes('-doctors') ||
+      slug.includes('-lawyers') ||
+      slug.includes('-engineers') ||
+      slug.includes('-writers')
+    ) {
+      return <MercorCTA locale={locale} />;
+    }
+    return <FiverrCTA locale={locale} />;
+  }
   if (topic === 'tools') {
     if (slug.includes('newsletter') || slug.includes('beehiiv')) {
       return <BeehiivCTA locale={locale} />;
