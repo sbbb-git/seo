@@ -29,34 +29,56 @@ import { BeehiivCTA } from '@/components/BeehiivCTA';
 import { WiseCTA } from '@/components/WiseCTA';
 import { SafetyWingCTA } from '@/components/SafetyWingCTA';
 import { MercorCTA } from '@/components/MercorCTA';
+import { NordVPNCTA } from '@/components/NordVPNCTA';
+import { AiraloCTA } from '@/components/AiraloCTA';
+import { SkoolCTA } from '@/components/SkoolCTA';
+import { RevolutCTA } from '@/components/RevolutCTA';
+import { ClaudeCTA } from '@/components/ClaudeCTA';
+
+const EU_LOCALES: Locale[] = ['fr', 'es', 'pt', 'it', 'de', 'pl'];
+const has = (slug: string, ...keys: string[]) => keys.some((k) => slug.includes(k));
 
 function pickSponsoredCTA(topic: string, slug: string, locale: Locale) {
+  // Visa / residency pages -> health insurance
   if (topic === 'visas') return <SafetyWingCTA locale={locale} />;
-  if (topic === 'tax' || topic === 'cost') return <WiseCTA locale={locale} />;
-  if (topic === 'freelancing') {
-    // AI training / labeling / expert work routes to Mercor; rest to Fiverr.
+
+  // Money topics: Revolut for EU spending guides, Wise as the default
+  if (topic === 'tax' || topic === 'cost') {
     if (
-      slug.includes('mercor') ||
-      slug.includes('ai-training') ||
-      slug.includes('ai-labeling') ||
-      slug.includes('ai-labelling') ||
-      slug.includes('expert-side-income') ||
-      slug.includes('side-income') ||
-      slug.includes('-doctors') ||
-      slug.includes('-lawyers') ||
-      slug.includes('-engineers') ||
-      slug.includes('-writers')
+      EU_LOCALES.includes(locale) &&
+      has(slug, 'revolut', 'eu-', 'european-', 'europe', 'schengen', 'spending', 'cost-of-living', 'accommodation', 'long-stay')
     ) {
+      return <RevolutCTA locale={locale} />;
+    }
+    return <WiseCTA locale={locale} />;
+  }
+
+  // Freelancing -> Mercor for expert/AI training; Skool for community; Fiverr default
+  if (topic === 'freelancing') {
+    if (has(slug, 'mercor', 'ai-training', 'ai-labeling', 'ai-labelling', 'expert-side-income', 'side-income', '-doctors', '-lawyers', '-engineers', '-writers')) {
       return <MercorCTA locale={locale} />;
+    }
+    if (has(slug, 'skool', 'community', 'paid-community', 'mastermind', 'personal-brand')) {
+      return <SkoolCTA locale={locale} />;
     }
     return <FiverrCTA locale={locale} />;
   }
+
+  // Tools -> Claude for AI/writing, Beehiiv for newsletters, AppSumo default
   if (topic === 'tools') {
-    if (slug.includes('newsletter') || slug.includes('beehiiv')) {
-      return <BeehiivCTA locale={locale} />;
+    if (has(slug, 'newsletter', 'beehiiv', 'email')) return <BeehiivCTA locale={locale} />;
+    if (has(slug, 'claude', 'ai-writing', 'ai-tool', 'productivity', 'meeting-transcription', 'voice')) {
+      return <ClaudeCTA locale={locale} />;
     }
     return <AppSumoCTA locale={locale} />;
   }
+
+  // Infrastructure / connectivity / VPN -> NordVPN for VPN, Airalo for eSIM/data
+  if (topic === 'infrastructure') {
+    if (has(slug, 'vpn', 'privacy', 'censor', 'streaming')) return <NordVPNCTA locale={locale} />;
+    return <AiraloCTA locale={locale} />;
+  }
+
   return null;
 }
 
