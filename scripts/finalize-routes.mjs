@@ -16,6 +16,16 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 // another rule. Keep patterns disjoint: prefer the broader wildcard and drop
 // any sibling literal it already catches (eg. /secret* covers /secrets.yml).
 const SCANNER_EXCLUDES = [
+  // Bypass the Next worker for prerendered country & city HTML so
+  // Cloudflare Pages serves them directly from the static-assets
+  // layer (where _headers' Cache-Control rules apply, unlike worker
+  // responses where Next hard-codes must-revalidate).
+  '/en/countries/*', '/fr/countries/*', '/es/countries/*',
+  '/pt/countries/*', '/it/countries/*', '/de/countries/*',
+  '/pl/countries/*',
+  '/en/cities/*', '/fr/cities/*', '/es/cities/*',
+  '/pt/cities/*', '/it/cities/*', '/de/cities/*',
+  '/pl/cities/*',
   '/c7468c4053484ae9ba32038f762f4085.txt',
   // WordPress probes
   '/wp-admin/*', '/wp-login.php', '/wp-content/*', '/wp-includes/*',
