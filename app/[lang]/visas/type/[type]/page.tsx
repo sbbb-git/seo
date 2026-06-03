@@ -10,14 +10,10 @@ import { PartnerStack } from '@/components/PartnerStack';
 
 const VALID: Visa['type'][] = ['digital-nomad', 'passive-income', 'investor', 'freelance'];
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; type: Visa['type'] } };
 
-export function generateStaticParams() {
-  return LOCALES.flatMap((lang) => VALID.map((type) => ({ lang, type })));
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!VALID.includes(params.type)) return {};

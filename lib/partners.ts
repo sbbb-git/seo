@@ -139,7 +139,7 @@ export const PARTNERS: Partner[] = [
     name: 'Fiverr',
     url:
       process.env.NEXT_PUBLIC_AFF_FIVERR ||
-      'https://ablink.affiliates.fiverr.com/ls/click?upn=u001.TWJuC2VN4aam7dFLwSK6BKLOQRlV85CGMb1w2E5g1q68QsFB4rAjuMGZezJbPXiSvZRtxxHUg4j-2FecXMp3IPJLYR41vnRD4u2qd8bga3j-2FIuN5fOKDnXFy-2BY-2FTaLSYbWui-2FdnwiSTOH2rsRza8PRaWFhUDttPrPJ6VFTQZgSa4GbNeb9kLfOjAFv5UXjXmhAQ5X9gACJmsMwnC8B7iN8G7SlyTG6stGS6Uc1TiZDxFVRCqYKdaLIxKWhdKkXrfFCJRQI_Geno4p0iDumEKGc5vniER7rZrEaE1UAIzpDT1HZok6xfETKXMDxfuO32XeRJJUcawTl0X2xufxUpMiQ1EPmRijsTKzsSvu65t-2BC6QSp3Xi89-2BfdMn76z-2FWo1e-2F10nZmJsuY86iDUxIm3vx-2FnDP6SVeUoTDLTeB9IndBGZ0nXDpdmbQ7nxXtOaPqKHh3u0rKczmtCsTU8zL9VjDP56D6bthmETiOg4L-2F3UfRNiX1DXTakMNqtxpzNIeD9T3FJ-2FUygTuYtTlIa5aCKrUoE2-2BjFKsheGDQr2MEFFjun6lGIxaDQyllZgaU1m5JIHIlYOB3ukreCDFQ-2FMKSG94xyB6hiG-2F5iIel6y-2F2XukCczyQB-2F9JDyNHlm6PC1wOuOOfA-2FrtJbnEAvVWHWursVwP4V61LfRcIIkHoqAGWlGO9sWiQC3bJFgSNvY-2Bq6Fi5LIOVh5lYu9BO-2BPVex0yvW-2BI7bDuNF4yKdXdMx5S4fZX1RicVq0boSL1jlzHxz8BZEZgmxoi4Y8USoWqBTTr-2FeUuwd-2B8YoM8kK1E2wL2UqSIxJTodtIsWBnQdbmvHyxQEcBM8ShTNbXJR8x7ldfz2lIgFlHCZyK2EvE-2BIoWUvduPzRnAyDlWFtsFX751W8KywRLV8N7VaXTc4tYOyXUNg-2FYLyUebYIkb22WrdvEIz7pJwuUMiXwNVuEVPrd1oqd5d3t5vFk6YucT6DZg0h-2F-2FKFiHCgAoBMr6Xmu2KciH7jOlVpWOEwES4mHm-2BRYCQphkpvC31cp6l',
+      'https://go.fiverr.com/visit/?bta=1169210&brand=fiverrmarketplace',
     blurb: 'World’s biggest freelance marketplace. Sell writing, design, dev, video and AI gigs to clients worldwide — perfect remote income for nomads.',
     category: 'earn-while-traveling',
     tier: 'primary',

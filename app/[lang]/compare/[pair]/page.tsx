@@ -11,17 +11,10 @@ import { JobsCTA } from '@/components/JobsCTA';
 import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; pair: string } };
 
-export function generateStaticParams() {
-  const comparisons = getAllComparisons();
-  return LOCALES.flatMap((lang) =>
-    comparisons.map((c) => ({ lang, pair: c.slug })),
-  );
-}
 
 type Side = {
   name: string;

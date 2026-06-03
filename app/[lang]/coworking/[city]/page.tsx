@@ -12,16 +12,10 @@ import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 import { PartnerStack } from '@/components/PartnerStack';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; city: string } };
 
-export function generateStaticParams() {
-  return LOCALES.flatMap((lang) =>
-    getAllCoworking().map((c) => ({ lang, city: c.citySlug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const co = getCoworking(params.city);

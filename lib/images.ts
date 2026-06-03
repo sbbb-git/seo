@@ -201,6 +201,7 @@ export function flagSvg(code: string | undefined, width = 80): string | undefine
 // back to the brand domain so the logo proxy resolves a real icon.
 const BRAND_HOST: Record<string, string> = {
   'ablink.affiliates.fiverr.com': 'fiverr.com',
+  'go.fiverr.com': 'fiverr.com',
   'appsumo.8odi.net': 'appsumo.com',
   'wise.prf.hn': 'wise.com',
   'refer-nordvpn.com': 'nordvpn.com',

@@ -11,16 +11,10 @@ import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 import { AiToolsCTA } from '@/components/AiToolsCTA';
 import { PartnerStack } from '@/components/PartnerStack';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; role: string } };
 
-export function generateStaticParams() {
-  return LOCALES.flatMap((lang) =>
-    getAllRoles().map((r) => ({ lang, role: r.slug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = getRole(params.role);

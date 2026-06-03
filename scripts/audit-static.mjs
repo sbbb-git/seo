@@ -23,20 +23,24 @@ for (const f of htmlFiles) {
   validRoutes.add(route === '/index' ? '/' : route);
 }
 
-// Known dynamic (non-prerendered, edge) route prefixes that are valid but have no .html.
-// These are index pages rendered on demand; treat as valid if they match a known pattern.
+// Known dynamic (non-prerendered, edge) route patterns that are valid but have no .html.
+// Detail pages that are now edge-rendered render on demand at request time.
+const DYN_INDEX = new Set([
+  '', 'countries', 'cities', 'visas', 'guides', 'compare', 'regions', 'about',
+  'contact', 'legal', 'finder', 'best', 'cost-of-living', 'glossary', 'themes',
+  'visas/for', 'seasonal', 'search', 'tools', 'for', 'coworking',
+]);
+const DYN_DETAIL_PREFIX = [
+  'guides/', 'best/', 'themes/', 'regions/', 'seasonal/', 'for/',
+  'coworking/', 'compare/', 'cost-of-living/', 'visas/for/', 'visas/type/',
+];
 const dynamicValid = (p) => {
   const parts = p.split('/').filter(Boolean); // [lang, ...]
   if (parts.length < 1) return false;
   if (!LOCALES.includes(parts[0])) return false;
   const rest = parts.slice(1).join('/');
-  // Index/listing routes that are edge-rendered (no static html):
-  const dyn = new Set([
-    '', 'countries', 'cities', 'visas', 'guides', 'compare', 'regions', 'about',
-    'contact', 'legal', 'finder', 'best', 'cost-of-living', 'glossary', 'themes',
-    'visas/for', 'seasonal', 'search', 'tools', 'for', 'coworking',
-  ]);
-  return dyn.has(rest);
+  if (DYN_INDEX.has(rest)) return true;
+  return DYN_DETAIL_PREFIX.some((pre) => rest.startsWith(pre));
 };
 
 const titleLen = (h) => { const m = h.match(/<title>([^<]*)<\/title>/i); return m ? decode(m[1]).length : null; };

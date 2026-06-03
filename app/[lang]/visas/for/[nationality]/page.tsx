@@ -13,16 +13,10 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { PartnerStack } from '@/components/PartnerStack';
 import { JobsCTA } from '@/components/JobsCTA';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; nationality: string } };
 
-export function generateStaticParams() {
-  return LOCALES.flatMap((lang) =>
-    getAllNationalities().map((n) => ({ lang, nationality: n.slug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const n = getNationality(params.nationality);

@@ -24,17 +24,10 @@ import { JobsCTA } from '@/components/JobsCTA';
 import { TopicCallouts } from '@/components/TopicCallouts';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; guide: string } };
 
-export function generateStaticParams() {
-  const guides = getAllGuides();
-  return LOCALES.flatMap((lang) =>
-    guides.map((g) => ({ lang, guide: g.slug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = getGuide(params.guide);

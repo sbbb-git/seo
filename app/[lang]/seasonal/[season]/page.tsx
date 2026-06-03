@@ -17,16 +17,10 @@ import { JobsCTA } from '@/components/JobsCTA';
 import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; season: string } };
 
-export function generateStaticParams() {
-  return LOCALES.flatMap((lang) =>
-    getAllSeasons().map((s) => ({ lang, season: s.slug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = getSeason(params.season);

@@ -36,7 +36,12 @@ jobs:
           NEXT_PUBLIC_AFF_SAFETYWING: ${{ secrets.NEXT_PUBLIC_AFF_SAFETYWING }}
           NEXT_PUBLIC_AFF_TRAVELPAYOUTS: ${{ secrets.NEXT_PUBLIC_AFF_TRAVELPAYOUTS }}
           NEXT_PUBLIC_AFF_VIATOR: ${{ secrets.NEXT_PUBLIC_AFF_VIATOR }}
+          NEXT_PUBLIC_AFF_FIVERR: ${{ secrets.NEXT_PUBLIC_AFF_FIVERR }}
+          NEXT_PUBLIC_AFF_APPSUMO: ${{ secrets.NEXT_PUBLIC_AFF_APPSUMO }}
         run: npx @cloudflare/next-on-pages@latest
+
+      - name: Merge scanner-exclusion routes into _routes.json
+        run: node scripts/finalize-routes.mjs
 
       - name: Deploy to Cloudflare Pages
         id: deploy

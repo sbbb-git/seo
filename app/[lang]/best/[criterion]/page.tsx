@@ -15,17 +15,10 @@ import { JobsCTA } from '@/components/JobsCTA';
 import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; criterion: string } };
 
-export function generateStaticParams() {
-  const criteria = getAllCriteria();
-  return LOCALES.flatMap((lang) =>
-    criteria.map((c) => ({ lang, criterion: c.slug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const criterion = getCriterion(params.criterion);

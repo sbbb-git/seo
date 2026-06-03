@@ -11,17 +11,10 @@ import { PromoBanner } from '@/components/PromoBanner';
 import { SlateRemoteBanner } from '@/components/SlateRemoteBanner';
 import { PartnerStack } from '@/components/PartnerStack';
 
-export const dynamicParams = false;
-export const revalidate = false;
+export const runtime = 'edge';
 
 type Props = { params: { lang: Locale; region: string } };
 
-export function generateStaticParams() {
-  const regions = getAllRegions();
-  return LOCALES.flatMap((lang) =>
-    regions.map((r) => ({ lang, region: r.slug })),
-  );
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const region = getRegion(params.region);
