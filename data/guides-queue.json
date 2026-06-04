@@ -1,128 +1,5 @@
 [
   {
-    "slug": "best-coliving-spaces-for-nomads-2026",
-    "topic": "city-guide",
-    "publishOn": "2026-06-04",
-    "title": {
-      "en": "Best Coliving Spaces for Digital Nomads in 2026",
-      "fr": "Meilleurs coliving pour nomades digitaux en 2026",
-      "es": "Mejores espacios coliving para nómadas digitales 2026",
-      "pt": "Melhores espaços de coliving para nómadas digitais 2026",
-      "it": "Migliori spazi coliving per nomadi digitali nel 2026",
-      "de": "Beste Coliving-Spaces für digitale Nomaden 2026",
-      "pl": "Najlepsze coliving dla cyfrowych nomadów w 2026"
-    },
-    "description": {
-      "en": "The coliving spaces nomads actually keep going back to in 2026 — community quality, monthly rates, kitchen and workspace, and the cities where coliving still beats a private rental for the first month.",
-      "fr": "Les coliving où les nomades retournent vraiment en 2026 — qualité de la communauté, tarifs mois, cuisine, espace travail, et les villes où ça bat encore un appart privé pour le premier mois.",
-      "es": "Los colivings a los que los nómadas vuelven de verdad en 2026 — comunidad, precio mensual, cocina y espacio de trabajo, y las ciudades en las que sigue ganando al alquiler privado el primer mes.",
-      "pt": "Os colivings a que os nómadas voltam mesmo em 2026 — comunidade, preço mensal, cozinha e espaço de trabalho, e as cidades em que ainda batem o aluguer privado no primeiro mês.",
-      "it": "I coliving in cui i nomadi tornano davvero nel 2026 — community, tariffa mensile, cucina e workspace, e le città in cui battono ancora un affitto privato il primo mese.",
-      "de": "Die Coliving-Spaces, in die Nomaden 2026 wirklich zurückkehren — Community, Monatsraten, Küche und Workspace, und die Städte, in denen Coliving die private Miete im ersten Monat noch schlägt.",
-      "pl": "Colivingi, do których nomadowie naprawdę wracają w 2026 — społeczność, ceny miesięczne, kuchnia i przestrzeń do pracy, oraz miasta, w których wciąż biją wynajem prywatny w pierwszym miesiącu."
-    },
-    "relatedCountries": ["portugal", "indonesia", "mexico", "spain", "thailand"],
-    "relatedCities": ["lisbon", "bali", "mexico-city", "barcelona", "bangkok"],
-    "faq": [
-      { "q": "What makes a coliving worth its price?", "a": "Active community curation (not just a Slack channel), reliable internet through the whole property, a real workspace separate from the kitchen, monthly events, and 24/7 access for the time zones you actually keep. Pretty buildings without those four lose interest fast." },
-      { "q": "Coliving or private rental for the first month?", "a": "Coliving wins for the first week to a month in a new city: instant community, no paperwork, no furniture hunting. Past 30 to 45 days a private rental almost always beats it on cost and quiet, especially in Lisbon, Barcelona and Mexico City." },
-      { "q": "How much does coliving cost in 2026?", "a": "Roughly $700 to $1,400 per month for a private room with shared kitchen in Lisbon, Mexico City, Bali, Madeira and Chiang Mai. Premium colivings (gym, pool, daily yoga) clear $1,500 plus. Off-season discounts can drop these 20 percent." },
-      { "q": "Do colivings work for couples?", "a": "Most have couple rooms with a small surcharge. Read the kitchen-noise and event rhythm before committing for a month: a calm partner in a party-heavy coliving rarely lasts the full stay." },
-      { "q": "How do you pick the right one?", "a": "Stalk the public Instagram and the recent Google reviews, ask the community manager who is currently staying (specifics signal real community), and book one to two weeks first. Locking a month before testing the vibe is the most common coliving mistake." }
-    ]
-  },
-  {
-    "slug": "how-to-negotiate-monthly-rent-as-a-nomad",
-    "topic": "cost",
-    "publishOn": "2026-06-04",
-    "title": {
-      "en": "How to Negotiate Monthly Rent as a Digital Nomad",
-      "fr": "Comment négocier le loyer mensuel en nomade digital",
-      "es": "Cómo negociar el alquiler mensual como nómada digital",
-      "pt": "Como negociar o aluguer mensal como nómada digital",
-      "it": "Come negoziare l’affitto mensile da nomade digitale",
-      "de": "Monatsmiete als digitaler Nomade verhandeln",
-      "pl": "Jak negocjować miesięczny czynsz jako cyfrowy nomad"
-    },
-    "description": {
-      "en": "The exact way nomads cut 20 to 40 percent off monthly rent in 2026: leverage, paying upfront, choosing the right week to book, and the messages that landlords actually answer.",
-      "fr": "La méthode exacte pour faire baisser le loyer mensuel de 20 à 40 % en 2026 : leviers, paiement à l’avance, choisir la bonne semaine pour booker, et les messages auxquels les proprios répondent.",
-      "es": "La forma exacta de bajar el alquiler mensual entre 20 y 40 % en 2026: palancas, pagar por adelantado, elegir la semana correcta para reservar, y los mensajes a los que sí responden los caseros.",
-      "pt": "A forma exata de cortar 20 a 40 % no aluguer mensal em 2026: alavancas, pagar adiantado, escolher a semana certa para reservar e as mensagens a que os senhorios respondem mesmo.",
-      "it": "Il modo esatto per tagliare il 20-40 % sull’affitto mensile nel 2026: leve, pagamento anticipato, scegliere la settimana giusta per prenotare, e i messaggi a cui i proprietari rispondono.",
-      "de": "Wie Nomaden 2026 zwischen 20 und 40 Prozent Monatsmiete sparen: Hebel, Vorauszahlung, die richtige Buchungswoche und Nachrichten, die Vermieter tatsächlich beantworten.",
-      "pl": "Jak nomadowie obniżają miesięczny czynsz o 20-40% w 2026: dźwignie, płatność z góry, właściwy tydzień rezerwacji i wiadomości, na które gospodarze faktycznie odpowiadają."
-    },
-    "faq": [
-      { "q": "What is the single biggest lever on monthly rent?", "a": "Stay duration. A 28-night booking unlocks a long-stay rate; 60 nights opens negotiated direct rates with most owners. Below 14 nights you are paying the tourist tier and no amount of charm changes that." },
-      { "q": "How much off can you realistically negotiate?", "a": "On Airbnb a sharp monthly request typically pulls 20 to 30 percent off the nightly. Off Airbnb (direct with the landlord, local Facebook groups, Flatio, Nomad Rental) another 10 to 20 percent. Total saving of 30 to 50 percent vs nightly is normal." },
-      { "q": "What message actually gets a reply?", "a": "Concrete dates, exact stay length, brief professional self-introduction, proof of income or solid references, polite ask for the long-stay rate, and a willingness to pay first and last upfront. Owners reply to people who look low-friction." },
-      { "q": "What week of the year matters most?", "a": "Booking for shoulder season (the week after major holidays end) gets you the best discounts. December 27 to January 8 and end of August are the worst windows for negotiating. Mid-January, late October and most of February are the best." },
-      { "q": "Should you pay outside the platform?", "a": "Paying outside Airbnb saves the platform fee but loses dispute protection. Most experienced nomads accept the platform fee on the first stay with a new owner, then move to direct payment on return stays after trust is built." }
-    ]
-  },
-  {
-    "slug": "best-ai-meeting-tools-for-nomads-2026",
-    "topic": "tools",
-    "publishOn": "2026-06-04",
-    "title": {
-      "en": "Best AI Meeting Tools for Digital Nomads in 2026",
-      "fr": "Meilleurs outils IA pour les réunions des nomades en 2026",
-      "es": "Mejores herramientas IA para reuniones de nómadas en 2026",
-      "pt": "Melhores ferramentas IA para reuniões de nómadas em 2026",
-      "it": "Migliori strumenti IA per le riunioni dei nomadi nel 2026",
-      "de": "Beste KI-Meeting-Tools für digitale Nomaden 2026",
-      "pl": "Najlepsze narzędzia AI do spotkań dla nomadów w 2026"
-    },
-    "description": {
-      "en": "AI tools for nomad meetings in 2026: transcription, summary, action items, async replay. Which tools join which platform, what they really save, and the privacy tradeoffs.",
-      "fr": "Outils IA pour les réunions nomades en 2026 : transcription, résumé, actions, replay async. Qui s’invite sur quelle plateforme, ce que ça fait gagner, et les compromis vie privée.",
-      "es": "Herramientas IA para reuniones nómadas en 2026: transcripción, resumen, tareas, replay asíncrono. Qué herramienta entra en qué plataforma, lo que de verdad ahorra, y los matices de privacidad.",
-      "pt": "Ferramentas IA para reuniões nómadas em 2026: transcrição, resumo, tarefas, replay assíncrono. Qual entra em que plataforma, o que poupa mesmo e os compromissos de privacidade.",
-      "it": "Strumenti IA per riunioni nomadi nel 2026: trascrizione, riassunto, action item, replay asincrono. Quale entra in quale piattaforma, cosa fa risparmiare e i compromessi sulla privacy.",
-      "de": "KI-Meeting-Tools für Nomaden 2026: Transkription, Zusammenfassung, Aktionen, asynchrones Replay. Welches Tool zu welcher Plattform passt, was es spart und die Datenschutz-Trade-offs.",
-      "pl": "Narzędzia AI do spotkań nomady w 2026: transkrypcja, podsumowanie, taski, asynchroniczny replay. Co pasuje do której platformy, co naprawdę oszczędza i kompromisy prywatności."
-    },
-    "faq": [
-      { "q": "What is the highest-ROI AI meeting tool for a nomad?", "a": "An auto-joining transcriber that produces a searchable transcript, a clean summary, and a list of action items. For a freelancer running 4 to 8 client calls a week, that single tool saves 3 to 5 hours of note-taking and recall every week." },
-      { "q": "Which platforms does it work with?", "a": "The best tools join Zoom, Google Meet and Microsoft Teams as a bot or via desktop capture. For nomads juggling client setups, multi-platform support is the only non-negotiable feature. Single-platform tools quickly become wallet drag." },
-      { "q": "Do AI meeting tools really catch every word?", "a": "In English with decent audio, around 95 percent accuracy. Heavy accents, crosstalk and bad mics drop that to 80 to 85 percent. Treat AI transcripts as a first pass; client-facing notes still need a human edit pass." },
-      { "q": "What about privacy and consent?", "a": "In some regions you must announce recording at the start of the call. Always do it explicitly, even when not legally required. Check what your tool stores, for how long, and whether it trains on your audio. Default to off for client work." },
-      { "q": "Are there lifetime deals worth picking up?", "a": "Lighter AI meeting tools regularly appear on AppSumo for a one-time payment. They often cover most freelancer needs at a fraction of subscription cost. For heavy client volume, a paid subscription with strong integrations still wins." }
-    ]
-  },
-  {
-    "slug": "escape-90-180-rule-with-non-schengen-bases",
-    "topic": "visas",
-    "publishOn": "2026-06-04",
-    "title": {
-      "en": "Escape the Schengen 90/180 with Non-Schengen Bases (2026)",
-      "fr": "Échapper au Schengen 90/180 avec des bases non-Schengen (2026)",
-      "es": "Salir del 90/180 Schengen con bases no Schengen (2026)",
-      "pt": "Sair do 90/180 Schengen com bases não Schengen (2026)",
-      "it": "Uscire dal 90/180 Schengen con basi non-Schengen (2026)",
-      "de": "Schengen 90/180 mit Nicht-Schengen-Basen entkommen (2026)",
-      "pl": "Wyjście z Schengen 90/180 dzięki bazom poza Schengen (2026)"
-    },
-    "description": {
-      "en": "Where nomads land when their 90 Schengen days run out in 2026: UK, Turkey, Georgia, Albania, Morocco, Cyprus and the LatAm rotation, plus the rules to count days cleanly.",
-      "fr": "Où les nomades atterrissent quand les 90 jours Schengen sont épuisés en 2026 : UK, Turquie, Géorgie, Albanie, Maroc, Chypre et rotation LatAm, plus les règles pour compter les jours sans souci.",
-      "es": "Adónde van los nómadas cuando se acaban los 90 días Schengen en 2026: Reino Unido, Turquía, Georgia, Albania, Marruecos, Chipre y la rotación LatAm, más cómo contar los días bien.",
-      "pt": "Para onde vão os nómadas quando esgotam os 90 dias Schengen em 2026: Reino Unido, Turquia, Geórgia, Albânia, Marrocos, Chipre e a rotação LatAm, mais como contar os dias sem dor.",
-      "it": "Dove vanno i nomadi quando finiscono i 90 giorni Schengen nel 2026: UK, Turchia, Georgia, Albania, Marocco, Cipro e la rotazione LatAm, più come contare i giorni senza errori.",
-      "de": "Wohin Nomaden 2026 ausweichen, wenn die 90 Schengen-Tage verbraucht sind: UK, Türkei, Georgien, Albanien, Marokko, Zypern und die LatAm-Rotation — plus saubere Tagezählung.",
-      "pl": "Dokąd nomadowie jadą po wyczerpaniu 90 dni Schengen w 2026: UK, Turcja, Gruzja, Albania, Maroko, Cypr i rotacja LatAm, plus jak liczyć dni bez błędów."
-    },
-    "relatedCountries": ["georgia", "turkey", "albania", "morocco", "mexico", "colombia"],
-    "faq": [
-      { "q": "What is the Schengen 90/180 rule, in plain words?", "a": "Visa-free visitors can spend at most 90 days in the Schengen Area inside any rolling 180-day window. Day count is real and entry-exit stamps drive it. The window moves forward every day; days drop off the back as new days roll on." },
-      { "q": "What is the best non-Schengen base to pair with Europe?", "a": "For tech work and English speakers, the UK and Cyprus. For lower cost and Schengen-time-zone overlap, Georgia, Albania and Turkey. Morocco and Tunisia work for winter sun on EU time. Any of these resets the clock for the next 90 days back in Schengen." },
-      { "q": "How do you count days without sweating?", "a": "Use the EU Commission’s Schengen calculator the morning of every flight. Save a screenshot. Plan the next Schengen entry from the calculator, not from memory. The rule punishes optimism." },
-      { "q": "Can a long-stay visa fix this?", "a": "Yes. Portugal D8, Spain digital nomad, Germany freelancer and other country-specific visas grant residence in one Schengen country and let you keep travelling short-term across the rest. They are the proper exit from the 90/180 treadmill." },
-      { "q": "What about the LatAm rotation?", "a": "Mexico, Colombia, Argentina and Peru let visa-free visitors stay 90 to 180 days each. Pairing Europe summer-autumn with LatAm winter-spring is the easiest year-long pattern that respects every clock." }
-    ]
-  },
-  {
     "slug": "claude-for-better-writing-than-ai-in-2026",
     "topic": "tools",
     "publishOn": "2026-06-05",
@@ -145,11 +22,26 @@
       "pl": "Jak aktywni pisarze nie pozwalają, by ich tekst brzmiał jak AI w 2026 — kotwice głosu, trzy edycje, które humanizują draft, i workflow z Claude’em, który dostarcza to, co klient chce czytać."
     },
     "faq": [
-      { "q": "What makes AI text obvious to readers in 2026?", "a": "Overconfident generalisation, perfectly symmetric paragraph length, no specific names, no first-hand detail, hedge-everything diplomacy, and a robotic rhythm where every sentence is about the same length. Any one of these is a red flag." },
-      { "q": "How do you anchor Claude to your voice?", "a": "Feed it three pieces you have written that you love, point out the moves you want it to copy (sentence length variation, specific examples, the one or two opinions you actually hold), and the do-not-do list. Stack that into a project so every conversation starts in voice." },
-      { "q": "What are the three edits that humanise any draft?", "a": "First, replace one generic noun per paragraph with a specific real example. Second, cut every adverb and weak hedge (just, really, very, perhaps). Third, break the rhythm: one paragraph that is one sentence, one that runs five lines." },
-      { "q": "How long should the editing pass actually take?", "a": "For 1000 words: 20 to 30 minutes if you wrote the brief well, 60 if Claude went off voice. The faster you can make that first edit pass, the cheaper your hourly rate to deliver, and the bigger the gap between you and writers who do not edit AI." },
-      { "q": "Is using Claude going to hurt my brand?", "a": "Only if you ship its drafts unedited. Used as a thinking partner and first-draft engine, it speeds you up massively without leaving a fingerprint. Voice is the deliverable; tools are how you get there." }
+      {
+        "q": "What makes AI text obvious to readers in 2026?",
+        "a": "Overconfident generalisation, perfectly symmetric paragraph length, no specific names, no first-hand detail, hedge-everything diplomacy, and a robotic rhythm where every sentence is about the same length. Any one of these is a red flag."
+      },
+      {
+        "q": "How do you anchor Claude to your voice?",
+        "a": "Feed it three pieces you have written that you love, point out the moves you want it to copy (sentence length variation, specific examples, the one or two opinions you actually hold), and the do-not-do list. Stack that into a project so every conversation starts in voice."
+      },
+      {
+        "q": "What are the three edits that humanise any draft?",
+        "a": "First, replace one generic noun per paragraph with a specific real example. Second, cut every adverb and weak hedge (just, really, very, perhaps). Third, break the rhythm: one paragraph that is one sentence, one that runs five lines."
+      },
+      {
+        "q": "How long should the editing pass actually take?",
+        "a": "For 1000 words: 20 to 30 minutes if you wrote the brief well, 60 if Claude went off voice. The faster you can make that first edit pass, the cheaper your hourly rate to deliver, and the bigger the gap between you and writers who do not edit AI."
+      },
+      {
+        "q": "Is using Claude going to hurt my brand?",
+        "a": "Only if you ship its drafts unedited. Used as a thinking partner and first-draft engine, it speeds you up massively without leaving a fingerprint. Voice is the deliverable; tools are how you get there."
+      }
     ]
   },
   {
@@ -175,11 +67,26 @@
       "pl": "Realistyczne stawki freelance 2026 dla pisarzy, designerów, devów, marketerów i PM-ów według rynku klienta: USA, UK, UE, LatAm, SEA. Plus: kiedy lokalizacja naprawdę liczy się dla ceny."
     },
     "faq": [
-      { "q": "What do US clients actually pay for freelance work in 2026?", "a": "For mid-senior creative and tech roles (copywriting, design, dev, growth, PM consulting), US clients typically pay $80 to $200 per hour or $5 to $25k per month for a slice of senior time. Below $50 per hour you are positioning as junior or commodity." },
-      { "q": "Should I charge less from a cheap country?", "a": "No, except when your client knows and accepts it explicitly. The deliverable is the same. Pricing below market lets a price-sensitive client pull your rate down without earning more loyalty than a fair-rate freelancer." },
-      { "q": "Which markets pay the most in 2026?", "a": "US (top), UK and Switzerland next, then Western EU, Australia. LatAm and SEA pay solid rates for senior remote specialists but local-only clients tend to be lower. Mix US/EU clients with one or two regional names for portfolio safety." },
-      { "q": "How fast can you raise rates?", "a": "Every 5 to 10 completed projects with strong reviews. Most freelancers who plateau do so because they signal hourly when they should signal project. Convert to fixed-fee productised offers and raise rates between contracts, not mid-engagement." },
-      { "q": "What about marketplaces like Fiverr?", "a": "Fiverr is a great inbound channel for productised offers and lets nomads reach buyers without building an audience. Once you have repeat clients off-platform, the marketplace becomes a steady second pipeline rather than the only one." }
+      {
+        "q": "What do US clients actually pay for freelance work in 2026?",
+        "a": "For mid-senior creative and tech roles (copywriting, design, dev, growth, PM consulting), US clients typically pay $80 to $200 per hour or $5 to $25k per month for a slice of senior time. Below $50 per hour you are positioning as junior or commodity."
+      },
+      {
+        "q": "Should I charge less from a cheap country?",
+        "a": "No, except when your client knows and accepts it explicitly. The deliverable is the same. Pricing below market lets a price-sensitive client pull your rate down without earning more loyalty than a fair-rate freelancer."
+      },
+      {
+        "q": "Which markets pay the most in 2026?",
+        "a": "US (top), UK and Switzerland next, then Western EU, Australia. LatAm and SEA pay solid rates for senior remote specialists but local-only clients tend to be lower. Mix US/EU clients with one or two regional names for portfolio safety."
+      },
+      {
+        "q": "How fast can you raise rates?",
+        "a": "Every 5 to 10 completed projects with strong reviews. Most freelancers who plateau do so because they signal hourly when they should signal project. Convert to fixed-fee productised offers and raise rates between contracts, not mid-engagement."
+      },
+      {
+        "q": "What about marketplaces like Fiverr?",
+        "a": "Fiverr is a great inbound channel for productised offers and lets nomads reach buyers without building an audience. Once you have repeat clients off-platform, the marketplace becomes a steady second pipeline rather than the only one."
+      }
     ]
   },
   {
@@ -205,11 +112,26 @@
       "pl": "Apple Silicon serii M, laptopy Snapdragon X, ThinkPady i realistyczne wybory 2026 według roli — pisarz, projektant, dev, editor wideo, founder."
     },
     "faq": [
-      { "q": "What is the safest default nomad laptop in 2026?", "a": "A 14-inch MacBook Pro with M-series chip and 16 to 32 GB RAM. Excellent battery, quiet under load, great screen, near-universal software support, and resale value that holds. The least regretted purchase across nomad surveys for years." },
-      { "q": "When should you pick a Windows or Snapdragon machine instead?", "a": "When your job lives in Windows-only tools (engineering CAD, specific finance stacks) or you need very long battery on light tasks. Snapdragon X options offer impressive battery and are great for writing, browsing and light coding on the road." },
-      { "q": "Is a heavier video-editing laptop worth it?", "a": "For dedicated video editors yes, with the trade-off of a heavier bag and shorter battery. Most generalist nomads do fine on a MacBook Pro and offload heavy renders to a desktop or cloud machine they reach via remote." },
-      { "q": "Should you carry a tablet too?", "a": "For most: no. Adds weight and complexity. A great laptop plus a phone covers nearly everything. Tablets pay off if you sketch professionally, or you want a true second screen on travel days." },
-      { "q": "Where do AppSumo and similar deal sites fit in for nomad gear?", "a": "Not for hardware (you cannot find a serious laptop on a lifetime deal site), but for the software that turns the laptop into a productivity station: notes, transcription, automation. Pair a good laptop with a small handful of lifetime-deal tools and you cover 90 percent of nomad work." }
+      {
+        "q": "What is the safest default nomad laptop in 2026?",
+        "a": "A 14-inch MacBook Pro with M-series chip and 16 to 32 GB RAM. Excellent battery, quiet under load, great screen, near-universal software support, and resale value that holds. The least regretted purchase across nomad surveys for years."
+      },
+      {
+        "q": "When should you pick a Windows or Snapdragon machine instead?",
+        "a": "When your job lives in Windows-only tools (engineering CAD, specific finance stacks) or you need very long battery on light tasks. Snapdragon X options offer impressive battery and are great for writing, browsing and light coding on the road."
+      },
+      {
+        "q": "Is a heavier video-editing laptop worth it?",
+        "a": "For dedicated video editors yes, with the trade-off of a heavier bag and shorter battery. Most generalist nomads do fine on a MacBook Pro and offload heavy renders to a desktop or cloud machine they reach via remote."
+      },
+      {
+        "q": "Should you carry a tablet too?",
+        "a": "For most: no. Adds weight and complexity. A great laptop plus a phone covers nearly everything. Tablets pay off if you sketch professionally, or you want a true second screen on travel days."
+      },
+      {
+        "q": "Where do AppSumo and similar deal sites fit in for nomad gear?",
+        "a": "Not for hardware (you cannot find a serious laptop on a lifetime deal site), but for the software that turns the laptop into a productivity station: notes, transcription, automation. Pair a good laptop with a small handful of lifetime-deal tools and you cover 90 percent of nomad work."
+      }
     ]
   },
   {
@@ -234,13 +156,30 @@
       "de": "Wie Portugals NHR-Nachfolger (IFICI) für ankommende Nomaden und Fachkräfte 2026 funktioniert: wer qualifiziert, was die 20 %-Pauschale deckt und was alte NHR-Nutzer behalten.",
       "pl": "Jak działa następca portugalskiego NHR (IFICI) dla nomadów i wykwalifikowanych pracowników w 2026: kto się kwalifikuje, co obejmuje 20 % flat i co zachowują starzy beneficjenci NHR."
     },
-    "relatedCountries": ["portugal"],
+    "relatedCountries": [
+      "portugal"
+    ],
     "faq": [
-      { "q": "What is IFICI, in plain words?", "a": "The Portuguese tax regime that succeeded the original NHR for new arrivals from 2024 onward. It targets scientific research, higher education, qualified jobs and tech, offering a 20 percent flat personal income tax rate on covered Portuguese income for up to 10 years." },
-      { "q": "Who qualifies for IFICI?", "a": "Mostly: scientific and research roles, qualified jobs in eligible technology and industry sectors, and certain academic posts. The covered list and the certification process change over time; always check the latest regulator guidance before assuming you fit." },
-      { "q": "Does IFICI work for typical remote freelancers?", "a": "Not as cleanly as the original NHR did. Generalist remote freelancers and consultants often fall outside the qualified-job lists. Specific tech and science roles are the cleanest fits; everyone else should plan around standard Portuguese tax brackets." },
-      { "q": "Do old NHR holders keep their benefits?", "a": "Pre-2024 NHR registrants generally keep their 10-year regime until it naturally ends. New arrivals from 2024 must use IFICI or standard rules. Cross-border tax advice on the personal timing of your move is worth paying for here." },
-      { "q": "Is Portugal still a great nomad base under the new rules?", "a": "Yes for lifestyle, internet, community and stability. The pure tax-advantage angle is narrower than under original NHR. Combine your lifestyle reasons with the realistic tax burden when comparing Portugal with Spain Beckham, Italy impatriate and other EU schemes." }
+      {
+        "q": "What is IFICI, in plain words?",
+        "a": "The Portuguese tax regime that succeeded the original NHR for new arrivals from 2024 onward. It targets scientific research, higher education, qualified jobs and tech, offering a 20 percent flat personal income tax rate on covered Portuguese income for up to 10 years."
+      },
+      {
+        "q": "Who qualifies for IFICI?",
+        "a": "Mostly: scientific and research roles, qualified jobs in eligible technology and industry sectors, and certain academic posts. The covered list and the certification process change over time; always check the latest regulator guidance before assuming you fit."
+      },
+      {
+        "q": "Does IFICI work for typical remote freelancers?",
+        "a": "Not as cleanly as the original NHR did. Generalist remote freelancers and consultants often fall outside the qualified-job lists. Specific tech and science roles are the cleanest fits; everyone else should plan around standard Portuguese tax brackets."
+      },
+      {
+        "q": "Do old NHR holders keep their benefits?",
+        "a": "Pre-2024 NHR registrants generally keep their 10-year regime until it naturally ends. New arrivals from 2024 must use IFICI or standard rules. Cross-border tax advice on the personal timing of your move is worth paying for here."
+      },
+      {
+        "q": "Is Portugal still a great nomad base under the new rules?",
+        "a": "Yes for lifestyle, internet, community and stability. The pure tax-advantage angle is narrower than under original NHR. Combine your lifestyle reasons with the realistic tax burden when comparing Portugal with Spain Beckham, Italy impatriate and other EU schemes."
+      }
     ]
   },
   {
@@ -266,11 +205,26 @@
       "pl": "Realistyczne miesięczne koszty 2026 według regionu nomada — Europa, LatAm, SEA, Afryka Północna — z czynszem, jedzeniem, transportem, coworkingiem i weekendami oraz pozycją, której wszyscy nie doceniają."
     },
     "faq": [
-      { "q": "What is a realistic nomad budget by region in 2026?", "a": "Europe core (Lisbon, Madrid, Barcelona) $2200 to $3000. LatAm $1300 to $2200. SEA $1100 to $1900. North Africa $1000 to $1700. These cover a private 1-bed, coworking, food, transport and 2 weekend trips a month." },
-      { "q": "What is the biggest line item people underestimate?", "a": "Weekend trips and small flights between bases. Living in Lisbon for $2200 base goes to $2700 once you add the monthly hop to Madeira, Porto or Madrid. Bake those flights into the budget or watch the bank account drift." },
-      { "q": "How do couples scale?", "a": "Roughly 1.4 to 1.6 times solo (not 2 times), because rent and many fixed costs do not double. A solo $1800/month nomad budget becomes about $2700 for a couple in the same city, with weekend trips and food carrying most of the increment." },
-      { "q": "How do you actually track real costs?", "a": "Spend on a card that categorises automatically (Revolut, Wise card) for the first month in any new city. The monthly summary turns vague feelings (\"this city feels cheap\") into a number that drives real planning." },
-      { "q": "Where does the average nomad waste the most money?", "a": "Nightly Airbnb when a monthly rental would have been 30 to 50 percent cheaper, takeout when local restaurant lunches cost the same, and a coworking day pass when a weekly pass was just 20 percent more for 5 times the days. Small habits add up." }
+      {
+        "q": "What is a realistic nomad budget by region in 2026?",
+        "a": "Europe core (Lisbon, Madrid, Barcelona) $2200 to $3000. LatAm $1300 to $2200. SEA $1100 to $1900. North Africa $1000 to $1700. These cover a private 1-bed, coworking, food, transport and 2 weekend trips a month."
+      },
+      {
+        "q": "What is the biggest line item people underestimate?",
+        "a": "Weekend trips and small flights between bases. Living in Lisbon for $2200 base goes to $2700 once you add the monthly hop to Madeira, Porto or Madrid. Bake those flights into the budget or watch the bank account drift."
+      },
+      {
+        "q": "How do couples scale?",
+        "a": "Roughly 1.4 to 1.6 times solo (not 2 times), because rent and many fixed costs do not double. A solo $1800/month nomad budget becomes about $2700 for a couple in the same city, with weekend trips and food carrying most of the increment."
+      },
+      {
+        "q": "How do you actually track real costs?",
+        "a": "Spend on a card that categorises automatically (Revolut, Wise card) for the first month in any new city. The monthly summary turns vague feelings (\"this city feels cheap\") into a number that drives real planning."
+      },
+      {
+        "q": "Where does the average nomad waste the most money?",
+        "a": "Nightly Airbnb when a monthly rental would have been 30 to 50 percent cheaper, takeout when local restaurant lunches cost the same, and a coworking day pass when a weekly pass was just 20 percent more for 5 times the days. Small habits add up."
+      }
     ]
   },
   {
@@ -296,11 +250,26 @@
       "pl": "Najszybszy sposób na znalezienie odpowiedniego coworkingu w nowym mieście w 2026: aplikacje i listy, które działają, jak odróżnić prawdziwy fokus-space od scenografii na Instagram i wejściówki dzienne warte zakupu."
     },
     "faq": [
-      { "q": "What is the fastest way to find a good coworking in a new city?", "a": "Combine the city-specific nomad Slack or WhatsApp, recent Google reviews filtered to the last 30 days, and one site visit before buying a week. The aggregators help for shortlist; the live visit decides." },
-      { "q": "How do you spot a focused vs a social-only coworking?", "a": "Visit at 14:30 on a Wednesday. If most desks are quietly heads-down with people on calls in booths, focus space. If the music is loud, the kitchen is busy and there is a lot of conversation in the main area, social-first. Both are valid; pick by your work day." },
-      { "q": "Day pass, weekly or monthly?", "a": "Day pass for the first visit to test. Weekly almost always beats per-day cost. Monthly only after you commit to staying at least 3 weeks in the city; otherwise you overspend on days you skip. Hot-desk monthly is usually 5 to 8 day passes." },
-      { "q": "Do coworking spaces matter for client calls?", "a": "Yes, more than most nomads realise. Soundproof booths, reliable backup connection on a separate line, and 200+ Mbps fibre are the difference between a calm call and a flaky one. The right space is worth a slightly higher price." },
-      { "q": "What about coworking with an eSIM as backup?", "a": "Even the best coworking wifi drops occasionally. Carry an Airalo or similar eSIM with at least 10 GB of data ready for tethering. Use code SACHA6010 if signing up for the first time; that backup connection has saved many client calls." }
+      {
+        "q": "What is the fastest way to find a good coworking in a new city?",
+        "a": "Combine the city-specific nomad Slack or WhatsApp, recent Google reviews filtered to the last 30 days, and one site visit before buying a week. The aggregators help for shortlist; the live visit decides."
+      },
+      {
+        "q": "How do you spot a focused vs a social-only coworking?",
+        "a": "Visit at 14:30 on a Wednesday. If most desks are quietly heads-down with people on calls in booths, focus space. If the music is loud, the kitchen is busy and there is a lot of conversation in the main area, social-first. Both are valid; pick by your work day."
+      },
+      {
+        "q": "Day pass, weekly or monthly?",
+        "a": "Day pass for the first visit to test. Weekly almost always beats per-day cost. Monthly only after you commit to staying at least 3 weeks in the city; otherwise you overspend on days you skip. Hot-desk monthly is usually 5 to 8 day passes."
+      },
+      {
+        "q": "Do coworking spaces matter for client calls?",
+        "a": "Yes, more than most nomads realise. Soundproof booths, reliable backup connection on a separate line, and 200+ Mbps fibre are the difference between a calm call and a flaky one. The right space is worth a slightly higher price."
+      },
+      {
+        "q": "What about coworking with an eSIM as backup?",
+        "a": "Even the best coworking wifi drops occasionally. Carry an Airalo or similar eSIM with at least 10 GB of data ready for tethering. Use code SACHA6010 if signing up for the first time; that backup connection has saved many client calls."
+      }
     ]
   },
   {
@@ -326,11 +295,26 @@
       "pl": "Nisze, które naprawdę płacą twórcom newsletterów w 2026 — analizy B2B SaaS, wertykalna AI, indie tech, finanse, regionalne poradniki nomady — plus funkcje platform, które naprawdę napędzają wzrost."
     },
     "faq": [
-      { "q": "Which newsletter niches monetise best in 2026?", "a": "B2B SaaS deep dives, vertical AI for a specific industry, indie tech building-in-public, retail finance, and tightly-scoped regional nomad guides. Niches with paying audiences (founders, operators, investors, hobbyists with disposable income) beat broad lifestyle every time." },
-      { "q": "Should a nomad creator pick paid subscriptions, ads or both?", "a": "Most successful nomad newsletters start free, build to 5 to 10k engaged readers, then layer paid (subscriptions or workshops) on top while accepting sponsor placements on the free side. The ratio shifts to paid over time as the brand strengthens." },
-      { "q": "How long does it take to make this work?", "a": "Twelve to twenty-four months of weekly publishing in a clear niche is the realistic range to a self-supporting newsletter. Most who quit at month 6 quit just before compounding starts." },
-      { "q": "Which platform features actually move the needle?", "a": "Recommendations and referral programs, native paid subscriptions, ad inventory the platform manages, and a CMS that does not slow your writing. Picking a platform built for these (Beehiiv is the current default for that combo) saves years of tool switching." },
-      { "q": "How do you run a newsletter from the road?", "a": "Batch on slow travel weeks, schedule on the platform, and pre-write evergreen pieces you can drop in when the week gets eaten. Treat the publish day as fixed even when your wifi or apartment is not." }
+      {
+        "q": "Which newsletter niches monetise best in 2026?",
+        "a": "B2B SaaS deep dives, vertical AI for a specific industry, indie tech building-in-public, retail finance, and tightly-scoped regional nomad guides. Niches with paying audiences (founders, operators, investors, hobbyists with disposable income) beat broad lifestyle every time."
+      },
+      {
+        "q": "Should a nomad creator pick paid subscriptions, ads or both?",
+        "a": "Most successful nomad newsletters start free, build to 5 to 10k engaged readers, then layer paid (subscriptions or workshops) on top while accepting sponsor placements on the free side. The ratio shifts to paid over time as the brand strengthens."
+      },
+      {
+        "q": "How long does it take to make this work?",
+        "a": "Twelve to twenty-four months of weekly publishing in a clear niche is the realistic range to a self-supporting newsletter. Most who quit at month 6 quit just before compounding starts."
+      },
+      {
+        "q": "Which platform features actually move the needle?",
+        "a": "Recommendations and referral programs, native paid subscriptions, ad inventory the platform manages, and a CMS that does not slow your writing. Picking a platform built for these (Beehiiv is the current default for that combo) saves years of tool switching."
+      },
+      {
+        "q": "How do you run a newsletter from the road?",
+        "a": "Batch on slow travel weeks, schedule on the platform, and pre-write evergreen pieces you can drop in when the week gets eaten. Treat the publish day as fixed even when your wifi or apartment is not."
+      }
     ]
   },
   {
@@ -355,13 +339,34 @@
       "de": "Was bei Nomaden-Paaren 2026 wirklich funktioniert — Basen gemeinsam wählen, Arbeit und Admin teilen, Geldregeln, Zeit allein unterwegs, und Städte, die zwei Erwachsenen mehr taugen als Solo.",
       "pl": "Co naprawdę działa u par-nomadów w 2026 — wybór baz razem, podział pracy i administracji, zasady pieniędzy, czas osobno w trasie i miasta lepsze dla dwojga niż dla solo."
     },
-    "relatedCities": ["lisbon", "mexico-city", "barcelona", "bali", "medellin"],
+    "relatedCities": [
+      "lisbon",
+      "mexico-city",
+      "barcelona",
+      "bali",
+      "medellin"
+    ],
     "faq": [
-      { "q": "What is the biggest reason nomad couples burn out?", "a": "Too much travel velocity. Two people moving every two weeks doubles the logistical load and halves the chance of building a routine. Most couples stabilise once they shift to 6 to 12 week bases instead of constant motion." },
-      { "q": "How do you choose a base together?", "a": "One person picks the city, the other picks the neighbourhood. Both veto deal-breakers (climate, time zone, internet, safety). Trade picks every base. It is the simplest rule and prevents one partner shouldering all the decisions." },
-      { "q": "Money rules that actually work?", "a": "Each person keeps their own spending account; one shared joint account or shared card for rent and groceries; one fixed monthly transfer that funds it. Decisions about big trips happen against the joint balance, not anyone’s personal account." },
-      { "q": "How do you handle time apart while traveling?", "a": "Solo days are non-negotiable. Both partners block one day a week alone, even in shared apartments. Weekend solo trips every quarter prevent the slow compression of always being together that ends so many nomad couples." },
-      { "q": "Which cities are best for couples specifically?", "a": "Lisbon, Mexico City, Barcelona, Madeira, Medellín and Bali pair well: enough community for both to find their own scene, walkable, varied weekend trips. Avoid cities with a heavy solo-party-house scene if either partner does not want that energy." }
+      {
+        "q": "What is the biggest reason nomad couples burn out?",
+        "a": "Too much travel velocity. Two people moving every two weeks doubles the logistical load and halves the chance of building a routine. Most couples stabilise once they shift to 6 to 12 week bases instead of constant motion."
+      },
+      {
+        "q": "How do you choose a base together?",
+        "a": "One person picks the city, the other picks the neighbourhood. Both veto deal-breakers (climate, time zone, internet, safety). Trade picks every base. It is the simplest rule and prevents one partner shouldering all the decisions."
+      },
+      {
+        "q": "Money rules that actually work?",
+        "a": "Each person keeps their own spending account; one shared joint account or shared card for rent and groceries; one fixed monthly transfer that funds it. Decisions about big trips happen against the joint balance, not anyone’s personal account."
+      },
+      {
+        "q": "How do you handle time apart while traveling?",
+        "a": "Solo days are non-negotiable. Both partners block one day a week alone, even in shared apartments. Weekend solo trips every quarter prevent the slow compression of always being together that ends so many nomad couples."
+      },
+      {
+        "q": "Which cities are best for couples specifically?",
+        "a": "Lisbon, Mexico City, Barcelona, Madeira, Medellín and Bali pair well: enough community for both to find their own scene, walkable, varied weekend trips. Avoid cities with a heavy solo-party-house scene if either partner does not want that energy."
+      }
     ]
   },
   {
@@ -387,11 +392,26 @@
       "pl": "90-dniowy plan budowy mobilnej marki osobistej w 2026, która przyciąga klientów, kiedy śpisz — pozycjonowanie, jedna platforma, płatna społeczność i kadencja, która procentuje."
     },
     "faq": [
-      { "q": "Why does a nomad need a personal brand at all?", "a": "Because the local market that other freelancers have, you do not. Your local market is whoever knows you online. A brand pulls work, retainers and community into your inbox without you chasing it across time zones." },
-      { "q": "Which platform do you pick first?", "a": "One. Where your buyers already are. For B2B services that is usually LinkedIn or X. For creative work, Instagram or YouTube. For deep niches, a newsletter. Pick one, post weekly for 90 days, then add a second only if the first works." },
-      { "q": "What should you actually post about?", "a": "Three buckets, on rotation: the work (case studies, results), the perspective (your take on your niche), the journey (real nomad life behind the work). Avoid generic motivation; specifics drive inbound DMs and saves." },
-      { "q": "When do you add a paid community?", "a": "Once you have 100 to 300 engaged followers who comment by name and one productised offer they pay for. A paid community on Skool is the cheapest way to turn engagement into recurring revenue without launching a course." },
-      { "q": "How do you publish from the road?", "a": "Batch on slow weeks, schedule a buffer, write evergreen posts that do not depend on this week’s mood. Treat publishing like brushing your teeth, not a mood-based decision; that is the only difference between people who have a brand and people who do not." }
+      {
+        "q": "Why does a nomad need a personal brand at all?",
+        "a": "Because the local market that other freelancers have, you do not. Your local market is whoever knows you online. A brand pulls work, retainers and community into your inbox without you chasing it across time zones."
+      },
+      {
+        "q": "Which platform do you pick first?",
+        "a": "One. Where your buyers already are. For B2B services that is usually LinkedIn or X. For creative work, Instagram or YouTube. For deep niches, a newsletter. Pick one, post weekly for 90 days, then add a second only if the first works."
+      },
+      {
+        "q": "What should you actually post about?",
+        "a": "Three buckets, on rotation: the work (case studies, results), the perspective (your take on your niche), the journey (real nomad life behind the work). Avoid generic motivation; specifics drive inbound DMs and saves."
+      },
+      {
+        "q": "When do you add a paid community?",
+        "a": "Once you have 100 to 300 engaged followers who comment by name and one productised offer they pay for. A paid community on Skool is the cheapest way to turn engagement into recurring revenue without launching a course."
+      },
+      {
+        "q": "How do you publish from the road?",
+        "a": "Batch on slow weeks, schedule a buffer, write evergreen posts that do not depend on this week’s mood. Treat publishing like brushing your teeth, not a mood-based decision; that is the only difference between people who have a brand and people who do not."
+      }
     ]
   },
   {
@@ -416,14 +436,43 @@
       "de": "Wo EU- und US-Nomaden von November 2026 bis März 2027 wirklich Basis schlagen — Mexiko-Stadt, Medellín, Bangkok, Bali, Kapstadt, Madeira, Kanaren — reale Monatskosten und Visa-Hinweise.",
       "pl": "Gdzie nomadowie z UE i USA naprawdę zatrzymują się od listopada 2026 do marca 2027 — Meksyk, Medellín, Bangkok, Bali, Kapsztad, Madera, Wyspy Kanaryjskie — realne koszty i wzmianki wizowe."
     },
-    "relatedCountries": ["mexico", "colombia", "thailand", "indonesia", "portugal", "spain"],
-    "relatedCities": ["mexico-city", "medellin", "bangkok", "bali", "madeira", "las-palmas"],
+    "relatedCountries": [
+      "mexico",
+      "colombia",
+      "thailand",
+      "indonesia",
+      "portugal",
+      "spain"
+    ],
+    "relatedCities": [
+      "mexico-city",
+      "medellin",
+      "bangkok",
+      "bali",
+      "madeira",
+      "las-palmas"
+    ],
     "faq": [
-      { "q": "What is the cheapest good winter nomad base?", "a": "For 2026-27, Medellín, Bangkok and Bali (Ubud or quieter Canggu corners) sit around $1300 to $1900 per month all in. Mexico City and Cape Town are slightly higher but still excellent value compared to Lisbon or Barcelona in summer." },
-      { "q": "Which base has the best dev/tech community in winter?", "a": "Mexico City and Bangkok lead for technical events and dense coworking. Bali (Canggu) is more creator and AI heavy. Medellín splits between technical and lifestyle. All four have weekly meetups by November onward." },
-      { "q": "What time zone shift fits remote work?", "a": "Mexico City and Medellín are easiest for US East coast clients. Lisbon, Madeira and Canary Islands work for European clients with a tiny shift. Bangkok and Bali require a 12-hour shift for US clients but pair perfectly with European mornings being your evenings." },
-      { "q": "Are Madeira and Canary Islands a viable winter base?", "a": "Yes for nomads who want mild EU weather, decent infrastructure and Schengen-eligible time. Cheaper than Lisbon proper, with quieter weeks. Internet has improved across both archipelagos; verify the specific apartment before locking a long stay." },
-      { "q": "What insurance do most winter visas require?", "a": "Most digital nomad visa filings ask for travel or international health insurance covering the base country, usually 30k EUR minimum. SafetyWing meets the bar for the visas we tracked and lets you cancel monthly, which fits the seasonal pattern." }
+      {
+        "q": "What is the cheapest good winter nomad base?",
+        "a": "For 2026-27, Medellín, Bangkok and Bali (Ubud or quieter Canggu corners) sit around $1300 to $1900 per month all in. Mexico City and Cape Town are slightly higher but still excellent value compared to Lisbon or Barcelona in summer."
+      },
+      {
+        "q": "Which base has the best dev/tech community in winter?",
+        "a": "Mexico City and Bangkok lead for technical events and dense coworking. Bali (Canggu) is more creator and AI heavy. Medellín splits between technical and lifestyle. All four have weekly meetups by November onward."
+      },
+      {
+        "q": "What time zone shift fits remote work?",
+        "a": "Mexico City and Medellín are easiest for US East coast clients. Lisbon, Madeira and Canary Islands work for European clients with a tiny shift. Bangkok and Bali require a 12-hour shift for US clients but pair perfectly with European mornings being your evenings."
+      },
+      {
+        "q": "Are Madeira and Canary Islands a viable winter base?",
+        "a": "Yes for nomads who want mild EU weather, decent infrastructure and Schengen-eligible time. Cheaper than Lisbon proper, with quieter weeks. Internet has improved across both archipelagos; verify the specific apartment before locking a long stay."
+      },
+      {
+        "q": "What insurance do most winter visas require?",
+        "a": "Most digital nomad visa filings ask for travel or international health insurance covering the base country, usually 30k EUR minimum. SafetyWing meets the bar for the visas we tracked and lets you cancel monthly, which fits the seasonal pattern."
+      }
     ]
   },
   {
@@ -449,11 +498,26 @@
       "pl": "Setup fitness, który nomadowie naprawdę utrzymują przez rok podróży w 2026 — 25-minutowe treningi domowe, ClassPass w miastach, lekki przenośny kit i zasady żywieniowe działające wszędzie."
     },
     "faq": [
-      { "q": "What is the minimum fitness setup that survives nomad life?", "a": "Three 25-minute strength sessions a week (bodyweight plus a band), one long walk on the weekend, and two non-negotiable rules on food (protein with every main meal, no booze on weeknights). Anything more ambitious tends to break by month two." },
-      { "q": "Are gym memberships even worth it abroad?", "a": "For 30 day plus stays, often yes. ClassPass works in many nomad cities for one app across yoga, gym and pilates. For shorter stays a local one-week pass usually beats any subscription. Avoid annual contracts in any country you do not call home." },
-      { "q": "Which portable kit is actually useful?", "a": "One resistance band, one jump rope, one mini lacrosse ball for back release. Total weight under 300g. That covers full-body strength, conditioning and recovery in any hotel room or apartment. Heavier kits stay in the bag." },
-      { "q": "How do you handle eating well across cities?", "a": "Two anchors. Anchor one: a protein source at every main meal in the local cuisine (eggs, fish, beans, grilled meat). Anchor two: cook breakfast at home in monthly rentals. Lunch and dinner can roam; the morning sets the tone." },
-      { "q": "How do you not regress every travel day?", "a": "Travel days are walking-only days. Lots of stairs, lots of bags, 12k steps without trying. The training rhythm resumes day two in the new base. Sessions missed on travel days never get caught up." }
+      {
+        "q": "What is the minimum fitness setup that survives nomad life?",
+        "a": "Three 25-minute strength sessions a week (bodyweight plus a band), one long walk on the weekend, and two non-negotiable rules on food (protein with every main meal, no booze on weeknights). Anything more ambitious tends to break by month two."
+      },
+      {
+        "q": "Are gym memberships even worth it abroad?",
+        "a": "For 30 day plus stays, often yes. ClassPass works in many nomad cities for one app across yoga, gym and pilates. For shorter stays a local one-week pass usually beats any subscription. Avoid annual contracts in any country you do not call home."
+      },
+      {
+        "q": "Which portable kit is actually useful?",
+        "a": "One resistance band, one jump rope, one mini lacrosse ball for back release. Total weight under 300g. That covers full-body strength, conditioning and recovery in any hotel room or apartment. Heavier kits stay in the bag."
+      },
+      {
+        "q": "How do you handle eating well across cities?",
+        "a": "Two anchors. Anchor one: a protein source at every main meal in the local cuisine (eggs, fish, beans, grilled meat). Anchor two: cook breakfast at home in monthly rentals. Lunch and dinner can roam; the morning sets the tone."
+      },
+      {
+        "q": "How do you not regress every travel day?",
+        "a": "Travel days are walking-only days. Lots of stairs, lots of bags, 12k steps without trying. The training rhythm resumes day two in the new base. Sessions missed on travel days never get caught up."
+      }
     ]
   },
   {
@@ -479,11 +543,26 @@
       "pl": "Jak senior PM-i i projektanci zarabiają 50 do 90 $/h na Mercor w 2026, recenzując prompty produktowe, krytyki designu i PRD — asynchronicznie, bez polityki klienta, i jak ułożyć aplikację."
     },
     "faq": [
-      { "q": "What does Mercor work look like for a PM in 2026?", "a": "Writing reference PRDs, evaluating AI-generated product reasoning, judging trade-offs in feature proposals, and rating prompt outputs against product-quality standards. Mostly reading and writing; very little live collaboration." },
-      { "q": "What does it look like for a designer?", "a": "Critiquing AI-generated UX flows, writing reference design rationales, reviewing accessibility and brand alignment, and producing strong example pairs of bad and good design choices. Senior taste matters; junior portfolio energy does not." },
-      { "q": "How do you position your application?", "a": "Concrete examples beat resume bullets. Two or three real projects with the decision you made, the trade-off, the outcome. Mercor reviewers want to see judgment in action; PM-speak by itself does not move the needle." },
-      { "q": "What rates do PMs and designers typically clear?", "a": "Senior product and design contributors usually settle in the 50 to 80 $ per hour range. Specialised areas (AI product, design systems, ML-PM, growth) can clear higher when projects align. Volume tends to be steady once approved." },
-      { "q": "Does this conflict with a salaried product role?", "a": "Usually no. Most employment contracts allow outside consulting and writing if it does not compete with the employer and is disclosed where required. Check your contract; for most PMs and designers Mercor is treated like teaching, writing or advisory work." }
+      {
+        "q": "What does Mercor work look like for a PM in 2026?",
+        "a": "Writing reference PRDs, evaluating AI-generated product reasoning, judging trade-offs in feature proposals, and rating prompt outputs against product-quality standards. Mostly reading and writing; very little live collaboration."
+      },
+      {
+        "q": "What does it look like for a designer?",
+        "a": "Critiquing AI-generated UX flows, writing reference design rationales, reviewing accessibility and brand alignment, and producing strong example pairs of bad and good design choices. Senior taste matters; junior portfolio energy does not."
+      },
+      {
+        "q": "How do you position your application?",
+        "a": "Concrete examples beat resume bullets. Two or three real projects with the decision you made, the trade-off, the outcome. Mercor reviewers want to see judgment in action; PM-speak by itself does not move the needle."
+      },
+      {
+        "q": "What rates do PMs and designers typically clear?",
+        "a": "Senior product and design contributors usually settle in the 50 to 80 $ per hour range. Specialised areas (AI product, design systems, ML-PM, growth) can clear higher when projects align. Volume tends to be steady once approved."
+      },
+      {
+        "q": "Does this conflict with a salaried product role?",
+        "a": "Usually no. Most employment contracts allow outside consulting and writing if it does not compete with the employer and is disclosed where required. Check your contract; for most PMs and designers Mercor is treated like teaching, writing or advisory work."
+      }
     ]
   }
 ]
