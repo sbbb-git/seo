@@ -43,6 +43,9 @@ jobs:
       - name: Merge scanner-exclusion routes into _routes.json
         run: node scripts/finalize-routes.mjs
 
+      - name: Wrap worker to override Cache-Control on locale pages
+        run: node scripts/wrap-worker.mjs
+
       - name: Deploy to Cloudflare Pages
         id: deploy
         run: |
