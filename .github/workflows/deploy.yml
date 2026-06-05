@@ -48,10 +48,14 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         id: deploy
+        # Force --branch=main on every push so the deploy is promoted to the
+        # production custom domain (slowmadly.com). Without this, pushes to
+        # the feature branch land on the preview alias only, and the apex
+        # keeps serving an older worker (notably without our cache-control
+        # wrap).
         run: |
-          BRANCH="${GITHUB_REF##*/}"
           npx wrangler@latest pages deploy .vercel/output/static \
             --project-name="${PROJECT_NAME}" \
-            --branch="${BRANCH}" \
+            --branch="main" \
             --commit-hash="${GITHUB_SHA}" \
             --commit-message="${GITHUB_REF_NAME}: $(git log -1 --pretty=%s | head -c 80)"
