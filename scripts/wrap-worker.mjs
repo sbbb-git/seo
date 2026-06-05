@@ -32,29 +32,60 @@ if (!m) {
 const exportName = m[1];
 
 const wrapper = `
-// __NOP_PAGE_CACHE_WRAPPER__ — overrides Cache-Control on locale pages so
-// Cloudflare can edge-cache the response. Next hard-codes
-// 'public, max-age=0, must-revalidate' on prerendered routes and Cache-Rules
-// can't be set with our zone-read API token; this patch closes the gap.
+// __NOP_PAGE_CACHE_WRAPPER__ — overrides Cache-Control AND actively
+// stores responses in the Cloudflare edge cache for locale pages.
+// Setting s-maxage alone is not enough on CF Pages worker responses:
+// they default to cf-cache-status:DYNAMIC. The Cache API write below
+// is what makes them HIT on subsequent requests.
 const __NOP_PAGE_CACHE = 'public, max-age=0, s-maxage=600, stale-while-revalidate=86400';
 const __NOP_LOCALE_RE = /^\\/(en|fr|es|pt|it|de|pl)(\\/|$)/;
+
+function __nopShouldCache(req) {
+  if (req.method !== 'GET' && req.method !== 'HEAD') return false;
+  const path = new URL(req.url).pathname;
+  if (!__NOP_LOCALE_RE.test(path)) return false;
+  if (path.startsWith('/_next/')) return false;
+  // Skip RSC payloads (client-side navigation prefetches) — Next varies on RSC.
+  if (req.headers.get('RSC') || req.headers.get('Next-Router-State-Tree')) return false;
+  return true;
+}
+
 const __NOP_wrapped = {
   async fetch(req, env, ctx) {
+    const cacheable = __nopShouldCache(req);
+
+    // Cache lookup before invoking the origin worker.
+    if (cacheable) {
+      const cache = caches.default;
+      const hit = await cache.match(req);
+      if (hit) return hit;
+    }
+
     const res = await ${exportName}.fetch(req, env, ctx);
-    if (!res || res.status !== 200) return res;
-    const path = new URL(req.url).pathname;
-    if (!__NOP_LOCALE_RE.test(path)) return res;
-    if (path.startsWith('/_next/')) return res;
-    const cc = (res.headers && res.headers.get('cache-control')) || '';
-    const stale = cc.includes('must-revalidate') || (!cc.includes('s-maxage') && !cc.includes('immutable'));
-    if (!stale) return res;
+    if (!cacheable || !res || res.status !== 200) return res;
+
+    // Override Cache-Control on outgoing response (and on the version
+    // we stash so the edge knows the TTL on retrieval too).
     const headers = new Headers(res.headers);
-    headers.set('Cache-Control', __NOP_PAGE_CACHE);
-    return new Response(res.body, {
+    const cc = headers.get('cache-control') || '';
+    if (cc.includes('must-revalidate') || (!cc.includes('s-maxage') && !cc.includes('immutable'))) {
+      headers.set('Cache-Control', __NOP_PAGE_CACHE);
+    }
+
+    const cached = new Response(res.body, {
       status: res.status,
       statusText: res.statusText,
       headers,
     });
+
+    // Stash a clone in the edge cache so the next request HITs.
+    try {
+      ctx.waitUntil(caches.default.put(req, cached.clone()));
+    } catch (_) {
+      // Cache writes can fail for streamed responses on some routes;
+      // never break the request because of a cache write.
+    }
+    return cached;
   },
 };
 export { __NOP_wrapped as default };
