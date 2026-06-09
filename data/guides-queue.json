@@ -564,5 +564,1235 @@
         "a": "Usually no. Most employment contracts allow outside consulting and writing if it does not compete with the employer and is disclosed where required. Check your contract; for most PMs and designers Mercor is treated like teaching, writing or advisory work."
       }
     ]
+  },
+  {
+    "slug": "how-to-price-a-discovery-call-as-a-freelancer",
+    "topic": "freelancing",
+    "title": {
+      "en": "How to Run (and Price) a Discovery Call That Wins the Project",
+      "fr": "Mener (et facturer) un appel découverte qui décroche le projet",
+      "es": "Cómo llevar (y cobrar) una llamada de descubrimiento que cierra el proyecto",
+      "pt": "Como conduzir (e cobrar) uma chamada de descoberta que fecha o projeto",
+      "it": "Come gestire (e far pagare) una call conoscitiva che chiude il progetto",
+      "de": "Ein Erstgespräch führen (und abrechnen), das den Auftrag gewinnt",
+      "pl": "Jak prowadzić (i wyceniać) rozmowę wstępną, która zdobywa projekt"
+    },
+    "description": {
+      "en": "A repeatable discovery-call script that qualifies the budget, scopes the work, and lets you quote with confidence — plus when a paid call beats a free one.",
+      "fr": "Un script d’appel découverte reproductible qui qualifie le budget, cadre la mission et vous laisse chiffrer avec assurance — et quand l’appel payant bat le gratuit.",
+      "es": "Un guion de llamada de descubrimiento repetible que califica el presupuesto, define el alcance y te deja cotizar con confianza — y cuándo cobrarla.",
+      "pt": "Um guião de chamada de descoberta repetível que qualifica o orçamento, define o âmbito e deixa-o orçamentar com confiança — e quando cobrá-la.",
+      "it": "Uno script ripetibile per la call conoscitiva che qualifica il budget, definisce lo scope e ti fa preventivare con sicurezza — e quando farla a pagamento.",
+      "de": "Ein wiederholbares Erstgespräch-Skript, das Budget qualifiziert, den Umfang absteckt und sicheres Anbieten ermöglicht — und wann ein bezahltes Gespräch besser ist.",
+      "pl": "Powtarzalny scenariusz rozmowy wstępnej, który kwalifikuje budżet, określa zakres i pozwala pewnie wycenić — oraz kiedy pobierać za nią opłatę."
+    },
+    "faq": [
+      {
+        "q": "Should a discovery call be free or paid?",
+        "a": "Free when you still need to qualify the lead and the scope is unclear. Paid when the prospect wants real advice, a teardown, or a roadmap on the call itself — at that point you are delivering value, not selling, so charge for it."
+      },
+      {
+        "q": "What is the single most important question to ask?",
+        "a": "Budget range, framed as a band: \"Are we talking closer to one thousand, five thousand, or twenty thousand for this?\" It is not rude; it is the question that saves both of you an hour of mismatched expectations."
+      },
+      {
+        "q": "How long should the call be?",
+        "a": "Thirty minutes is plenty. Five minutes rapport, fifteen minutes their problem and constraints, five minutes your high-level approach, five minutes next steps. Anything longer and you are doing the work for free."
+      },
+      {
+        "q": "When do you give the price?",
+        "a": "Almost never on the call. Say you will send a short proposal with two or three options within 24 hours. That gives you room to price the value, not the panic, and a written quote anchors better than a spoken number."
+      }
+    ],
+    "publishOn": "2026-06-10"
+  },
+  {
+    "slug": "building-a-paid-skool-community-as-a-nomad",
+    "topic": "freelancing",
+    "title": {
+      "en": "Building a Paid Community While You Travel: The Skool Playbook",
+      "fr": "Bâtir une communauté payante en voyageant : le playbook Skool",
+      "es": "Crear una comunidad de pago mientras viajas: el playbook de Skool",
+      "pt": "Construir uma comunidade paga enquanto viaja: o guia Skool",
+      "it": "Costruire una community a pagamento mentre viaggi: il playbook Skool",
+      "de": "Eine bezahlte Community aufbauen, während du reist: das Skool-Playbook",
+      "pl": "Budowanie płatnej społeczności w podróży: poradnik Skool"
+    },
+    "description": {
+      "en": "How nomads turn an audience into recurring revenue with a paid community — pricing, the first 50 members, retention rituals, and running it from any timezone.",
+      "fr": "Comment les nomades transforment une audience en revenu récurrent avec une communauté payante — prix, 50 premiers membres, rituels de rétention, depuis n’importe quel fuseau.",
+      "es": "Cómo los nómadas convierten una audiencia en ingresos recurrentes con una comunidad de pago — precio, primeros 50 miembros, rituales de retención y husos.",
+      "pt": "Como os nómadas transformam uma audiência em receita recorrente com uma comunidade paga — preço, primeiros 50 membros, rituais de retenção e fusos.",
+      "it": "Come i nomadi trasformano un pubblico in entrate ricorrenti con una community a pagamento — prezzo, primi 50 iscritti, rituali di retention e fusi orari.",
+      "de": "Wie Nomaden ein Publikum mit einer bezahlten Community in wiederkehrende Einnahmen verwandeln — Preis, erste 50 Mitglieder, Bindung, jede Zeitzone.",
+      "pl": "Jak nomadzi zamieniają odbiorców w stały przychód dzięki płatnej społeczności — cena, pierwszych 50 członków, rytuały retencji i strefy czasowe."
+    },
+    "faq": [
+      {
+        "q": "What should I charge for a community?",
+        "a": "Start at the price where you would happily show up every week even if only ten people joined — usually 19 to 49 dollars a month, or a one-off cohort price. Raise it once retention proves the value, not before."
+      },
+      {
+        "q": "How do I get the first 50 members?",
+        "a": "Invite by hand. DM the people who already reply to your posts, offer a founding-member rate, and ask each one who else should be in the room. The first fifty come from relationships, not ads."
+      },
+      {
+        "q": "How do you keep churn low while travelling?",
+        "a": "Anchor the week with one live call at a fixed UTC time and record it. Predictability beats presence — members stay for the rhythm and the other members, not for you being online 24/7."
+      },
+      {
+        "q": "Is a community better than a course?",
+        "a": "They solve different problems. A course sells transformation once; a community sells belonging and access monthly. The best nomad businesses use the course as the front door and the community as the recurring revenue behind it."
+      }
+    ],
+    "publishOn": "2026-06-11"
+  },
+  {
+    "slug": "ai-training-gigs-for-domain-experts-2026",
+    "topic": "freelancing",
+    "title": {
+      "en": "AI-Training Gigs for Domain Experts: A 2026 Side-Income Guide",
+      "fr": "Missions d’entraînement d’IA pour experts : guide de revenu d’appoint 2026",
+      "es": "Trabajos de entrenamiento de IA para expertos: guía de ingreso extra 2026",
+      "pt": "Trabalhos de treino de IA para especialistas: guia de renda extra 2026",
+      "it": "Lavori di addestramento IA per esperti: guida al reddito extra 2026",
+      "de": "KI-Training-Jobs für Fachexperten: Nebeneinkommen-Guide 2026",
+      "pl": "Zlecenia trenowania AI dla ekspertów: przewodnik po dodatkowym dochodzie 2026"
+    },
+    "description": {
+      "en": "Doctors, lawyers, engineers and writers are paid to evaluate AI in 2026 — how the work pays, what it actually involves, and how to land high-rate expert gigs.",
+      "fr": "Médecins, juristes, ingénieurs et rédacteurs sont payés pour évaluer l’IA en 2026 — rémunération, contenu réel du travail, et comment décrocher des missions bien payées.",
+      "es": "Médicos, juristas, ingenieros y redactores cobran por evaluar IA en 2026 — cuánto paga, en qué consiste y cómo conseguir trabajos de experto bien pagados.",
+      "pt": "Médicos, juristas, engenheiros e escritores são pagos para avaliar IA em 2026 — quanto paga, o que envolve, e como conseguir trabalhos de especialista.",
+      "it": "Medici, avvocati, ingegneri e scrittori vengono pagati per valutare l’IA nel 2026 — quanto rende, cosa comporta e come ottenere incarichi ben pagati.",
+      "de": "Ärzte, Juristen, Ingenieure und Autoren werden 2026 fürs Bewerten von KI bezahlt — was es zahlt, was es umfasst und wie man hoch bezahlte Experten-Jobs bekommt.",
+      "pl": "Lekarze, prawnicy, inżynierowie i pisarze otrzymują wynagrodzenie za ocenę AI w 2026 — ile płaci, na czym polega i jak zdobyć dobrze płatne zlecenia."
+    },
+    "faq": [
+      {
+        "q": "Who actually gets hired for AI-training work?",
+        "a": "People with verifiable depth in a domain: practising clinicians, qualified lawyers, working software engineers, professional writers, finance and science specialists. The rarer and more credentialed your expertise, the higher the hourly rate."
+      },
+      {
+        "q": "What does the work involve day to day?",
+        "a": "Reviewing model answers in your field, writing better reference responses, spotting subtle factual or reasoning errors, and rating outputs against a rubric. It is closer to expert editing and grading than to data entry."
+      },
+      {
+        "q": "How much does it pay?",
+        "a": "Generalist tasks pay modestly, but specialist tracks frequently pay rates comparable to professional consulting — the platform is matching scarce expertise, not commodity labour. Rates rise with credentials and with the difficulty of the domain."
+      },
+      {
+        "q": "Is it good fit for nomads?",
+        "a": "Yes — it is asynchronous, remote, and paid per task or per hour, so you work around timezones and travel. It is one of the cleanest ways for a credentialed professional to earn in dollars from anywhere."
+      }
+    ],
+    "publishOn": "2026-06-12"
+  },
+  {
+    "slug": "first-five-fiverr-orders-playbook",
+    "topic": "freelancing",
+    "title": {
+      "en": "Your First Five Orders: A Cold-Start Playbook for New Freelancers",
+      "fr": "Vos cinq premières commandes : playbook de démarrage pour freelances",
+      "es": "Tus primeros cinco pedidos: playbook de arranque para nuevos freelancers",
+      "pt": "Os seus primeiros cinco pedidos: guia de arranque para novos freelancers",
+      "it": "I tuoi primi cinque ordini: playbook di avvio per nuovi freelance",
+      "de": "Deine ersten fünf Aufträge: ein Kaltstart-Playbook für Freelancer",
+      "pl": "Twoje pierwsze pięć zleceń: poradnik startu dla nowych freelancerów"
+    },
+    "description": {
+      "en": "No reviews, no portfolio, no problem — the exact moves that get a brand-new freelancer their first five paid orders and the momentum that follows.",
+      "fr": "Pas d’avis, pas de portfolio, pas grave — les actions précises pour décrocher vos cinq premières commandes payées et l’élan qui suit.",
+      "es": "Sin reseñas, sin portfolio, sin problema — los pasos exactos para lograr tus primeros cinco pedidos pagados y el impulso que sigue.",
+      "pt": "Sem avaliações, sem portfólio, sem problema — os passos exactos para conseguir os primeiros cinco pedidos pagos e o impulso que vem depois.",
+      "it": "Niente recensioni, niente portfolio, nessun problema — le mosse esatte per ottenere i primi cinque ordini pagati e lo slancio che ne segue.",
+      "de": "Keine Bewertungen, kein Portfolio, kein Problem — die genauen Schritte zu den ersten fünf bezahlten Aufträgen und dem Schwung danach.",
+      "pl": "Bez opinii, bez portfolio, bez problemu — dokładne kroki do pierwszych pięciu płatnych zleceń i rozpędu, który po nich następuje."
+    },
+    "faq": [
+      {
+        "q": "How do I get hired with zero reviews?",
+        "a": "Compete on specificity, not price. A narrow offer (\"I write cold-email sequences for B2B SaaS\") with two strong sample pieces beats a generic \"I do copywriting\" profile with no reviews. Buyers gamble on clarity."
+      },
+      {
+        "q": "Should I lower my price to get started?",
+        "a": "Lower it slightly for the first three orders to buy reviews, then raise it. Treat the discount as a marketing cost with a deadline, not a permanent rate. Cheap forever attracts clients who stay cheap forever."
+      },
+      {
+        "q": "What makes the first orders go smoothly?",
+        "a": "Over-communicate. Confirm scope in writing, deliver a day early, and send a short loom or note explaining your choices. Five-star reviews come from feeling looked-after, not from genius work."
+      },
+      {
+        "q": "How do I turn five orders into fifty?",
+        "a": "Ask every happy client one question: \"Who else do you know who needs this?\" Then productise the exact thing they bought into a tighter, slightly pricier package. Momentum compounds when you stop reinventing the offer."
+      }
+    ],
+    "publishOn": "2026-06-13"
+  },
+  {
+    "slug": "freelance-retainers-vs-projects",
+    "topic": "freelancing",
+    "title": {
+      "en": "Retainers vs Projects: Which Freelance Model Actually Pays More",
+      "fr": "Forfait mensuel ou projet : quel modèle freelance paie vraiment plus",
+      "es": "Iguala mensual o proyecto: qué modelo freelance paga realmente más",
+      "pt": "Avença mensal ou projeto: que modelo freelance paga realmente mais",
+      "it": "Retainer o progetti: quale modello freelance paga davvero di più",
+      "de": "Retainer oder Projekt: Welches Freelance-Modell wirklich mehr zahlt",
+      "pl": "Abonament czy projekt: który model freelance naprawdę płaci więcej"
+    },
+    "description": {
+      "en": "The honest trade-offs between monthly retainers and one-off projects — cash-flow stability, effective hourly rate, and how to move clients onto recurring terms.",
+      "fr": "Les vrais arbitrages entre forfait mensuel et projet ponctuel — stabilité de trésorerie, taux horaire réel, et comment basculer un client en récurrent.",
+      "es": "Los compromisos reales entre iguala mensual y proyecto puntual — flujo de caja, tarifa horaria efectiva y cómo pasar clientes a términos recurrentes.",
+      "pt": "Os verdadeiros trade-offs entre avença mensal e projeto pontual — fluxo de caixa, taxa horária efetiva e como passar clientes para termos recorrentes.",
+      "it": "I veri compromessi tra retainer mensile e progetto singolo — stabilità di cassa, tariffa oraria reale e come spostare i clienti sul ricorrente.",
+      "de": "Die ehrlichen Abwägungen zwischen Monats-Retainer und Einzelprojekt — Cashflow, effektiver Stundensatz und wie man Kunden auf Wiederkehr umstellt.",
+      "pl": "Szczere kompromisy między miesięcznym abonamentem a jednorazowym projektem — płynność, efektywna stawka godzinowa i jak przejść na model cykliczny."
+    },
+    "faq": [
+      {
+        "q": "Which one pays more per hour?",
+        "a": "Well-scoped projects often pay a higher effective hourly rate because you price the outcome. Retainers pay less per hour but more predictably, and the lower sales effort usually wins back the difference over a year."
+      },
+      {
+        "q": "When should I push for a retainer?",
+        "a": "When the work is genuinely ongoing — maintenance, content, monthly reporting. Do not force a retainer onto a one-off need; clients feel it, and you end up inventing busywork to justify the fee."
+      },
+      {
+        "q": "How do I convert a project client to a retainer?",
+        "a": "At delivery, name the next problem: \"Now that this ships, the real work is keeping it performing — I can own that for a fixed monthly fee.\" Sell the maintenance of the result you just created."
+      },
+      {
+        "q": "What is a fair retainer structure?",
+        "a": "A fixed scope of deliverables or a capped number of hours, billed monthly in advance, with a clear overflow rate. Always bill in advance — a retainer that bills in arrears is just a slow invoice with extra risk."
+      }
+    ],
+    "publishOn": "2026-06-14"
+  },
+  {
+    "slug": "claude-projects-for-client-work",
+    "topic": "tools",
+    "title": {
+      "en": "Using Claude Projects to Run Client Work Without Losing Context",
+      "fr": "Gérer le travail client avec Claude Projects sans perdre le contexte",
+      "es": "Usar Claude Projects para llevar el trabajo de clientes sin perder contexto",
+      "pt": "Usar Claude Projects para gerir trabalho de clientes sem perder contexto",
+      "it": "Usare Claude Projects per gestire il lavoro coi clienti senza perdere contesto",
+      "de": "Mit Claude Projects Kundenarbeit steuern, ohne den Kontext zu verlieren",
+      "pl": "Claude Projects do obsługi klientów bez utraty kontekstu"
+    },
+    "description": {
+      "en": "How freelancers set up one Claude project per client — brand voice, briefs and references loaded once — so every draft starts on-context instead of from scratch.",
+      "fr": "Comment les freelances créent un projet Claude par client — voix de marque, briefs et références chargés une fois — pour que chaque draft démarre en contexte.",
+      "es": "Cómo los freelancers crean un proyecto Claude por cliente — voz de marca, briefs y referencias cargados una vez — para que cada borrador arranque en contexto.",
+      "pt": "Como os freelancers criam um projeto Claude por cliente — voz da marca, briefs e referências carregados uma vez — para cada rascunho começar em contexto.",
+      "it": "Come i freelance creano un progetto Claude per cliente — voce del brand, brief e riferimenti caricati una volta — così ogni bozza parte già in contesto.",
+      "de": "Wie Freelancer ein Claude-Projekt pro Kunde anlegen — Markenstimme, Briefings und Referenzen einmal geladen — damit jeder Entwurf im Kontext startet.",
+      "pl": "Jak freelancerzy tworzą jeden projekt Claude na klienta — głos marki, briefy i materiały wgrane raz — by każdy szkic startował w kontekście."
+    },
+    "faq": [
+      {
+        "q": "What goes into a per-client Claude project?",
+        "a": "The brand voice guide, two or three approved past deliverables, the style do-and-do-not list, key product facts, and the audience definition. Load it once and every conversation in that project inherits it automatically."
+      },
+      {
+        "q": "How does this save real time?",
+        "a": "You stop re-pasting context at the start of every chat. A first draft that used to need three correction rounds to sound right lands close on the first try, because the project already knows the voice and the constraints."
+      },
+      {
+        "q": "Should I keep one project or many?",
+        "a": "One per client, plus a personal one for your own brand. Mixing clients in a single project bleeds one voice into another — the whole point is keeping each context clean and self-contained."
+      },
+      {
+        "q": "How do I keep the project from going stale?",
+        "a": "Add each newly approved deliverable back into the project. Over a few months it becomes a living record of what that client actually signs off on, and drafts get sharper as the reference set grows."
+      }
+    ],
+    "publishOn": "2026-06-15"
+  },
+  {
+    "slug": "start-a-paid-newsletter-on-beehiiv",
+    "topic": "tools",
+    "title": {
+      "en": "Start a Paid Newsletter in 2026: The First 1,000 Subscribers",
+      "fr": "Lancer une newsletter payante en 2026 : les 1 000 premiers abonnés",
+      "es": "Lanzar una newsletter de pago en 2026: los primeros 1.000 suscriptores",
+      "pt": "Lançar uma newsletter paga em 2026: os primeiros 1.000 subscritores",
+      "it": "Avviare una newsletter a pagamento nel 2026: i primi 1.000 iscritti",
+      "de": "Einen bezahlten Newsletter 2026 starten: die ersten 1.000 Abonnenten",
+      "pl": "Uruchom płatny newsletter w 2026: pierwszych 1000 subskrybentów"
+    },
+    "description": {
+      "en": "A practical path from zero to a paid newsletter that pays rent — niche selection, the free-to-paid ladder, and the publishing cadence that actually sticks.",
+      "fr": "Un chemin concret de zéro à une newsletter payante qui paie le loyer — choix de niche, échelle gratuit-payant, et la cadence de publication qui tient.",
+      "es": "Un camino práctico de cero a una newsletter de pago que paga el alquiler — elección de nicho, escalera de gratis a pago y la cadencia que se sostiene.",
+      "pt": "Um caminho prático de zero a uma newsletter paga que paga a renda — escolha do nicho, escada de grátis para pago e a cadência que se sustenta.",
+      "it": "Un percorso pratico da zero a una newsletter a pagamento che paga l’affitto — scelta della nicchia, scala da gratis a pagamento e la cadenza che regge.",
+      "de": "Ein praktischer Weg von null zum bezahlten Newsletter, der die Miete zahlt — Nische, die Frei-zu-Bezahlt-Leiter und ein Rhythmus, der hält.",
+      "pl": "Praktyczna ścieżka od zera do płatnego newslettera, który płaci czynsz — wybór niszy, drabina od darmowego do płatnego i trwała kadencja."
+    },
+    "faq": [
+      {
+        "q": "How niche should the newsletter be?",
+        "a": "Narrow enough that a stranger can finish the sentence \"this is the newsletter for ___.\" A tightly defined audience converts to paid far better than a broad one, because the value is obvious and the competition is thinner."
+      },
+      {
+        "q": "When do I add a paid tier?",
+        "a": "Once you have a consistent free issue people reply to and roughly a thousand engaged readers. Paid works when the free tier already proves you deliver — selling access before you have trust just burns the list."
+      },
+      {
+        "q": "What do paying subscribers actually pay for?",
+        "a": "Depth, access, and time saved: deeper analysis, archives, a community, or work you do so they do not have to. \"More of the same but behind a wall\" rarely converts; a distinct extra job-to-be-done does."
+      },
+      {
+        "q": "How often should I publish?",
+        "a": "Pick the cadence you can sustain on your worst week — usually weekly. Consistency compounds trust and deliverability; sporadic brilliance does neither. One reliable issue beats three you burn out on."
+      }
+    ],
+    "publishOn": "2026-06-16"
+  },
+  {
+    "slug": "lifetime-software-deals-worth-it-2026",
+    "topic": "tools",
+    "title": {
+      "en": "Are Lifetime Software Deals Worth It in 2026? A Buyer’s Framework",
+      "fr": "Les deals logiciels à vie valent-ils le coup en 2026 ? Grille d’achat",
+      "es": "¿Valen la pena las licencias de software de por vida en 2026? Un marco",
+      "pt": "Os negócios de software vitalícios valem a pena em 2026? Um critério",
+      "it": "I deal software a vita convengono nel 2026? Un metodo per decidere",
+      "de": "Lohnen sich Lifetime-Software-Deals 2026? Ein Entscheidungsrahmen",
+      "pl": "Czy dożywotnie licencje na oprogramowanie opłacają się w 2026? Ramy decyzji"
+    },
+    "description": {
+      "en": "How to tell a genuine lifetime software bargain from a money pit — the questions to ask about roadmap, lock-in and total cost before you buy the deal.",
+      "fr": "Distinguer une vraie bonne affaire logicielle à vie d’un gouffre — les questions sur la roadmap, le verrouillage et le coût total avant d’acheter.",
+      "es": "Cómo distinguir una verdadera ganga de software de por vida de un pozo sin fondo — preguntas sobre roadmap, dependencia y coste total antes de comprar.",
+      "pt": "Como distinguir uma verdadeira pechincha de software vitalício de um poço sem fundo — perguntas sobre roadmap, dependência e custo total antes de comprar.",
+      "it": "Come distinguere un vero affare software a vita da un pozzo senza fondo — le domande su roadmap, lock-in e costo totale prima di comprare.",
+      "de": "So erkennst du ein echtes Lifetime-Software-Schnäppchen statt eines Fasses ohne Boden — Fragen zu Roadmap, Lock-in und Gesamtkosten vor dem Kauf.",
+      "pl": "Jak odróżnić prawdziwą okazję na dożywotnie oprogramowanie od studni bez dna — pytania o roadmapę, uzależnienie i koszt całkowity przed zakupem."
+    },
+    "faq": [
+      {
+        "q": "When is a lifetime deal actually a good idea?",
+        "a": "When the tool does one job you will keep needing, the company is past the will-it-survive stage, and the price is below roughly a year of the equivalent subscription. Then \"lifetime\" is just a deep prepay on something you would buy anyway."
+      },
+      {
+        "q": "What is the biggest risk?",
+        "a": "Buying a tool you will not adopt. The deal is only cheap relative to use — a 49-dollar license you open twice is more expensive than a subscription you actually run. Adoption, not price, decides the value."
+      },
+      {
+        "q": "How do I judge whether the company will last?",
+        "a": "Look for an active changelog, responsive support, and a real customer base — not a single-founder side project with no updates in six months. A lifetime license is worthless the day the servers go dark."
+      },
+      {
+        "q": "Should I worry about lock-in?",
+        "a": "Yes — favour tools that let you export your data in an open format. A lifetime deal you can walk away from with your data is a bargain; one that holds your work hostage is a liability dressed as a saving."
+      }
+    ],
+    "publishOn": "2026-06-17"
+  },
+  {
+    "slug": "multi-currency-banking-for-nomads-2026",
+    "topic": "cost",
+    "title": {
+      "en": "Multi-Currency Banking for Nomads: Stop Losing Money on Exchange",
+      "fr": "Banque multidevise pour nomades : arrêtez de perdre au change",
+      "es": "Banca multidivisa para nómadas: deja de perder dinero en el cambio",
+      "pt": "Banca multimoeda para nómadas: pare de perder dinheiro no câmbio",
+      "it": "Conti multivaluta per nomadi: smetti di perdere soldi sul cambio",
+      "de": "Multiwährungs-Banking für Nomaden: Schluss mit Verlusten beim Umtausch",
+      "pl": "Bankowość wielowalutowa dla nomadów: przestań tracić na przewalutowaniu"
+    },
+    "description": {
+      "en": "How nomads hold, spend and get paid in multiple currencies without bleeding 3% on every transaction — the account stack that keeps exchange costs near zero.",
+      "fr": "Comment les nomades détiennent, dépensent et se font payer en plusieurs devises sans perdre 3 % à chaque transaction — la pile de comptes qui réduit le change.",
+      "es": "Cómo los nómadas guardan, gastan y cobran en varias divisas sin perder 3 % por transacción — la combinación de cuentas que reduce el coste de cambio.",
+      "pt": "Como os nómadas guardam, gastam e recebem em várias moedas sem perder 3 % por transação — a combinação de contas que reduz o custo de câmbio.",
+      "it": "Come i nomadi detengono, spendono e incassano in più valute senza perdere il 3 % a transazione — lo stack di conti che azzera i costi di cambio.",
+      "de": "Wie Nomaden in mehreren Währungen halten, zahlen und kassieren, ohne 3 % pro Transaktion zu verlieren — der Konto-Stack, der Umtauschkosten minimiert.",
+      "pl": "Jak nomadzi trzymają, wydają i otrzymują pieniądze w wielu walutach bez tracenia 3 % na transakcji — zestaw kont, który minimalizuje koszty wymiany."
+    },
+    "faq": [
+      {
+        "q": "Why am I losing money on every foreign transaction?",
+        "a": "Most home-country cards add a 2 to 3 percent foreign-transaction fee and quote a marked-up exchange rate. On a year of nomad spending that quietly adds up to a flight or two you never had to lose."
+      },
+      {
+        "q": "What does a good multi-currency setup look like?",
+        "a": "A multi-currency account that holds balances in the currencies you earn and spend, converts at the real mid-market rate when you choose, and gives you local account details so clients can pay you like a local."
+      },
+      {
+        "q": "Should I keep my home bank account too?",
+        "a": "Yes — keep it for ties to your home country, direct debits and as a backup. The multi-currency account is your operating layer for travel; the home account is your anchor. Run both, route deliberately."
+      },
+      {
+        "q": "How do I avoid bad exchange rates abroad?",
+        "a": "Always pay in the local currency, never let a terminal \"convert for you\" (that is dynamic currency conversion and it is a rip-off), and convert larger amounts yourself at the mid-market rate rather than letting cards do it per purchase."
+      }
+    ],
+    "publishOn": "2026-06-18"
+  },
+  {
+    "slug": "managing-eu-spending-on-a-schengen-trip",
+    "topic": "cost",
+    "title": {
+      "en": "Managing Your Money Across a Schengen Trip Without Fee Surprises",
+      "fr": "Gérer son argent sur un séjour Schengen sans frais surprises",
+      "es": "Gestionar tu dinero en un viaje Schengen sin sorpresas de comisiones",
+      "pt": "Gerir o seu dinheiro numa viagem Schengen sem surpresas de comissões",
+      "it": "Gestire i soldi durante un viaggio Schengen senza sorprese sulle commissioni",
+      "de": "Geld auf einer Schengen-Reise verwalten — ohne Gebührenüberraschungen",
+      "pl": "Zarządzanie pieniędzmi podczas podróży po Schengen bez ukrytych opłat"
+    },
+    "description": {
+      "en": "Hopping between euro countries on a Schengen trip — how to spend, split bills and withdraw cash across borders without the fees that ruin the budget.",
+      "fr": "Sauter de pays en pays dans l’euro sur un séjour Schengen — dépenser, partager les notes et retirer du cash sans les frais qui plombent le budget.",
+      "es": "Saltar entre países del euro en un viaje Schengen — gastar, dividir cuentas y sacar efectivo sin las comisiones que arruinan el presupuesto.",
+      "pt": "Saltar entre países do euro numa viagem Schengen — gastar, dividir contas e levantar dinheiro sem as comissões que arruínam o orçamento.",
+      "it": "Saltare tra paesi dell’euro in un viaggio Schengen — spendere, dividere i conti e prelevare contante senza le commissioni che rovinano il budget.",
+      "de": "Auf einer Schengen-Reise zwischen Euro-Ländern springen — zahlen, Rechnungen teilen und Bargeld abheben ohne budgetfressende Gebühren.",
+      "pl": "Przeskakiwanie między krajami euro w podróży po Schengen — wydawanie, dzielenie rachunków i wypłaty bez opłat rujnujących budżet."
+    },
+    "faq": [
+      {
+        "q": "Do I still pay fees moving between euro countries?",
+        "a": "Spending euros across euro countries is usually fee-free, but the traps are ATM operator fees, dynamic currency conversion at terminals, and any card that charges per transaction. The currency is the same; the fees are not."
+      },
+      {
+        "q": "What is the cleanest way to spend day to day?",
+        "a": "A card that charges no foreign-transaction fee, gives instant spend notifications, and lets you freeze it instantly if it goes missing. Pair it with a small cash buffer for the places that still refuse cards."
+      },
+      {
+        "q": "How do I split bills with people I am travelling with?",
+        "a": "Use an app that lets you send and request money instantly and for free between users, so the group settles up the same night instead of carrying IOUs across three more cities."
+      },
+      {
+        "q": "Should I take out cash or pay by card?",
+        "a": "Card for almost everything, cash for markets, tips and rural spots. When you do withdraw, take a larger amount once to amortise any ATM fee rather than small amounts repeatedly, and always decline the machine’s currency conversion."
+      }
+    ],
+    "publishOn": "2026-06-19"
+  },
+  {
+    "slug": "digital-nomad-visa-health-insurance-requirements",
+    "topic": "visas",
+    "title": {
+      "en": "Health-Insurance Requirements for Digital Nomad Visas, Explained",
+      "fr": "Assurance santé exigée pour les visas nomades : tout comprendre",
+      "es": "Requisitos de seguro médico para visados de nómada digital, explicados",
+      "pt": "Requisitos de seguro de saúde para vistos de nómada digital, explicados",
+      "it": "Requisiti di assicurazione sanitaria per i visti nomadi, spiegati",
+      "de": "Krankenversicherungs-Anforderungen für Nomadenvisa, erklärt",
+      "pl": "Wymogi ubezpieczenia zdrowotnego dla wiz nomadów cyfrowych, wyjaśnione"
+    },
+    "description": {
+      "en": "Nearly every nomad visa requires health coverage — what minimum sums and conditions consulates look for, and how to get a policy that passes the application.",
+      "fr": "Presque chaque visa nomade exige une couverture santé — montants minimums et conditions exigés par les consulats, et comment obtenir une police conforme.",
+      "es": "Casi todos los visados de nómada exigen cobertura médica — qué sumas mínimas y condiciones piden los consulados y cómo conseguir una póliza válida.",
+      "pt": "Quase todos os vistos de nómada exigem cobertura de saúde — que montantes mínimos e condições os consulados pedem e como obter uma apólice válida.",
+      "it": "Quasi ogni visto per nomadi richiede copertura sanitaria — quali massimali e condizioni chiedono i consolati e come ottenere una polizza valida.",
+      "de": "Fast jedes Nomadenvisum verlangt Krankenversicherung — welche Mindestsummen und Bedingungen Konsulate fordern und wie man eine gültige Police bekommt.",
+      "pl": "Niemal każda wiza nomady wymaga ubezpieczenia zdrowotnego — jakich minimalnych sum i warunków oczekują konsulaty i jak zdobyć ważną polisę."
+    },
+    "faq": [
+      {
+        "q": "What level of coverage do nomad visas usually require?",
+        "a": "Most ask for a policy valid in the destination country for the full stay, covering at least a stated minimum — commonly in the tens of thousands of euros or dollars — for medical treatment and often repatriation. The exact figure is set per country."
+      },
+      {
+        "q": "Does my travel insurance count?",
+        "a": "Often not. A short-trip travel policy may exclude long stays, pre-existing conditions or \"living\" in a country. Nomad visas typically want coverage designed for extended residence, so read the visa text and match the policy to it."
+      },
+      {
+        "q": "What should the policy document actually show?",
+        "a": "Your name, the coverage period matching your intended stay, the territory (the destination explicitly included), and the coverage amount in writing, ideally with a confirmation letter the consulate can verify. Vague proof gets applications rejected."
+      },
+      {
+        "q": "Can I buy coverage that adjusts as I move?",
+        "a": "Yes — nomad-oriented insurers offer subscriptions you can start, pause and extend as you travel, and that issue the documentation visa offices expect. That flexibility is the whole point when your itinerary is not fixed a year ahead."
+      }
+    ],
+    "publishOn": "2026-06-20"
+  },
+  {
+    "slug": "esim-vs-local-sim-for-long-stays",
+    "topic": "infrastructure",
+    "title": {
+      "en": "eSIM vs Local SIM for Long Stays: Which Actually Saves You More",
+      "fr": "eSIM ou SIM locale pour longs séjours : laquelle fait vraiment économiser",
+      "es": "eSIM o SIM local para estancias largas: cuál ahorra realmente más",
+      "pt": "eSIM ou SIM local para estadias longas: qual poupa realmente mais",
+      "it": "eSIM o SIM locale per soggiorni lunghi: quale fa davvero risparmiare",
+      "de": "eSIM oder lokale SIM bei langem Aufenthalt: Was wirklich mehr spart",
+      "pl": "eSIM czy lokalna karta SIM przy długim pobycie: co naprawdę oszczędza"
+    },
+    "description": {
+      "en": "For a one-month-plus stay, when an eSIM beats a local SIM and when it doesn’t — coverage, cost per gigabyte, hotspot limits and the setup that just works.",
+      "fr": "Pour un séjour d’un mois et plus, quand l’eSIM bat la SIM locale et quand non — couverture, coût au gigaoctet, partage de connexion et installation fiable.",
+      "es": "Para una estancia de más de un mes, cuándo la eSIM gana a la SIM local y cuándo no — cobertura, coste por gigabyte, límites de hotspot y la configuración fiable.",
+      "pt": "Para uma estadia de mais de um mês, quando a eSIM vence a SIM local e quando não — cobertura, custo por gigabyte, limites de hotspot e a configuração fiável.",
+      "it": "Per un soggiorno di oltre un mese, quando l’eSIM batte la SIM locale e quando no — copertura, costo per gigabyte, limiti hotspot e la configurazione che funziona.",
+      "de": "Bei über einem Monat: wann die eSIM die lokale SIM schlägt und wann nicht — Abdeckung, Kosten pro Gigabyte, Hotspot-Limits und ein Setup, das läuft.",
+      "pl": "Przy pobycie ponad miesiąc — kiedy eSIM bije lokalną kartę SIM, a kiedy nie — zasięg, koszt za gigabajt, limity hotspota i działająca konfiguracja."
+    },
+    "faq": [
+      {
+        "q": "Is an eSIM cheaper than a local SIM for a long stay?",
+        "a": "Not always per gigabyte — local prepaid SIMs are often the cheapest raw data. But the eSIM wins on time, safety and convenience: you land already connected, with no shop queue, no passport registration, and no swapping your home number out."
+      },
+      {
+        "q": "When is a local SIM the better call?",
+        "a": "When you need a local phone number (for deliveries, banking OTPs, ride apps), or you will burn huge amounts of data in one country for months. For heavy single-country use, a local plan can undercut everything."
+      },
+      {
+        "q": "Can I run both at once?",
+        "a": "Yes, and most nomads do — eSIM for data the moment you land and across borders, plus a cheap local SIM for a number when a country needs one. Modern phones run a physical SIM and an eSIM simultaneously."
+      },
+      {
+        "q": "Does an eSIM let me hotspot my laptop?",
+        "a": "Usually yes, but check the plan — some data eSIMs allow tethering and some throttle or block it. If your laptop is your office, pick a plan that explicitly permits hotspot use and has enough headroom for video calls."
+      }
+    ],
+    "publishOn": "2026-06-21"
+  },
+  {
+    "slug": "ai-writing-workflow-that-keeps-your-voice",
+    "topic": "tools",
+    "title": {
+      "en": "An AI Writing Workflow That Keeps Your Voice (and Beats the Blank Page)",
+      "fr": "Un workflow d’écriture IA qui garde votre voix (et bat la page blanche)",
+      "es": "Un flujo de escritura con IA que conserva tu voz (y vence la página en blanco)",
+      "pt": "Um fluxo de escrita com IA que mantém a sua voz (e vence a página em branco)",
+      "it": "Un workflow di scrittura IA che mantiene la tua voce (e batte la pagina bianca)",
+      "de": "Ein KI-Schreib-Workflow, der deine Stimme behält (und das leere Blatt schlägt)",
+      "pl": "Workflow pisania z AI, który zachowuje Twój głos (i pokonuje pustą stronę)"
+    },
+    "description": {
+      "en": "The four-step loop working writers use to draft faster with AI without sounding like AI — brief, generate, humanise, fact-check — so output rises and voice survives.",
+      "fr": "La boucle en quatre étapes des rédacteurs pour écrire plus vite avec l’IA sans sonner IA — brief, générer, humaniser, vérifier — débit en hausse, voix préservée.",
+      "es": "El bucle de cuatro pasos que usan los redactores para escribir más rápido con IA sin sonar a IA — brief, generar, humanizar, verificar — más output, misma voz.",
+      "pt": "O ciclo de quatro passos que os escritores usam para escrever mais rápido com IA sem soar a IA — brief, gerar, humanizar, verificar — mais output, voz intacta.",
+      "it": "Il ciclo in quattro passi che gli scrittori usano per scrivere più in fretta con l’IA senza suonare IA — brief, generare, umanizzare, verificare — voce intatta.",
+      "de": "Die Vier-Schritt-Schleife, mit der Autoren schneller mit KI schreiben, ohne nach KI zu klingen — Brief, Generieren, Humanisieren, Prüfen — Stimme bleibt.",
+      "pl": "Czterokrokowa pętla, którą piszący używają, by szybciej tworzyć z AI bez brzmienia jak AI — brief, generuj, humanizuj, sprawdzaj — więcej tekstu, ten sam głos."
+    },
+    "faq": [
+      {
+        "q": "What are the four steps?",
+        "a": "Brief (give the model your angle, audience and constraints), generate (a fast structural draft), humanise (your edit pass that puts voice and specifics back in), and fact-check (verify every claim and number yourself). Skip step three or four and it shows."
+      },
+      {
+        "q": "How detailed should the brief be?",
+        "a": "Detailed enough that a competent stranger could write the piece from it: the one argument, who it is for, the three points to hit, the tone, and what to avoid. The brief is where your thinking happens; the draft is just typing."
+      },
+      {
+        "q": "What does the humanise pass actually change?",
+        "a": "It swaps generic claims for specific real examples, varies the sentence rhythm, cuts hedges and filler, and injects the one or two opinions you actually hold. That pass is the difference between your byline and anonymous AI mush."
+      },
+      {
+        "q": "Does AI make me a worse writer over time?",
+        "a": "Only if you outsource the thinking. Used to kill the blank page and accelerate drafts while you own the brief and the edit, it makes you faster without dulling the skill. The judgment stays yours; the typing gets cheaper."
+      }
+    ],
+    "publishOn": "2026-06-22"
+  },
+  {
+    "slug": "getting-paid-internationally-as-a-freelancer",
+    "topic": "cost",
+    "title": {
+      "en": "Getting Paid Internationally: The Cleanest Setup for Freelancers",
+      "fr": "Se faire payer à l’international : le setup le plus net pour freelances",
+      "es": "Cobrar internacionalmente: la configuración más limpia para freelancers",
+      "pt": "Receber pagamentos internacionais: a configuração mais limpa para freelancers",
+      "it": "Farsi pagare dall’estero: la configurazione più pulita per i freelance",
+      "de": "International bezahlt werden: das sauberste Setup für Freelancer",
+      "pl": "Otrzymywanie płatności międzynarodowych: najczystszy układ dla freelancerów"
+    },
+    "description": {
+      "en": "How freelancers collect payments from clients abroad without losing a chunk to fees or waiting a week — local account details, low-cost conversion and fast settlement.",
+      "fr": "Comment les freelances encaissent des clients étrangers sans perdre aux frais ni attendre une semaine — coordonnées locales, conversion bon marché, règlement rapide.",
+      "es": "Cómo los freelancers cobran a clientes del extranjero sin perder en comisiones ni esperar una semana — datos locales, conversión barata y liquidación rápida.",
+      "pt": "Como os freelancers recebem de clientes no estrangeiro sem perder em comissões nem esperar uma semana — dados locais, conversão barata e liquidação rápida.",
+      "it": "Come i freelance incassano da clienti esteri senza perdere in commissioni o aspettare una settimana — coordinate locali, conversione economica, accredito rapido.",
+      "de": "Wie Freelancer von Kunden im Ausland kassieren, ohne Gebühren zu verlieren oder eine Woche zu warten — lokale Kontodaten, günstiger Umtausch, schnelle Gutschrift.",
+      "pl": "Jak freelancerzy odbierają płatności od zagranicznych klientów bez tracenia na opłatach i czekania tydzień — lokalne dane konta, tania wymiana i szybkie rozliczenie."
+    },
+    "faq": [
+      {
+        "q": "Why do international payments cost me so much?",
+        "a": "Traditional bank wires stack a sending fee, an intermediary-bank fee, a receiving fee, and a marked-up exchange rate — four bites on one payment. On a 2,000-dollar invoice that can quietly cost 60 to 100 dollars and several days."
+      },
+      {
+        "q": "What is the cleanest way to receive money?",
+        "a": "A multi-currency account that gives you local account details in your clients’ currencies, so they pay a \"local\" transfer with no international fee, and you convert to your own currency at the mid-market rate only when you choose."
+      },
+      {
+        "q": "How should I invoice to avoid disputes about fees?",
+        "a": "State the currency, the exact amount you must receive, and that any sending fees are the client’s responsibility. Giving local details in their currency removes the excuse entirely — to them it looks like a domestic payment."
+      },
+      {
+        "q": "How do I handle multiple client currencies?",
+        "a": "Hold each currency in its own balance and convert in batches when the rate suits you, rather than auto-converting every payment on arrival. You control the timing and avoid paying the spread on every single invoice."
+      }
+    ],
+    "publishOn": "2026-06-23"
+  },
+  {
+    "slug": "vpn-setup-for-working-from-cafes",
+    "topic": "infrastructure",
+    "title": {
+      "en": "Working From Cafés Safely: A Remote Worker’s VPN Setup",
+      "fr": "Travailler en café en sécurité : la config VPN du travailleur distant",
+      "es": "Trabajar en cafeterías con seguridad: la configuración VPN del trabajador remoto",
+      "pt": "Trabalhar em cafés com segurança: a configuração VPN do trabalhador remoto",
+      "it": "Lavorare al bar in sicurezza: la configurazione VPN del lavoratore remoto",
+      "de": "Sicher aus dem Café arbeiten: das VPN-Setup für Remote-Worker",
+      "pl": "Bezpieczna praca w kawiarni: konfiguracja VPN dla pracownika zdalnego"
+    },
+    "description": {
+      "en": "Public café Wi-Fi is the soft spot in a nomad’s security — how a VPN actually protects you, when you genuinely need one, and how to set it up so it just runs.",
+      "fr": "Le Wi-Fi public des cafés est le point faible du nomade — comment un VPN protège vraiment, quand il est indispensable, et comment le régler pour qu’il tourne seul.",
+      "es": "El wifi público de las cafeterías es el punto débil del nómada — cómo te protege de verdad un VPN, cuándo lo necesitas y cómo configurarlo para que funcione solo.",
+      "pt": "O wifi público dos cafés é o ponto fraco do nómada — como uma VPN o protege de verdade, quando precisa dela e como configurá-la para correr sozinha.",
+      "it": "Il Wi-Fi pubblico dei bar è il punto debole del nomade — come una VPN ti protegge davvero, quando serve e come configurarla perché vada da sola.",
+      "de": "Öffentliches Café-WLAN ist die Schwachstelle des Nomaden — wie ein VPN wirklich schützt, wann du es brauchst und wie du es zum Selbstläufer machst.",
+      "pl": "Publiczne wifi w kawiarniach to słaby punkt nomada — jak VPN naprawdę chroni, kiedy go potrzebujesz i jak skonfigurować, by działał sam."
+    },
+    "faq": [
+      {
+        "q": "Do I really need a VPN on café Wi-Fi?",
+        "a": "Most sites use HTTPS now, which encrypts the content, but a VPN still hides which sites you visit from the network, protects the gaps where apps misbehave, and shields you on the occasional unencrypted or spoofed hotspot. It is cheap insurance for a working laptop."
+      },
+      {
+        "q": "What is the biggest real risk on public Wi-Fi?",
+        "a": "Fake \"evil-twin\" hotspots named like the café’s, and networks that intercept or redirect traffic. A VPN routes everything through an encrypted tunnel so a malicious network sees noise, not your sessions, logins or files."
+      },
+      {
+        "q": "How should I set it up so I actually use it?",
+        "a": "Turn on auto-connect for untrusted networks and a kill switch that blocks traffic if the tunnel drops. Set once, and it protects you on every new café without you remembering — the protection you forget to enable is the one that fails."
+      },
+      {
+        "q": "Does a VPN slow my connection down?",
+        "a": "A little, but a good provider on a nearby server is barely noticeable for calls and browsing. Pick a server in or near the country you are in for the best speed, and only route through a distant country when you specifically need that location."
+      }
+    ],
+    "publishOn": "2026-06-24"
+  },
+  {
+    "slug": "invoicing-clients-in-three-currencies",
+    "topic": "tax",
+    "title": {
+      "en": "Invoicing Clients in Three Currencies Without Losing Track (or Margin)",
+      "fr": "Facturer en trois devises sans s’y perdre (ni perdre sa marge)",
+      "es": "Facturar a clientes en tres divisas sin perderte (ni perder margen)",
+      "pt": "Faturar clientes em três moedas sem se perder (nem perder margem)",
+      "it": "Fatturare clienti in tre valute senza perderti (né perdere margine)",
+      "de": "Kunden in drei Währungen abrechnen, ohne Überblick (oder Marge) zu verlieren",
+      "pl": "Fakturowanie klientów w trzech walutach bez chaosu (i utraty marży)"
+    },
+    "description": {
+      "en": "When clients pay in dollars, euros and pounds, currency drift quietly eats your margin — how to price, invoice and reconcile across currencies and keep clean books.",
+      "fr": "Quand les clients paient en dollars, euros et livres, le change ronge la marge — comment fixer les prix, facturer et rapprocher entre devises avec des comptes nets.",
+      "es": "Cuando los clientes pagan en dólares, euros y libras, el cambio se come tu margen — cómo fijar precios, facturar y conciliar entre divisas con cuentas limpias.",
+      "pt": "Quando os clientes pagam em dólares, euros e libras, o câmbio come a margem — como definir preços, faturar e reconciliar entre moedas com contas limpas.",
+      "it": "Quando i clienti pagano in dollari, euro e sterline, il cambio erode il margine — come prezzare, fatturare e riconciliare tra valute con conti puliti.",
+      "de": "Zahlen Kunden in Dollar, Euro und Pfund, frisst der Wechselkurs die Marge — wie man währungsübergreifend kalkuliert, abrechnet und sauber verbucht.",
+      "pl": "Gdy klienci płacą w dolarach, euro i funtach, kurs po cichu zjada marżę — jak wyceniać, fakturować i uzgadniać między walutami, mając czyste księgi."
+    },
+    "faq": [
+      {
+        "q": "Should I invoice in my currency or the client’s?",
+        "a": "Invoice in the currency that protects your margin. If you bill in the client’s currency, build a buffer into the price for exchange swings; if you bill in yours, the client carries the conversion. Decide deliberately rather than defaulting and absorbing the loss."
+      },
+      {
+        "q": "How do I keep books clean across currencies?",
+        "a": "Record each invoice in its original currency and the rate on the date it is paid, not the date it is issued. Your accounting software should store both; reconciling on the paid-date rate is what keeps your reported income honest."
+      },
+      {
+        "q": "How does currency drift eat my margin?",
+        "a": "You quote a price, the client pays weeks later, and the rate moved against you — plus a conversion spread on top. Across many invoices that drift is a silent discount you never agreed to. Buffer it or convert fast to limit exposure."
+      },
+      {
+        "q": "Is it worth holding foreign currency rather than converting?",
+        "a": "If you also spend in that currency, yes — hold it and spend directly, skipping conversion entirely. Only convert what you actually need to move into your home currency, and do it in batches at a good rate, not invoice by invoice."
+      }
+    ],
+    "publishOn": "2026-06-25"
+  },
+  {
+    "slug": "switching-from-tourist-to-nomad-visa",
+    "topic": "visas",
+    "title": {
+      "en": "Switching From a Tourist Stay to a Nomad Visa: What Changes",
+      "fr": "Passer du séjour touristique au visa nomade : ce qui change",
+      "es": "Pasar de una estancia turística a un visado de nómada: qué cambia",
+      "pt": "Passar de uma estadia turística para um visto de nómada: o que muda",
+      "it": "Passare dal soggiorno turistico al visto per nomadi: cosa cambia",
+      "de": "Vom Touristenaufenthalt zum Nomadenvisum: Was sich ändert",
+      "pl": "Przejście z pobytu turystycznego na wizę nomady: co się zmienia"
+    },
+    "description": {
+      "en": "Many nomads test a country on a tourist stamp first — what really changes when you upgrade to a nomad visa, from tax residency to insurance to time on the ground.",
+      "fr": "Beaucoup de nomades testent un pays en touriste d’abord — ce qui change vraiment en passant au visa nomade : résidence fiscale, assurance, temps sur place.",
+      "es": "Muchos nómadas prueban un país como turistas primero — qué cambia de verdad al pasar al visado de nómada: residencia fiscal, seguro y tiempo sobre el terreno.",
+      "pt": "Muitos nómadas testam um país como turistas primeiro — o que muda mesmo ao passar ao visto de nómada: residência fiscal, seguro e tempo no terreno.",
+      "it": "Molti nomadi provano prima un paese da turisti — cosa cambia davvero passando al visto per nomadi: residenza fiscale, assicurazione e tempo sul posto.",
+      "de": "Viele Nomaden testen ein Land erst als Touristen — was sich beim Wechsel zum Nomadenvisum wirklich ändert: Steuerresidenz, Versicherung, Zeit vor Ort.",
+      "pl": "Wielu nomadów najpierw testuje kraj na wizie turystycznej — co naprawdę się zmienia przy przejściu na wizę nomady: rezydencja podatkowa, ubezpieczenie i czas na miejscu."
+    },
+    "faq": [
+      {
+        "q": "Can I switch in-country or do I have to leave?",
+        "a": "It depends on the country. Some let you apply for the nomad visa from inside on your tourist status; many require you to apply from your home country or a consulate. Check before you arrive, because booking a flight out mid-process is an expensive surprise."
+      },
+      {
+        "q": "Does a nomad visa change my tax situation?",
+        "a": "It can. A tourist stay rarely creates tax residency, but a nomad visa plus enough days on the ground often does, depending on local rules and any 183-day threshold. Understand the destination’s tax-residency triggers before you commit to staying."
+      },
+      {
+        "q": "What new requirements appear with the visa?",
+        "a": "Typically proof of income above a threshold, qualifying health insurance for the full period, a clean criminal record, and sometimes an address or registration once you arrive — far more than a tourist stamp ever asks for."
+      },
+      {
+        "q": "Is the insurance I used as a tourist still enough?",
+        "a": "Usually not. Nomad visas tend to require coverage valid for the whole residence period and meeting a minimum sum, which short-trip travel insurance often does not satisfy. Plan to upgrade to a policy written for extended stays."
+      }
+    ],
+    "publishOn": "2026-06-26"
+  },
+  {
+    "slug": "best-appsumo-tools-for-solo-founders",
+    "topic": "tools",
+    "title": {
+      "en": "The Solo Founder’s Software Stack: Buying Smart, Not Just Cheap",
+      "fr": "La stack logicielle du fondateur solo : acheter malin, pas juste pas cher",
+      "es": "El stack de software del fundador en solitario: comprar listo, no solo barato",
+      "pt": "A stack de software do fundador solo: comprar com inteligência, não só barato",
+      "it": "Lo stack software del fondatore solo: comprare furbo, non solo economico",
+      "de": "Der Software-Stack des Solo-Gründers: schlau kaufen, nicht nur billig",
+      "pl": "Stack oprogramowania samodzielnego założyciela: kupuj mądrze, nie tylko tanio"
+    },
+    "description": {
+      "en": "A solo founder wears every hat — how to assemble a lean software stack that covers marketing, ops and admin without a stack of monthly subscriptions bleeding cash.",
+      "fr": "Le fondateur solo porte toutes les casquettes — comment monter une stack légère couvrant marketing, ops et admin sans une pile d’abonnements qui saigne le cash.",
+      "es": "Un fundador en solitario lo hace todo — cómo montar un stack ligero que cubra marketing, operaciones y admin sin una pila de suscripciones que sangran dinero.",
+      "pt": "Um fundador solo faz tudo — como montar uma stack enxuta que cubra marketing, operações e admin sem uma pilha de subscrições a sangrar dinheiro.",
+      "it": "Un fondatore solo fa tutto — come comporre uno stack snello che copra marketing, operazioni e admin senza una pila di abbonamenti che dissangua la cassa.",
+      "de": "Ein Solo-Gründer macht alles — wie man einen schlanken Software-Stack für Marketing, Betrieb und Admin baut, ohne dass Abos die Kasse leeren.",
+      "pl": "Samodzielny założyciel robi wszystko — jak złożyć lekki stack pokrywający marketing, operacje i administrację bez stosu subskrypcji drenujących gotówkę."
+    },
+    "faq": [
+      {
+        "q": "How do I decide what software to actually buy?",
+        "a": "Map your week to jobs — get leads, deliver, invoice, support, admin — and buy one tool per job, only where a tool clearly beats doing it manually. Tools you buy \"in case\" are the ones that quietly drain the budget unused."
+      },
+      {
+        "q": "Subscription or one-time purchase?",
+        "a": "Subscribe to the few tools at the core of your revenue where you need the latest features and support. For stable, single-job utilities you will use for years, a one-time or lifetime purchase often pays for itself fast."
+      },
+      {
+        "q": "How do I avoid tool sprawl?",
+        "a": "Do a quarterly audit: list every tool, what it costs, and when you last opened it. Cancel anything you have not used in 60 days. A founder’s stack should shrink toward the essentials, not grow with every shiny launch."
+      },
+      {
+        "q": "What should a solo founder never cheap out on?",
+        "a": "Anything customer-facing or that holds your data — your site, payments, email deliverability, and backups. Save on internal niceties; never on the tools where a failure costs you a customer or your records."
+      }
+    ],
+    "publishOn": "2026-06-27"
+  },
+  {
+    "slug": "cold-email-that-lands-freelance-clients",
+    "topic": "freelancing",
+    "title": {
+      "en": "Cold Email That Lands Freelance Clients (Without Sounding Desperate)",
+      "fr": "L’email à froid qui décroche des clients freelance (sans sembler désespéré)",
+      "es": "El email en frío que consigue clientes freelance (sin sonar desesperado)",
+      "pt": "O email frio que conquista clientes freelance (sem soar desesperado)",
+      "it": "L’email a freddo che conquista clienti freelance (senza sembrare disperato)",
+      "de": "Kaltakquise-Mails, die Freelance-Kunden bringen (ohne verzweifelt zu klingen)",
+      "pl": "Zimny email, który zdobywa klientów freelance (bez brzmienia desperacko)"
+    },
+    "description": {
+      "en": "The anatomy of a cold email busy prospects actually answer — research, a sharp first line, one specific offer and a tiny ask — with templates you can adapt today.",
+      "fr": "L’anatomie d’un email à froid auquel les prospects occupés répondent — recherche, première ligne nette, une offre précise, une micro-demande — avec modèles à adapter.",
+      "es": "La anatomía de un email en frío que los prospectos ocupados sí responden — investigación, primera línea afilada, una oferta concreta y una micropetición, con plantillas.",
+      "pt": "A anatomia de um email frio que prospetos ocupados respondem — pesquisa, primeira linha afiada, uma oferta concreta e um micropedido — com modelos para adaptar.",
+      "it": "L’anatomia di un’email a freddo a cui i prospect occupati rispondono — ricerca, prima riga affilata, un’offerta precisa e una micro-richiesta — con template.",
+      "de": "Der Aufbau einer Kaltmail, die vielbeschäftigte Interessenten beantworten — Recherche, scharfe erste Zeile, ein konkretes Angebot, eine Mini-Bitte — mit Vorlagen.",
+      "pl": "Anatomia zimnego emaila, na którego zajęci klienci odpowiadają — research, ostre pierwsze zdanie, jedna konkretna oferta i mała prośba — z szablonami."
+    },
+    "faq": [
+      {
+        "q": "Why do most cold emails get ignored?",
+        "a": "They are about the sender, not the recipient. \"I am a freelance designer offering my services\" gives a busy person no reason to care. The ones that get answered open with something specific about the recipient and a concrete result they would want."
+      },
+      {
+        "q": "What does the first line need to do?",
+        "a": "Prove you are not a mass blast. Reference something real — a recent launch, a page that is underperforming, a post they wrote — in one sharp sentence. If the first line could be sent to a thousand people, it gets deleted like the other thousand."
+      },
+      {
+        "q": "How big should the ask be?",
+        "a": "Tiny. Do not ask for a 30-minute call in the first email; ask one easy yes/no question or offer a small specific value. Lower the cost of replying and more people reply. The call comes after the conversation starts, not before."
+      },
+      {
+        "q": "How many should I send before judging it works?",
+        "a": "Send a tested template to at least 30 to 50 well-researched prospects before deciding. Cold email is a numbers game layered on a quality game — a great message to the wrong handful still looks like failure. Volume plus relevance, then iterate on the replies."
+      }
+    ],
+    "publishOn": "2026-06-28"
+  },
+  {
+    "slug": "staying-connected-across-multiple-countries",
+    "topic": "infrastructure",
+    "title": {
+      "en": "Staying Connected Across Multiple Countries Without Reconfiguring Everything",
+      "fr": "Rester connecté à travers plusieurs pays sans tout reconfigurer",
+      "es": "Mantenerte conectado entre varios países sin reconfigurarlo todo",
+      "pt": "Manter-se conectado entre vários países sem reconfigurar tudo",
+      "it": "Restare connesso tra più paesi senza riconfigurare tutto",
+      "de": "In mehreren Ländern verbunden bleiben, ohne alles neu einzurichten",
+      "pl": "Pozostań w sieci między wieloma krajami bez konfigurowania wszystkiego od nowa"
+    },
+    "description": {
+      "en": "For nomads crossing borders monthly, connectivity should be set-and-forget — how to keep data, calls and your work number stable as the country underneath you changes.",
+      "fr": "Pour les nomades qui changent de pays chaque mois, la connectivité doit s’oublier — garder data, appels et numéro pro stables quand le pays change sous vos pieds.",
+      "es": "Para nómadas que cruzan fronteras cada mes, la conectividad debe ser de configurar y olvidar — mantener datos, llamadas y tu número estable aunque cambie el país.",
+      "pt": "Para nómadas que cruzam fronteiras todos os meses, a conectividade deve ser configurar e esquecer — manter dados, chamadas e o número estáveis quando o país muda.",
+      "it": "Per i nomadi che cambiano paese ogni mese, la connettività deve essere imposta e dimenticata — dati, chiamate e numero stabili anche se il paese cambia.",
+      "de": "Für Nomaden, die monatlich Grenzen überqueren, soll Konnektivität einfach laufen — Daten, Anrufe und Arbeitsnummer stabil halten, während das Land wechselt.",
+      "pl": "Dla nomadów przekraczających granice co miesiąc łączność ma być „ustaw i zapomnij” — utrzymaj dane, połączenia i numer służbowy mimo zmiany kraju."
+    },
+    "faq": [
+      {
+        "q": "How do I keep one stable number while moving?",
+        "a": "Decouple your number from your local data. Keep your home number on an eSIM or a VoIP/cloud number for OTPs and calls, and use a regional data eSIM for the actual internet. The number stays put while the data follows wherever you land."
+      },
+      {
+        "q": "What is the lowest-friction data setup for frequent moves?",
+        "a": "A regional or global data eSIM that covers a whole continent, so crossing a border just means you keep working — no shop, no new SIM, no swap. You buy a plan that spans your route rather than one country at a time."
+      },
+      {
+        "q": "How do I avoid losing access to banking and 2FA abroad?",
+        "a": "Keep the SIM or eSIM that holds your number active and topped up, and move critical 2FA to an authenticator app rather than SMS where possible. The classic nomad disaster is a bank texting a code to a number you let lapse two countries ago."
+      },
+      {
+        "q": "Should I bother with a local number at all?",
+        "a": "Only when a country forces it — some delivery, banking or ride apps demand a local mobile. Then add a cheap local SIM alongside your data eSIM for that stay, and drop it when you leave. Default to data eSIM plus your stable home number."
+      }
+    ],
+    "publishOn": "2026-06-29"
+  },
+  {
+    "slug": "cost-of-living-arbitrage-explained",
+    "topic": "cost",
+    "title": {
+      "en": "Cost-of-Living Arbitrage, Explained: Earn Strong, Spend Smart",
+      "fr": "L’arbitrage du coût de la vie expliqué : gagner fort, dépenser malin",
+      "es": "El arbitraje del coste de vida, explicado: gana fuerte, gasta listo",
+      "pt": "A arbitragem do custo de vida, explicada: ganhar forte, gastar com inteligência",
+      "it": "L’arbitraggio del costo della vita, spiegato: guadagnare forte, spendere furbo",
+      "de": "Lebenshaltungs-Arbitrage erklärt: stark verdienen, klug ausgeben",
+      "pl": "Arbitraż kosztów życia wyjaśniony: zarabiaj mocno, wydawaj mądrze"
+    },
+    "description": {
+      "en": "The real mechanics behind earning in a strong currency and living where it stretches — how nomads use the gap to save fast, and the traps that quietly close it.",
+      "fr": "La mécanique réelle de gagner en monnaie forte et vivre où elle s’étire — comment les nomades exploitent l’écart pour épargner vite, et les pièges qui le referment.",
+      "es": "La mecánica real de ganar en una moneda fuerte y vivir donde rinde — cómo los nómadas usan la brecha para ahorrar rápido y las trampas que la cierran.",
+      "pt": "A mecânica real de ganhar numa moeda forte e viver onde rende — como os nómadas usam a diferença para poupar rápido e as armadilhas que a fecham.",
+      "it": "La meccanica reale del guadagnare in valuta forte e vivere dove rende — come i nomadi sfruttano il divario per risparmiare in fretta e le trappole che lo chiudono.",
+      "de": "Die echte Mechanik: in starker Währung verdienen und dort leben, wo sie reicht — wie Nomaden die Lücke zum schnellen Sparen nutzen und welche Fallen sie schließen.",
+      "pl": "Prawdziwa mechanika zarabiania w silnej walucie i życia tam, gdzie starcza — jak nomadzi wykorzystują różnicę, by szybko oszczędzać, i pułapki, które ją zamykają."
+    },
+    "faq": [
+      {
+        "q": "What exactly is cost-of-living arbitrage?",
+        "a": "Earning income tied to a high-cost economy — dollars, euros, pounds — while basing yourself somewhere your money goes much further. The gap between what you earn and what you spend becomes savings or freedom, without needing a raise."
+      },
+      {
+        "q": "Is it as easy as it sounds?",
+        "a": "The headline is real but the traps are too: import goods, visa runs, health emergencies, double taxation and lifestyle creep all eat the gap. The arbitrage is durable only if you keep your spending local and your income genuinely location-independent."
+      },
+      {
+        "q": "How do I protect the savings from exchange costs?",
+        "a": "Hold and spend in local currency, convert at the mid-market rate in batches rather than per purchase, and avoid cards that charge foreign-transaction fees. A few percent lost on every transaction is the arbitrage leaking out the back."
+      },
+      {
+        "q": "What is the most overlooked cost?",
+        "a": "Tax and the cost of being legal. People price the cheap rent and forget that residency, insurance and possibly taxes in two places can erase a chunk of the gap. Budget the cost of doing it properly, not just the cost of living cheaply."
+      }
+    ],
+    "publishOn": "2026-06-30"
+  },
+  {
+    "slug": "mastermind-pricing-for-creators",
+    "topic": "freelancing",
+    "title": {
+      "en": "Pricing a Paid Mastermind: What Creators Get Wrong",
+      "fr": "Fixer le prix d’un mastermind payant : ce que les créateurs ratent",
+      "es": "Poner precio a un mastermind de pago: en qué se equivocan los creadores",
+      "pt": "Definir o preço de um mastermind pago: onde os criadores erram",
+      "it": "Prezzare un mastermind a pagamento: cosa sbagliano i creator",
+      "de": "Ein bezahltes Mastermind bepreisen: Was Creator falsch machen",
+      "pl": "Wycena płatnego mastermindu: co twórcy robią źle"
+    },
+    "description": {
+      "en": "Masterminds live or die on price and curation — how creators set a fee that filters for committed members, and the access that justifies a premium over a cheap community.",
+      "fr": "Un mastermind vit ou meurt par son prix et sa curation — fixer un tarif qui filtre les membres engagés, et l’accès qui justifie le premium sur une communauté pas chère.",
+      "es": "Un mastermind vive o muere por precio y curación — cómo fijar una cuota que filtra a miembros comprometidos y el acceso que justifica el premium frente a algo barato.",
+      "pt": "Um mastermind vive ou morre pelo preço e curadoria — como definir uma quota que filtra membros comprometidos e o acesso que justifica o prémio.",
+      "it": "Un mastermind vive o muore per prezzo e curatela — come fissare una quota che filtra membri impegnati e l’accesso che giustifica il premium.",
+      "de": "Ein Mastermind steht und fällt mit Preis und Kuratierung — wie Creator eine Gebühr setzen, die für Engagement filtert, und welcher Zugang den Aufpreis rechtfertigt.",
+      "pl": "Mastermind żyje lub umiera przez cenę i kurację — jak twórcy ustalają opłatę filtrującą zaangażowanych członków i dostęp uzasadniający wyższą cenę."
+    },
+    "faq": [
+      {
+        "q": "Should a mastermind cost more than a community?",
+        "a": "Yes — much more. A community sells belonging at scale; a mastermind sells a small, curated room and direct access. The price is a feature: it filters out the uncommitted and signals the level of peer you will be sitting with."
+      },
+      {
+        "q": "How do I pick the number?",
+        "a": "Price it against the value of one good connection or insight to the member’s business, not against your hours. For founders and creators, a single introduction or pivot can be worth thousands, so a few-thousand annual fee is rational, not greedy."
+      },
+      {
+        "q": "Why does curation matter as much as price?",
+        "a": "Members pay for the other members. One mismatched or low-effort person lowers the room for everyone, so an application and a real selection step protect the product. A mastermind is only as good as its worst seat."
+      },
+      {
+        "q": "How many members is the sweet spot?",
+        "a": "Small enough that everyone speaks and is known — often eight to fifteen. Past that it becomes a course with a chat. The intimacy is the value, so cap it, raise the price as demand grows, and run waves rather than cramming the room."
+      }
+    ],
+    "publishOn": "2026-07-01"
+  },
+  {
+    "slug": "nomad-visa-income-thresholds-2026",
+    "topic": "visas",
+    "title": {
+      "en": "Nomad Visa Income Thresholds in 2026: How Much You Must Prove",
+      "fr": "Seuils de revenus des visas nomades en 2026 : combien justifier",
+      "es": "Umbrales de ingresos de los visados de nómada en 2026: cuánto demostrar",
+      "pt": "Limiares de rendimento dos vistos de nómada em 2026: quanto provar",
+      "it": "Soglie di reddito dei visti per nomadi nel 2026: quanto devi dimostrare",
+      "de": "Einkommensgrenzen für Nomadenvisa 2026: Wie viel du nachweisen musst",
+      "pl": "Progi dochodowe wiz nomadów w 2026: ile musisz udowodnić"
+    },
+    "description": {
+      "en": "How nomad-visa income requirements work in 2026 — why the number varies so much, what documents prove it, and how freelancers with lumpy income still qualify.",
+      "fr": "Comment fonctionnent les exigences de revenus des visas nomades en 2026 — pourquoi le montant varie, quels justificatifs le prouvent, et comment qualifier en freelance.",
+      "es": "Cómo funcionan los requisitos de ingresos de los visados de nómada en 2026 — por qué varía tanto, qué documentos lo prueban y cómo califican los freelancers.",
+      "pt": "Como funcionam os requisitos de rendimento dos vistos de nómada em 2026 — porque varia tanto, que documentos o provam e como qualificam os freelancers.",
+      "it": "Come funzionano i requisiti di reddito dei visti per nomadi nel 2026 — perché l’importo varia, quali documenti lo provano e come qualificano i freelance.",
+      "de": "Wie Einkommensanforderungen für Nomadenvisa 2026 funktionieren — warum die Zahl so schwankt, welche Belege sie nachweisen und wie Freelancer qualifizieren.",
+      "pl": "Jak działają wymogi dochodowe wiz nomadów w 2026 — dlaczego kwota tak się różni, jakie dokumenty ją potwierdzają i jak kwalifikują się freelancerzy."
+    },
+    "faq": [
+      {
+        "q": "Why do income thresholds differ so much between countries?",
+        "a": "They are roughly pegged to the local cost of living and the government’s appetite for higher-earning residents. A cheaper country may ask for a modest monthly figure; a pricier or more selective one sets a high bar deliberately to filter applicants."
+      },
+      {
+        "q": "How do I prove my income as a freelancer?",
+        "a": "Usually several months of bank statements, recent invoices or contracts, and sometimes tax returns showing a consistent average. Lumpy freelance income is fine if the average over the look-back period clears the threshold — they care about the trend, not one slow month."
+      },
+      {
+        "q": "Does the threshold count gross or net income?",
+        "a": "Most consulates look at gross income before tax, but the documentation and definitions vary, so read the specific visa’s rules. When in doubt, present figures that comfortably exceed the line rather than sitting right on it."
+      },
+      {
+        "q": "What if my income is just below the line some months?",
+        "a": "Show a longer history so the average clears it, add savings as supporting proof where the rules allow, or include signed ongoing contracts that demonstrate forward income. Consulates reward a stable, documented picture over a single high month."
+      }
+    ],
+    "publishOn": "2026-07-02"
+  },
+  {
+    "slug": "newsletter-growth-without-paid-ads",
+    "topic": "tools",
+    "title": {
+      "en": "Growing a Newsletter Without Paid Ads: What Still Works in 2026",
+      "fr": "Faire croître une newsletter sans pub payante : ce qui marche en 2026",
+      "es": "Hacer crecer una newsletter sin anuncios de pago: qué funciona en 2026",
+      "pt": "Crescer uma newsletter sem anúncios pagos: o que funciona em 2026",
+      "it": "Far crescere una newsletter senza pubblicità a pagamento: cosa funziona nel 2026",
+      "de": "Einen Newsletter ohne bezahlte Anzeigen wachsen lassen: Was 2026 wirkt",
+      "pl": "Rozwój newslettera bez płatnych reklam: co działa w 2026"
+    },
+    "description": {
+      "en": "Organic newsletter growth that compounds — referrals, cross-recommendations, a sharp lead magnet and one social surface done well, with no ad budget required.",
+      "fr": "Une croissance organique de newsletter qui compose — parrainages, recommandations croisées, un lead magnet net et un réseau social bien fait, sans budget pub.",
+      "es": "Crecimiento orgánico de newsletter que se acumula — referidos, recomendaciones cruzadas, un lead magnet afilado y una red social bien hecha, sin presupuesto de ads.",
+      "pt": "Crescimento orgânico de newsletter que compõe — referências, recomendações cruzadas, um lead magnet afiado e uma rede social bem feita, sem orçamento de anúncios.",
+      "it": "Crescita organica della newsletter che si compone — referral, raccomandazioni incrociate, un lead magnet affilato e un social fatto bene, senza budget pubblicitario.",
+      "de": "Organisches Newsletter-Wachstum, das sich verstärkt — Empfehlungen, gegenseitige Tipps, ein scharfer Lead-Magnet und eine gut gemachte Social-Fläche, ohne Werbebudget.",
+      "pl": "Organiczny wzrost newslettera, który się kumuluje — polecenia, rekomendacje wzajemne, ostry lead magnet i jeden dobrze prowadzony kanał social, bez budżetu na reklamy."
+    },
+    "faq": [
+      {
+        "q": "What is the highest-leverage organic growth channel?",
+        "a": "Other newsletters. Cross-recommendations and being recommended by creators your readers already trust convert far better than cold social, because the endorsement carries trust. Build relationships with adjacent newsletters before you need them."
+      },
+      {
+        "q": "Do referral programs still work?",
+        "a": "Yes, when the reward is something only your newsletter can give — exclusive content, a guide, a shout-out — not a generic gift. Make sharing one tap and ask at the moment a reader is happiest: right after an issue they loved."
+      },
+      {
+        "q": "How important is a lead magnet?",
+        "a": "Very. A specific, genuinely useful free resource tied tightly to your niche converts curious visitors into subscribers far better than \"join my newsletter.\" The sharper the promise, the higher the opt-in — vague magnets attract people who never open issue two."
+      },
+      {
+        "q": "Should I be on every social platform?",
+        "a": "No — pick one where your audience already gathers and go deep. Repurpose your best newsletter ideas into native posts there, with a clear path back to subscribe. One platform done consistently beats five done thinly."
+      }
+    ],
+    "publishOn": "2026-07-03"
+  },
+  {
+    "slug": "securing-public-wifi-vpn-checklist-for-remote-workers",
+    "topic": "infrastructure",
+    "title": {
+      "en": "Securing Public Wi-Fi as a Remote Worker: A No-Panic Checklist",
+      "fr": "Sécuriser le Wi-Fi public en télétravail : la checklist sans panique",
+      "es": "Asegurar el wifi público como trabajador remoto: una lista sin pánico",
+      "pt": "Proteger o wifi público como trabalhador remoto: uma checklist sem pânico",
+      "it": "Mettere in sicurezza il Wi-Fi pubblico da remoto: una checklist senza panico",
+      "de": "Öffentliches WLAN im Homeoffice absichern: eine Checkliste ohne Panik",
+      "pl": "Zabezpieczanie publicznego wifi w pracy zdalnej: lista bez paniki"
+    },
+    "description": {
+      "en": "A calm, practical checklist for working safely on hotel, airport and coworking Wi-Fi — the few settings and habits that close the gaps attackers actually use.",
+      "fr": "Une checklist calme et pratique pour travailler en sécurité sur le Wi-Fi d’hôtel, d’aéroport et de coworking — les réglages et habitudes qui ferment les vraies failles.",
+      "es": "Una lista práctica y serena para trabajar seguro en el wifi de hoteles, aeropuertos y coworkings — los ajustes y hábitos que cierran las brechas reales.",
+      "pt": "Uma checklist calma e prática para trabalhar em segurança no wifi de hotéis, aeroportos e coworkings — os ajustes e hábitos que fecham as brechas reais.",
+      "it": "Una checklist calma e pratica per lavorare sicuri sul Wi-Fi di hotel, aeroporti e coworking — le impostazioni e abitudini che chiudono le falle reali.",
+      "de": "Eine ruhige, praktische Checkliste für sicheres Arbeiten im Hotel-, Flughafen- und Coworking-WLAN — die Einstellungen und Gewohnheiten, die echte Lücken schließen.",
+      "pl": "Spokojna, praktyczna lista do bezpiecznej pracy na wifi hotelu, lotniska i coworkingu — ustawienia i nawyki, które zamykają realne luki."
+    },
+    "faq": [
+      {
+        "q": "What are the must-do basics on any public network?",
+        "a": "Use a VPN, make sure every site is HTTPS, turn off file and printer sharing, mark the network as public so your device locks down, and keep your OS and browser patched. Five habits close the overwhelming majority of real risk."
+      },
+      {
+        "q": "How do I spot a fake hotspot?",
+        "a": "Be wary of open networks named almost like the venue’s (\"Hotel_Guest_Free\"), portals that ask for too much personal data, and connections that throw certificate warnings. When unsure, ask staff for the exact network name and password rather than guessing."
+      },
+      {
+        "q": "Is two-factor authentication enough on its own?",
+        "a": "It is essential but not sufficient. 2FA protects logins, but an unencrypted session, a malicious network or a stolen cookie can still bite. Layer it: 2FA plus a VPN plus HTTPS plus a locked-down device, not any one of them alone."
+      },
+      {
+        "q": "What should I never do on public Wi-Fi?",
+        "a": "Avoid logging into anything financially sensitive on an unfamiliar network without a VPN, never let the browser save passwords on a shared machine, and do not ignore certificate warnings. If a task is high-stakes and the network feels off, tether to your own data instead."
+      }
+    ],
+    "publishOn": "2026-07-04"
+  },
+  {
+    "slug": "proof-of-funds-for-visa-applications",
+    "topic": "visas",
+    "title": {
+      "en": "Proof of Funds for Visa Applications: What Consulates Actually Want",
+      "fr": "Justificatif de fonds pour les visas : ce que veulent vraiment les consulats",
+      "es": "Prueba de fondos para visados: qué quieren de verdad los consulados",
+      "pt": "Prova de fundos para vistos: o que os consulados querem de verdade",
+      "it": "Prova dei fondi per i visti: cosa vogliono davvero i consolati",
+      "de": "Finanzierungsnachweis für Visa: Was Konsulate wirklich wollen",
+      "pl": "Potwierdzenie środków do wniosków wizowych: czego naprawdę chcą konsulaty"
+    },
+    "description": {
+      "en": "Proof of funds sinks more visa applications than people expect — what statements to show, how long the money must sit, and how nomads with moving money present it cleanly.",
+      "fr": "Le justificatif de fonds coule plus de demandes qu’on ne croit — quels relevés montrer, combien de temps l’argent doit rester, et comment le présenter proprement.",
+      "es": "La prueba de fondos hunde más solicitudes de lo que se cree — qué extractos mostrar, cuánto debe permanecer el dinero y cómo presentarlo con limpieza.",
+      "pt": "A prova de fundos afunda mais pedidos do que se pensa — que extratos mostrar, quanto tempo o dinheiro deve ficar e como apresentá-lo com clareza.",
+      "it": "La prova dei fondi affonda più domande di quanto si pensi — quali estratti mostrare, quanto deve restare il denaro e come presentarlo in modo pulito.",
+      "de": "Der Finanzierungsnachweis lässt mehr Anträge scheitern als gedacht — welche Auszüge, wie lange das Geld liegen muss und wie man es sauber darstellt.",
+      "pl": "Potwierdzenie środków topi więcej wniosków, niż się wydaje — jakie wyciągi pokazać, jak długo pieniądze muszą leżeć i jak to czytelnie przedstawić."
+    },
+    "faq": [
+      {
+        "q": "How much money do I need to show?",
+        "a": "It varies by visa, but expect to demonstrate you can cover yourself without local work — often several months of living costs in liquid savings, or a monthly income above a set figure. Always aim comfortably above the stated minimum rather than scraping it."
+      },
+      {
+        "q": "How long does the money need to be in my account?",
+        "a": "Many consulates want to see a maintained balance, not a one-day deposit, so they ask for three to six months of statements. A lump sum that appears the week before you apply can trigger questions; a steady balance reassures them."
+      },
+      {
+        "q": "Can I use multiple accounts or currencies?",
+        "a": "Usually yes — combine statements from several accounts, including multi-currency balances, as long as each is clearly in your name and the totals are easy to add up. Provide a short cover summary so the officer is not doing currency maths under time pressure."
+      },
+      {
+        "q": "How do nomads with money in motion handle this?",
+        "a": "Consolidate into one or two accounts a few months before applying so the statements look stable, keep balances above the threshold throughout, and use accounts that produce clean, official statements with your name and address. Predictability on paper beats a complicated true story."
+      }
+    ],
+    "publishOn": "2026-07-05"
+  },
+  {
+    "slug": "voice-to-text-workflow-for-busy-creators",
+    "topic": "tools",
+    "title": {
+      "en": "A Voice-to-Text Workflow for Creators Who Think Faster Than They Type",
+      "fr": "Un workflow voix-en-texte pour créateurs qui pensent plus vite qu’ils tapent",
+      "es": "Un flujo de voz a texto para creadores que piensan más rápido de lo que teclean",
+      "pt": "Um fluxo de voz para texto para criadores que pensam mais rápido do que escrevem",
+      "it": "Un workflow da voce a testo per creator che pensano più in fretta di quanto scrivono",
+      "de": "Ein Sprache-zu-Text-Workflow für Creator, die schneller denken als tippen",
+      "pl": "Workflow mowy na tekst dla twórców, którzy myślą szybciej niż piszą"
+    },
+    "description": {
+      "en": "Capture ideas at the speed of speech and turn the mess into clean drafts — the dictate-then-refine loop that lets creators produce far more without typing more.",
+      "fr": "Capter ses idées à la vitesse de la parole et transformer le brouillon en draft net — la boucle dicter-puis-affiner qui fait produire plus sans taper plus.",
+      "es": "Captura ideas a la velocidad del habla y convierte el caos en borradores limpios — el bucle dictar-y-refinar que produce mucho más sin teclear más.",
+      "pt": "Capte ideias à velocidade da fala e transforme o caos em rascunhos limpos — o ciclo ditar-depois-refinar que produz muito mais sem escrever mais.",
+      "it": "Cattura le idee alla velocità del parlato e trasforma il caos in bozze pulite — il ciclo detta-poi-rifinisci che fa produrre molto di più senza digitare di più.",
+      "de": "Ideen in Sprechgeschwindigkeit erfassen und das Chaos in saubere Entwürfe verwandeln — die Diktier-dann-Verfeinern-Schleife für mehr Output ohne mehr Tippen.",
+      "pl": "Łap pomysły z prędkością mowy i zamień chaos w czyste szkice — pętla dyktuj-potem-dopracuj, która daje znacznie więcej bez większego pisania."
+    },
+    "faq": [
+      {
+        "q": "Why dictate instead of just typing?",
+        "a": "Most people speak two to three times faster than they type and think in fuller arguments out loud. Dictation captures the whole idea while it is hot, then you edit the transcript — far faster than grinding a draft out word by word from a blank page."
+      },
+      {
+        "q": "How do I turn a messy transcript into a clean draft?",
+        "a": "Hand the raw transcript to an AI assistant with a clear instruction: keep my points and voice, fix the structure, cut the rambles. You get a tidy first draft that is still yours, then you do the final human edit on top."
+      },
+      {
+        "q": "When is this workflow worth it?",
+        "a": "For long-form thinking, content, voice notes turned into posts, and meeting follow-ups. For short messages it is overkill. The payoff is biggest when the idea is big and the friction of typing is what stops you starting."
+      },
+      {
+        "q": "Does it work while I am walking or travelling?",
+        "a": "That is the sweet spot. Dictate on a walk, in transit or between calls, then refine later at a desk. Nomads especially use the dead time of travel to capture a week of content by voice and shape it when they land."
+      }
+    ],
+    "publishOn": "2026-07-06"
+  },
+  {
+    "slug": "revolut-vs-traditional-bank-for-europe-travel",
+    "topic": "cost",
+    "title": {
+      "en": "A Travel Spending Card for Europe: What to Look For in 2026",
+      "fr": "Une carte de dépenses voyage pour l’Europe : que regarder en 2026",
+      "es": "Una tarjeta de gasto de viaje para Europa: qué mirar en 2026",
+      "pt": "Um cartão de gastos de viagem para a Europa: o que procurar em 2026",
+      "it": "Una carta per le spese di viaggio in Europa: cosa guardare nel 2026",
+      "de": "Eine Reise-Spending-Karte für Europa: Worauf du 2026 achten solltest",
+      "pl": "Karta na wydatki podróżne w Europie: na co zwracać uwagę w 2026"
+    },
+    "description": {
+      "en": "Hopping around Europe needs a card that does not punish every purchase — fee-free spending, instant alerts, easy splitting and the features that matter on the move.",
+      "fr": "Parcourir l’Europe demande une carte qui ne punit pas chaque achat — dépenses sans frais, alertes instantanées, partage simple et les options utiles en mouvement.",
+      "es": "Recorrer Europa exige una tarjeta que no castigue cada compra — gasto sin comisiones, alertas instantáneas, división fácil y las funciones que importan en ruta.",
+      "pt": "Percorrer a Europa exige um cartão que não castigue cada compra — gastos sem taxas, alertas instantâneos, divisão fácil e as funções que importam em viagem.",
+      "it": "Girare l’Europa richiede una carta che non punisca ogni acquisto — spese senza commissioni, avvisi istantanei, divisione facile e le funzioni utili in viaggio.",
+      "de": "Wer durch Europa zieht, braucht eine Karte, die nicht jeden Kauf bestraft — gebührenfrei zahlen, sofortige Hinweise, leichtes Teilen und unterwegs wichtige Funktionen.",
+      "pl": "Podróż po Europie wymaga karty, która nie karze za każdy zakup — wydatki bez opłat, natychmiastowe powiadomienia, łatwy podział i funkcje ważne w drodze."
+    },
+    "faq": [
+      {
+        "q": "What makes a good card for travelling around Europe?",
+        "a": "No foreign-transaction fee, spending at the real exchange rate, instant notifications, the ability to freeze and unfreeze it in a tap, and easy peer-to-peer transfers for splitting costs. Those five features cover almost everything a moving traveller needs."
+      },
+      {
+        "q": "Why not just use my normal bank card abroad?",
+        "a": "Many traditional cards add a foreign-transaction fee and a poor exchange rate on every purchase, plus they are slow to flag fraud and a pain to freeze if lost. Over a trip across several countries those small frictions add up to real money and real stress."
+      },
+      {
+        "q": "Should it replace my bank account?",
+        "a": "Treat it as your travel-spending layer, not your only account. Keep a primary account for stability and direct debits, and load the travel card with what you plan to spend, so a loss or freeze never locks you out of all your money at once."
+      },
+      {
+        "q": "How do I avoid bad rates within Europe?",
+        "a": "Always pay in the local currency and decline the terminal’s offer to convert for you. Even inside the eurozone, dynamic currency conversion and ATM operator fees are where money leaks — the card helps, but the habit of declining conversion matters as much."
+      }
+    ],
+    "publishOn": "2026-07-07"
+  },
+  {
+    "slug": "tax-residency-basics-for-new-nomads",
+    "topic": "tax",
+    "title": {
+      "en": "Tax Residency Basics Every New Nomad Gets Wrong",
+      "fr": "Les bases de la résidence fiscale que chaque nouveau nomade rate",
+      "es": "Lo básico de la residencia fiscal que todo nuevo nómada hace mal",
+      "pt": "O básico da residência fiscal que todo novo nómada erra",
+      "it": "Le basi della residenza fiscale che ogni nuovo nomade sbaglia",
+      "de": "Steuerresidenz-Grundlagen, die jeder neue Nomade falsch macht",
+      "pl": "Podstawy rezydencji podatkowej, które każdy nowy nomada myli"
+    },
+    "description": {
+      "en": "Leaving your country does not automatically end your tax obligations — how tax residency really works, the 183-day myth, and the mistakes that lead to double tax.",
+      "fr": "Quitter son pays ne met pas fin automatiquement aux impôts — comment marche vraiment la résidence fiscale, le mythe des 183 jours et les erreurs de double imposition.",
+      "es": "Irte de tu país no termina automáticamente con tus impuestos — cómo funciona de verdad la residencia fiscal, el mito de los 183 días y los errores de doble imposición.",
+      "pt": "Sair do seu país não termina automaticamente os impostos — como funciona mesmo a residência fiscal, o mito dos 183 dias e os erros de dupla tributação.",
+      "it": "Lasciare il proprio paese non chiude automaticamente le tasse — come funziona davvero la residenza fiscale, il mito dei 183 giorni e gli errori di doppia imposizione.",
+      "de": "Das Land zu verlassen beendet die Steuerpflicht nicht automatisch — wie Steuerresidenz wirklich funktioniert, der 183-Tage-Mythos und Doppelbesteuerungsfehler.",
+      "pl": "Wyjazd z kraju nie kończy automatycznie obowiązków podatkowych — jak naprawdę działa rezydencja podatkowa, mit 183 dni i błędy prowadzące do podwójnego opodatkowania."
+    },
+    "faq": [
+      {
+        "q": "Does leaving my country end my tax obligations?",
+        "a": "Not automatically. Many countries keep taxing you until you formally break tax residency, which can require deregistering, cutting ties like a home or family, and sometimes proving residency elsewhere. Simply being abroad most of the year is rarely enough on its own."
+      },
+      {
+        "q": "Is the 183-day rule the whole story?",
+        "a": "No. Spending under 183 days in a country is one common test, but home country rules often add \"centre of vital interests,\" habitual abode and citizenship-based tests. You can clear the day-count and still be tax resident because your life is centred there."
+      },
+      {
+        "q": "Can I end up tax resident nowhere?",
+        "a": "Rarely and riskily. Some assume constant travel means owing nothing, but your last country of residence often keeps you on the hook until you establish residency somewhere new. \"Tax resident nowhere\" usually turns out to mean \"still taxed at home.\""
+      },
+      {
+        "q": "Do I really need professional advice?",
+        "a": "For anything beyond a simple situation, yes. Tax-residency rules, treaties and exit taxes differ by country and change, and a mistake compounds across years. A one-off consultation with a cross-border tax specialist is cheap next to an unexpected double-tax bill."
+      }
+    ],
+    "publishOn": "2026-07-08"
+  },
+  {
+    "slug": "building-a-freelance-niche-that-commands-premium-rates",
+    "topic": "freelancing",
+    "title": {
+      "en": "Building a Freelance Niche That Commands Premium Rates",
+      "fr": "Bâtir une niche freelance qui justifie des tarifs premium",
+      "es": "Construir un nicho freelance que justifica tarifas premium",
+      "pt": "Construir um nicho freelance que justifica tarifas premium",
+      "it": "Costruire una nicchia freelance che giustifica tariffe premium",
+      "de": "Eine Freelance-Nische aufbauen, die Premium-Honorare rechtfertigt",
+      "pl": "Budowanie freelancerskiej niszy, która uzasadnia stawki premium"
+    },
+    "description": {
+      "en": "Generalists compete on price; specialists set it — how to pick a niche narrow enough to own, prove expertise fast, and raise rates without losing the pipeline.",
+      "fr": "Les généralistes subissent les prix ; les spécialistes les fixent — choisir une niche assez étroite pour la dominer, prouver son expertise vite, et monter les tarifs.",
+      "es": "Los generalistas compiten por precio; los especialistas lo fijan — cómo elegir un nicho lo bastante estrecho para dominarlo, demostrar pericia y subir tarifas.",
+      "pt": "Os generalistas competem por preço; os especialistas definem-no — como escolher um nicho estreito para dominar, provar perícia depressa e subir tarifas.",
+      "it": "I generalisti competono sul prezzo; gli specialisti lo fissano — come scegliere una nicchia abbastanza stretta da dominarla, provare competenza e alzare le tariffe.",
+      "de": "Generalisten konkurrieren über den Preis; Spezialisten setzen ihn — wie man eine Nische eng genug wählt, Expertise schnell beweist und Honorare anhebt.",
+      "pl": "Generaliści konkurują ceną; specjaliści ją ustalają — jak wybrać niszę wąską na tyle, by ją zdominować, szybko udowodnić wiedzę i podnieść stawki."
+    },
+    "faq": [
+      {
+        "q": "Why does niching down raise my rates?",
+        "a": "A specialist solves a specific, expensive problem better than any generalist, so the client compares you to the cost of the problem, not to other freelancers. Narrow positioning removes price competition because there is no obvious cheaper substitute for exactly you."
+      },
+      {
+        "q": "Isn’t a niche too risky — fewer clients?",
+        "a": "Counterintuitively, a sharp niche usually means more inbound, not less. You become the obvious choice and get referred by name. You can always take adjacent work; what you cannot do is be referred as \"a freelancer who does a bit of everything.\""
+      },
+      {
+        "q": "How do I choose the right niche?",
+        "a": "Find the overlap of three things: work you are good at, work a specific group will pay well for, and a problem painful enough that solving it has clear money attached. Test it on real clients before committing — the market decides, not your preference."
+      },
+      {
+        "q": "How do I prove expertise in a new niche fast?",
+        "a": "Publish the thinking. Two or three sharp pieces, a teardown, or a small case study aimed squarely at that audience does more than years of a generic portfolio. Specific proof, shown to the right people, buys credibility faster than time does."
+      }
+    ],
+    "publishOn": "2026-07-09"
   }
 ]
