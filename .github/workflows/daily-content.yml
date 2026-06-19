@@ -4,10 +4,12 @@ name: Daily content drop
 # branch (main), so this file lives on main even though it operates on the
 # content branch. It checks out the content branch, runs the publish script,
 # and pushes back, which then triggers the existing deploy workflow.
+#
+# Cron paused — re-enable by uncommenting the `schedule:` block below.
 
 on:
-  schedule:
-    - cron: '0 8 * * *' # 08:00 UTC daily (10:00 Paris, 09:00 London)
+  # schedule:
+  #   - cron: '0 8 * * *' # 08:00 UTC daily (10:00 Paris, 09:00 London)
   workflow_dispatch:
     inputs:
       branch:
