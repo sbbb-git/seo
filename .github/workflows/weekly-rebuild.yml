@@ -1,8 +1,10 @@
 name: Weekly data refresh
 
+# Cron paused — re-enable by uncommenting the `schedule:` block below.
+
 on:
-  schedule:
-    - cron: "0 3 * * 0"  # every Sunday at 03:00 UTC
+  # schedule:
+  #   - cron: "0 3 * * 0"  # every Sunday at 03:00 UTC
   workflow_dispatch:
 
 jobs:
