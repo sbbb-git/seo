@@ -44,6 +44,7 @@ export default async function LangLayout({ children, params }: Props) {
   const ahrefsKey =
     process.env.NEXT_PUBLIC_AHREFS_KEY ||
     'YowbqBmffmzExnDFmRGerw';
+  const gaId = process.env.NEXT_PUBLIC_GA_ID || 'G-64263K0RDW';
 
   return (
     <html lang={locale}>
@@ -64,6 +65,20 @@ export default async function LangLayout({ children, params }: Props) {
             data-key={ahrefsKey}
             strategy="afterInteractive"
           />
+        )}
+        {gaId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${gaId}');`}
+            </Script>
+          </>
         )}
       </body>
     </html>
