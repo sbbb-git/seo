@@ -107,6 +107,7 @@ export default async function CityDetailPage({ params }: Props) {
         alt={`${name} digital nomad guide`}
         kicker={country ? countryName : undefined}
         title={name}
+        titleSuffix={dict.meta.cityTitleSuffix}
         subtitle={`${city.highlight} · Nomad score ${city.nomadScore}/10 · ${city.coworkingCount}+ coworking spaces`}
         flagSrc={country ? flagSvg(country.code, 160) : undefined}
       />

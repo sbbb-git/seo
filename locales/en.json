@@ -165,5 +165,68 @@
       "label": "Freelance and self-employment visas",
       "desc": "Visas for liberal professions and self-employed workers. Local clients usually allowed."
     }
+  },
+  "cost": {
+    "h1Tpl": "Cost of living in {name} 2026",
+    "introTpl": "What it actually costs to live in {name} as a remote worker in 2026 — rent, food, coworking, transport and the monthly total for a solo nomad, a couple and a family.",
+    "solo": "Solo nomad",
+    "couple": "Couple",
+    "family": "Family of 4",
+    "perMonth": "per month, all-in",
+    "breakdownHeading": "Monthly cost breakdown in {name}",
+    "item": "Item",
+    "average": "Average",
+    "rentCenter": "Rent (1BR, city centre)",
+    "rentOutside": "Rent (1BR, outside centre)",
+    "utilities": "Utilities (electricity, water)",
+    "internet": "Home internet",
+    "mealLocal": "Meal at a local restaurant",
+    "mealMid": "Meal, mid-range restaurant",
+    "coffee": "Coffee at a café",
+    "groceries": "Groceries (solo, monthly)",
+    "coworking": "Coworking (hot desk, monthly)",
+    "transport": "Public transport (monthly pass)",
+    "tiersHeading": "Three realistic budgets for {name}",
+    "tiersIntro": "The single monthly figure hides a lot. Here is what the same city costs at three different lifestyles.",
+    "leanName": "Lean",
+    "leanDesc": "Shared flat or a studio outside the centre, cooking most meals, working from home and cafés, public transport only.",
+    "comfortName": "Comfortable",
+    "comfortDesc": "Your own one-bedroom in a good neighbourhood, eating out several times a week, a coworking membership, the occasional taxi.",
+    "premiumName": "Premium",
+    "premiumDesc": "Central apartment, restaurants most nights, a dedicated desk rather than a hot desk, gym and regular weekend trips.",
+    "contextHeading": "How {name} compares",
+    "cheaperThan": "Cheaper than",
+    "pricierThan": "More expensive than",
+    "similarTo": "Similar to",
+    "methodHeading": "How we calculate these numbers",
+    "methodTpl": "Figures are 2026 estimates built from the {name} cost index ({index}/100), cross-referenced against Numbeo and Nomad List reporting and adjusted for what remote workers actually spend. Real prices move with neighbourhood, season and lifestyle, so treat this as a baseline to adjust rather than a quote.",
+    "faqHeading": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "How much does it cost to live in {name}?",
+        "a": "A solo digital nomad should budget around ${total} per month all-in for {name} in 2026. That covers a one-bedroom flat in the centre, utilities, internet, groceries, some eating out, a coworking desk and public transport. A couple runs closer to ${couple} and a family of four around ${family}."
+      },
+      {
+        "q": "Is {name} expensive for digital nomads?",
+        "a": "With a cost index of {index} out of 100, {name} sits {position}. The single biggest lever is rent: ${rent} per month in the centre versus ${rentOut} just outside it. Moving one neighbourhood out is usually worth more than every other saving combined."
+      },
+      {
+        "q": "How much is rent in {name}?",
+        "a": "Expect about ${rent} a month for a one-bedroom apartment in the city centre of {name}, or roughly ${rentOut} outside the centre. Short lets aimed at nomads are typically priced above these figures, so a longer commitment is where the savings are."
+      },
+      {
+        "q": "Can you live in {name} on a tight budget?",
+        "a": "Yes — a lean month in {name} comes in near ${lean}. That means a room in a shared flat or a studio away from the centre, cooking most meals, working from home and cafés rather than a coworking space, and sticking to public transport."
+      },
+      {
+        "q": "How much do you need per month to live comfortably in {name}?",
+        "a": "Comfortable in {name} lands around ${total} a month: your own one-bedroom in a decent area, eating out a few times a week, a coworking membership and no real thought before booking a taxi. Push to roughly ${premium} and you are into central-apartment, restaurants-most-nights territory."
+      }
+    ],
+    "posCheap": "at the affordable end for remote workers",
+    "posMid": "in the mid range for remote workers",
+    "posExpensive": "at the pricier end for remote workers",
+    "moreHeading": "More on {name}",
+    "fullGuideTpl": "Full digital nomad guide to {name}"
   }
 }

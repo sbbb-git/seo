@@ -165,5 +165,68 @@
       "label": "Freelancer- und Selbstständigen-Visa",
       "desc": "Visa für freie Berufe und Selbstständige. Lokale Kunden meist erlaubt."
     }
+  },
+  "cost": {
+    "h1Tpl": "Lebenshaltungskosten in {name} 2026",
+    "introTpl": "Was das Leben in {name} als Remote-Worker 2026 wirklich kostet — Miete, Essen, Coworking, Nahverkehr und die Monatssumme für Alleinreisende, Paare und Familien.",
+    "solo": "Alleinreisender Nomade",
+    "couple": "Paar",
+    "family": "Familie mit 4",
+    "perMonth": "pro Monat, alles inklusive",
+    "breakdownHeading": "Monatliche Kostenaufstellung für {name}",
+    "item": "Position",
+    "average": "Durchschnitt",
+    "rentCenter": "Miete (2-Zimmer, Zentrum)",
+    "rentOutside": "Miete (2-Zimmer, außerhalb)",
+    "utilities": "Nebenkosten (Strom, Wasser)",
+    "internet": "Internet zu Hause",
+    "mealLocal": "Essen im lokalen Restaurant",
+    "mealMid": "Essen, mittlere Preisklasse",
+    "coffee": "Kaffee im Café",
+    "groceries": "Lebensmittel (allein, monatlich)",
+    "coworking": "Coworking (Flex-Desk, monatlich)",
+    "transport": "Nahverkehr (Monatskarte)",
+    "tiersHeading": "Drei realistische Budgets für {name}",
+    "tiersIntro": "Eine einzelne Monatszahl verdeckt viel. So viel kostet dieselbe Stadt bei drei verschiedenen Lebensstilen.",
+    "leanName": "Sparsam",
+    "leanDesc": "WG-Zimmer oder Studio außerhalb des Zentrums, meist selbst kochen, von zu Hause und aus Cafés arbeiten, nur Nahverkehr.",
+    "comfortName": "Komfortabel",
+    "comfortDesc": "Eigene 2-Zimmer-Wohnung in guter Lage, mehrmals pro Woche essen gehen, Coworking-Mitgliedschaft, gelegentlich ein Taxi.",
+    "premiumName": "Premium",
+    "premiumDesc": "Zentrale Wohnung, fast jeden Abend Restaurant, fester Schreibtisch statt Flex-Desk, Fitnessstudio und regelmäßige Wochenendtrips.",
+    "contextHeading": "Wie {name} im Vergleich dasteht",
+    "cheaperThan": "Günstiger als",
+    "pricierThan": "Teurer als",
+    "similarTo": "Vergleichbar mit",
+    "methodHeading": "Wie wir diese Zahlen berechnen",
+    "methodTpl": "Die Angaben sind Schätzungen für 2026 auf Basis des Kostenindex von {name} ({index}/100), abgeglichen mit Daten von Numbeo und Nomad List und angepasst an das, was Remote-Worker tatsächlich ausgeben. Reale Preise schwanken je nach Viertel, Saison und Lebensstil — nimm das als Ausgangsbasis, nicht als Angebot.",
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Wie viel kostet das Leben in {name}?",
+        "a": "Ein alleinreisender Nomade sollte 2026 rund {total} $ pro Monat für {name} einplanen, alles inklusive. Das deckt eine 2-Zimmer-Wohnung im Zentrum, Nebenkosten, Internet, Lebensmittel, gelegentliches Essengehen, einen Coworking-Platz und den Nahverkehr. Ein Paar liegt näher an {couple} $, eine vierköpfige Familie bei etwa {family} $."
+      },
+      {
+        "q": "Ist {name} teuer für digitale Nomaden?",
+        "a": "Mit einem Kostenindex von {index} von 100 liegt {name} {position}. Der größte Hebel ist die Miete: {rent} $ pro Monat im Zentrum gegenüber {rentOut} $ direkt außerhalb. Ein Viertel weiter zu ziehen bringt meist mehr als alle anderen Einsparungen zusammen."
+      },
+      {
+        "q": "Wie hoch ist die Miete in {name}?",
+        "a": "Rechne mit etwa {rent} $ pro Monat für eine 2-Zimmer-Wohnung im Zentrum von {name} oder rund {rentOut} $ außerhalb. Kurzzeitmieten für Nomaden liegen über diesen Werten — gespart wird über die längere Bindung."
+      },
+      {
+        "q": "Kann man in {name} mit kleinem Budget leben?",
+        "a": "Ja — ein sparsamer Monat in {name} liegt bei etwa {lean} $. Das heißt WG-Zimmer oder Studio abseits des Zentrums, überwiegend selbst kochen, von zu Hause und aus Cafés statt im Coworking arbeiten und ausschließlich Nahverkehr."
+      },
+      {
+        "q": "Wie viel braucht man monatlich, um in {name} gut zu leben?",
+        "a": "Komfortabel bedeutet in {name} etwa {total} $ im Monat: eigene 2-Zimmer-Wohnung in ordentlicher Lage, ein paarmal pro Woche essen gehen, Coworking-Mitgliedschaft und kein Nachdenken vor einer Taxifahrt. Bei rund {premium} $ bist du bei zentraler Wohnung und Restaurant an den meisten Abenden."
+      }
+    ],
+    "posCheap": "im günstigen Bereich für Remote-Worker",
+    "posMid": "im mittleren Bereich für Remote-Worker",
+    "posExpensive": "im oberen Bereich für Remote-Worker",
+    "moreHeading": "Mehr zu {name}",
+    "fullGuideTpl": "Kompletter Digital-Nomaden-Guide für {name}"
   }
 }

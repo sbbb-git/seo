@@ -165,5 +165,68 @@
       "label": "Wizy dla freelancerów i samozatrudnionych",
       "desc": "Wizy dla wolnych zawodów i osób samozatrudnionych. Lokalni klienci zwykle dozwoleni."
     }
+  },
+  "cost": {
+    "h1Tpl": "Koszty życia w {name} w 2026",
+    "introTpl": "Ile naprawdę kosztuje życie w {name} jako pracownik zdalny w 2026 — czynsz, jedzenie, coworking, transport i miesięczna suma dla nomady solo, pary i rodziny.",
+    "solo": "Nomada solo",
+    "couple": "Para",
+    "family": "Rodzina 4-osobowa",
+    "perMonth": "miesięcznie, wszystko wliczone",
+    "breakdownHeading": "Miesięczne koszty w {name} — szczegóły",
+    "item": "Pozycja",
+    "average": "Średnia",
+    "rentCenter": "Czynsz (2 pokoje, centrum)",
+    "rentOutside": "Czynsz (2 pokoje, poza centrum)",
+    "utilities": "Media (prąd, woda)",
+    "internet": "Internet domowy",
+    "mealLocal": "Posiłek w lokalnej restauracji",
+    "mealMid": "Posiłek, restauracja średniej klasy",
+    "coffee": "Kawa w kawiarni",
+    "groceries": "Zakupy spożywcze (solo, miesięcznie)",
+    "coworking": "Coworking (biurko elastyczne, miesięcznie)",
+    "transport": "Komunikacja miejska (bilet miesięczny)",
+    "tiersHeading": "Trzy realistyczne budżety dla {name}",
+    "tiersIntro": "Jedna miesięczna liczba wiele ukrywa. Oto ile kosztuje to samo miasto przy trzech stylach życia.",
+    "leanName": "Oszczędnie",
+    "leanDesc": "Pokój we współdzielonym mieszkaniu lub kawalerka poza centrum, gotowanie w domu, praca z domu i kawiarni, wyłącznie komunikacja miejska.",
+    "comfortName": "Komfortowo",
+    "comfortDesc": "Własne dwupokojowe mieszkanie w dobrej dzielnicy, jedzenie na mieście kilka razy w tygodniu, karnet coworkingowy i okazjonalna taksówka.",
+    "premiumName": "Premium",
+    "premiumDesc": "Mieszkanie w centrum, restauracje niemal co wieczór, własne biurko zamiast elastycznego, siłownia i regularne wypady weekendowe.",
+    "contextHeading": "Jak wypada {name}",
+    "cheaperThan": "Taniej niż",
+    "pricierThan": "Drożej niż",
+    "similarTo": "Podobnie jak",
+    "methodHeading": "Jak liczymy te kwoty",
+    "methodTpl": "To szacunki na 2026 zbudowane na indeksie kosztów {name} ({index}/100), skonfrontowane z danymi Numbeo i Nomad List oraz skorygowane o to, ile realnie wydają pracownicy zdalni. Realne ceny zmieniają się wraz z dzielnicą, sezonem i stylem życia — potraktuj to jako punkt wyjścia, nie wycenę.",
+    "faqHeading": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Ile kosztuje życie w {name}?",
+        "a": "Nomada solo powinien założyć około {total} $ miesięcznie ze wszystkim w {name} w 2026. Obejmuje to dwupokojowe mieszkanie w centrum, media, internet, zakupy, trochę jedzenia na mieście, biurko coworkingowe i komunikację. Para to bliżej {couple} $, a czteroosobowa rodzina około {family} $."
+      },
+      {
+        "q": "Czy {name} jest drogie dla cyfrowych nomadów?",
+        "a": "Przy indeksie kosztów {index} na 100 {name} plasuje się {position}. Największą dźwignią jest czynsz: {rent} $ miesięcznie w centrum wobec {rentOut} $ tuż poza nim. Przeprowadzka o jedną dzielnicę daje zwykle więcej niż wszystkie inne oszczędności razem wzięte."
+      },
+      {
+        "q": "Ile kosztuje wynajem w {name}?",
+        "a": "Licz się z około {rent} $ miesięcznie za dwupokojowe mieszkanie w centrum {name} lub mniej więcej {rentOut} $ poza centrum. Najem krótkoterminowy kierowany do nomadów jest droższy — oszczędność leży w dłuższym zobowiązaniu."
+      },
+      {
+        "q": "Czy da się mieszkać w {name} przy niskim budżecie?",
+        "a": "Tak — oszczędny miesiąc w {name} to około {lean} $. Oznacza to pokój we współdzielonym mieszkaniu lub kawalerkę z dala od centrum, gotowanie w domu, pracę z domu i kawiarni zamiast coworkingu oraz wyłącznie komunikację miejską."
+      },
+      {
+        "q": "Ile trzeba miesięcznie, by żyć wygodnie w {name}?",
+        "a": "Komfortowo w {name} to około {total} $ miesięcznie: własne dwupokojowe mieszkanie w przyzwoitej okolicy, jedzenie na mieście kilka razy w tygodniu, karnet coworkingowy i zero kalkulacji przed zamówieniem taksówki. Przy około {premium} $ wchodzisz w mieszkanie w centrum i restauracje niemal co wieczór."
+      }
+    ],
+    "posCheap": "w przystępnym przedziale dla pracowników zdalnych",
+    "posMid": "w średnim przedziale dla pracowników zdalnych",
+    "posExpensive": "w wyższym przedziale dla pracowników zdalnych",
+    "moreHeading": "Więcej o {name}",
+    "fullGuideTpl": "Pełny przewodnik cyfrowego nomady po {name}"
   }
 }

@@ -98,6 +98,7 @@ export default async function CountryDetailPage({ params }: Props) {
         alt={`${name} digital nomad guide`}
         kicker={country.region}
         title={name}
+        titleSuffix={dict.meta.countryTitleSuffix}
         subtitle={`${country.capital} · ${country.currency} · ${country.languages.join(', ')}`}
         flagSrc={flagSvg(country.code, 160)}
       />

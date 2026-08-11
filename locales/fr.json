@@ -165,5 +165,68 @@
       "label": "Visas freelance et indépendant",
       "desc": "Visas pour professions libérales et travailleurs indépendants. Clients locaux généralement autorisés."
     }
+  },
+  "cost": {
+    "h1Tpl": "Coût de la vie à {name} en 2026",
+    "introTpl": "Ce que coûte réellement la vie à {name} pour un travailleur à distance en 2026 — loyer, nourriture, coworking, transport et le total mensuel pour un nomade seul, un couple et une famille.",
+    "solo": "Nomade seul",
+    "couple": "Couple",
+    "family": "Famille de 4",
+    "perMonth": "par mois, tout compris",
+    "breakdownHeading": "Détail des dépenses mensuelles à {name}",
+    "item": "Poste",
+    "average": "Moyenne",
+    "rentCenter": "Loyer (T2, centre-ville)",
+    "rentOutside": "Loyer (T2, hors centre)",
+    "utilities": "Charges (électricité, eau)",
+    "internet": "Internet à domicile",
+    "mealLocal": "Repas au restaurant local",
+    "mealMid": "Repas, restaurant milieu de gamme",
+    "coffee": "Café au comptoir",
+    "groceries": "Courses (seul, par mois)",
+    "coworking": "Coworking (poste flexible, mensuel)",
+    "transport": "Transports (abonnement mensuel)",
+    "tiersHeading": "Trois budgets réalistes pour {name}",
+    "tiersIntro": "Un seul chiffre mensuel cache beaucoup de choses. Voici ce que coûte la même ville selon trois modes de vie.",
+    "leanName": "Serré",
+    "leanDesc": "Colocation ou studio hors du centre, cuisine maison la plupart du temps, travail depuis chez soi et les cafés, transports en commun uniquement.",
+    "comfortName": "Confortable",
+    "comfortDesc": "Votre propre T2 dans un bon quartier, restaurant plusieurs fois par semaine, abonnement coworking, taxi de temps en temps.",
+    "premiumName": "Premium",
+    "premiumDesc": "Appartement en plein centre, restaurant presque tous les soirs, bureau dédié plutôt que poste flexible, salle de sport et week-ends réguliers.",
+    "contextHeading": "Comment se situe {name}",
+    "cheaperThan": "Moins cher que",
+    "pricierThan": "Plus cher que",
+    "similarTo": "Comparable à",
+    "methodHeading": "Comment nous calculons ces chiffres",
+    "methodTpl": "Ces montants sont des estimations 2026 construites à partir de l’indice de coût de {name} ({index}/100), recoupées avec les données Numbeo et Nomad List puis ajustées sur ce que dépensent réellement les travailleurs à distance. Les prix réels varient selon le quartier, la saison et le mode de vie : prenez ceci comme une base à ajuster, pas comme un devis.",
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Combien coûte la vie à {name} ?",
+        "a": "Un nomade seul doit prévoir environ {total} $ par mois tout compris à {name} en 2026. Cela couvre un T2 dans le centre, les charges, internet, les courses, quelques sorties au restaurant, un poste de coworking et les transports. Comptez plutôt {couple} $ pour un couple et {family} $ pour une famille de quatre."
+      },
+      {
+        "q": "{name} est-elle une ville chère pour les nomades ?",
+        "a": "Avec un indice de coût de {index} sur 100, {name} se situe {position}. Le principal levier reste le loyer : {rent} $ par mois dans le centre contre {rentOut} $ juste à l’extérieur. Déménager d’un quartier rapporte en général plus que toutes les autres économies réunies."
+      },
+      {
+        "q": "Quel est le prix d’un loyer à {name} ?",
+        "a": "Comptez environ {rent} $ par mois pour un T2 dans le centre de {name}, ou à peu près {rentOut} $ en dehors du centre. Les locations courtes visant les nomades se situent au-dessus de ces montants : c’est sur la durée que se font les économies."
+      },
+      {
+        "q": "Peut-on vivre à {name} avec un petit budget ?",
+        "a": "Oui — un mois serré à {name} tourne autour de {lean} $. Cela suppose une chambre en colocation ou un studio loin du centre, la cuisine maison, le travail depuis chez soi et les cafés plutôt qu’un coworking, et uniquement les transports en commun."
+      },
+      {
+        "q": "Quel budget mensuel pour vivre confortablement à {name} ?",
+        "a": "Le confortable à {name} se situe autour de {total} $ par mois : votre propre T2 dans un quartier correct, restaurant quelques fois par semaine, abonnement coworking et aucun calcul avant de prendre un taxi. Montez vers {premium} $ et vous passez en appartement central avec restaurant presque tous les soirs."
+      }
+    ],
+    "posCheap": "dans la fourchette abordable pour les travailleurs à distance",
+    "posMid": "dans la moyenne pour les travailleurs à distance",
+    "posExpensive": "dans la fourchette haute pour les travailleurs à distance",
+    "moreHeading": "En savoir plus sur {name}",
+    "fullGuideTpl": "Guide complet du nomade digital à {name}"
   }
 }

@@ -165,5 +165,68 @@
       "label": "Visti per freelance e lavoratori autonomi",
       "desc": "Visti per professioni liberali e lavoratori autonomi. Clienti locali generalmente ammessi."
     }
+  },
+  "cost": {
+    "h1Tpl": "Costo della vita a {name} nel 2026",
+    "introTpl": "Quanto costa davvero vivere a {name} da lavoratore da remoto nel 2026 — affitto, cibo, coworking, trasporti e il totale mensile per un nomade singolo, una coppia e una famiglia.",
+    "solo": "Nomade singolo",
+    "couple": "Coppia",
+    "family": "Famiglia di 4",
+    "perMonth": "al mese, tutto incluso",
+    "breakdownHeading": "Dettaglio delle spese mensili a {name}",
+    "item": "Voce",
+    "average": "Media",
+    "rentCenter": "Affitto (bilocale, centro)",
+    "rentOutside": "Affitto (bilocale, fuori centro)",
+    "utilities": "Utenze (luce, acqua)",
+    "internet": "Internet a casa",
+    "mealLocal": "Pasto in trattoria",
+    "mealMid": "Pasto, ristorante di fascia media",
+    "coffee": "Caffè al bar",
+    "groceries": "Spesa (singolo, mensile)",
+    "coworking": "Coworking (postazione flessibile, mensile)",
+    "transport": "Trasporti (abbonamento mensile)",
+    "tiersHeading": "Tre budget realistici per {name}",
+    "tiersIntro": "Un solo numero mensile nasconde molto. Ecco quanto costa la stessa città con tre stili di vita diversi.",
+    "leanName": "Essenziale",
+    "leanDesc": "Stanza in condivisione o monolocale fuori centro, cucinare quasi sempre, lavorare da casa e dai bar, solo mezzi pubblici.",
+    "comfortName": "Confortevole",
+    "comfortDesc": "Il tuo bilocale in un buon quartiere, mangiare fuori più volte a settimana, abbonamento coworking e qualche taxi.",
+    "premiumName": "Premium",
+    "premiumDesc": "Appartamento in centro, ristorante quasi ogni sera, postazione fissa invece che flessibile, palestra e weekend fuori.",
+    "contextHeading": "Come si colloca {name}",
+    "cheaperThan": "Più economica di",
+    "pricierThan": "Più cara di",
+    "similarTo": "Simile a",
+    "methodHeading": "Come calcoliamo questi numeri",
+    "methodTpl": "Sono stime 2026 costruite sull’indice di costo di {name} ({index}/100), incrociate con i dati Numbeo e Nomad List e corrette su quanto spendono davvero i lavoratori da remoto. I prezzi reali cambiano con quartiere, stagione e stile di vita: usali come base da adattare, non come preventivo.",
+    "faqHeading": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Quanto costa vivere a {name}?",
+        "a": "Un nomade singolo dovrebbe mettere in conto circa {total} $ al mese tutto incluso a {name} nel 2026. Coprono un bilocale in centro, utenze, internet, spesa, qualche cena fuori, una postazione di coworking e i trasporti. Una coppia si avvicina a {couple} $ e una famiglia di quattro a {family} $."
+      },
+      {
+        "q": "{name} è cara per i nomadi digitali?",
+        "a": "Con un indice di costo di {index} su 100, {name} si colloca {position}. La leva principale è l’affitto: {rent} $ al mese in centro contro {rentOut} $ appena fuori. Spostarsi di un quartiere vale di solito più di tutti gli altri risparmi messi insieme."
+      },
+      {
+        "q": "Quanto costa l’affitto a {name}?",
+        "a": "Considera circa {rent} $ al mese per un bilocale in centro a {name}, o all’incirca {rentOut} $ fuori centro. Gli affitti brevi pensati per i nomadi stanno sopra queste cifre: il risparmio sta nell’impegno lungo."
+      },
+      {
+        "q": "Si può vivere a {name} con poco?",
+        "a": "Sì — un mese essenziale a {name} si aggira sui {lean} $. Significa stanza in condivisione o monolocale lontano dal centro, cucinare quasi sempre, lavorare da casa e dai bar invece che in coworking, e solo mezzi pubblici."
+      },
+      {
+        "q": "Quanto serve al mese per vivere bene a {name}?",
+        "a": "Il confortevole a {name} sta intorno ai {total} $ al mese: il tuo bilocale in una zona decente, cene fuori un paio di volte a settimana, abbonamento coworking e nessun calcolo prima di prendere un taxi. Sali verso i {premium} $ ed entri nell’appartamento centrale con ristorante quasi ogni sera."
+      }
+    ],
+    "posCheap": "nella fascia accessibile per i lavoratori da remoto",
+    "posMid": "nella fascia media per i lavoratori da remoto",
+    "posExpensive": "nella fascia alta per i lavoratori da remoto",
+    "moreHeading": "Altro su {name}",
+    "fullGuideTpl": "Guida completa al nomade digitale a {name}"
   }
 }

@@ -165,5 +165,68 @@
       "label": "Vistos de freelancer e trabalhador independente",
       "desc": "Vistos para profissões liberais e trabalhadores independentes. Clientes locais geralmente permitidos."
     }
+  },
+  "cost": {
+    "h1Tpl": "Custo de vida em {name} em 2026",
+    "introTpl": "O que custa realmente viver em {name} como trabalhador remoto em 2026 — renda, alimentação, coworking, transportes e o total mensal para um nómada sozinho, um casal e uma família.",
+    "solo": "Nómada sozinho",
+    "couple": "Casal",
+    "family": "Família de 4",
+    "perMonth": "por mês, tudo incluído",
+    "breakdownHeading": "Detalhe dos custos mensais em {name}",
+    "item": "Item",
+    "average": "Média",
+    "rentCenter": "Renda (T1, centro)",
+    "rentOutside": "Renda (T1, fora do centro)",
+    "utilities": "Despesas (eletricidade, água)",
+    "internet": "Internet em casa",
+    "mealLocal": "Refeição em restaurante local",
+    "mealMid": "Refeição, restaurante médio",
+    "coffee": "Café no café",
+    "groceries": "Compras (sozinho, mensal)",
+    "coworking": "Coworking (secretária flexível, mensal)",
+    "transport": "Transportes (passe mensal)",
+    "tiersHeading": "Três orçamentos realistas para {name}",
+    "tiersIntro": "Um único número mensal esconde muita coisa. Eis quanto custa a mesma cidade em três estilos de vida.",
+    "leanName": "Apertado",
+    "leanDesc": "Quarto partilhado ou estúdio fora do centro, cozinhar quase sempre, trabalhar de casa e de cafés, apenas transportes públicos.",
+    "comfortName": "Confortável",
+    "comfortDesc": "O seu próprio T1 num bom bairro, comer fora várias vezes por semana, mensalidade de coworking e um táxi ocasional.",
+    "premiumName": "Premium",
+    "premiumDesc": "Apartamento central, restaurantes quase todas as noites, secretária dedicada em vez de flexível, ginásio e escapadinhas de fim de semana.",
+    "contextHeading": "Como se compara {name}",
+    "cheaperThan": "Mais barato do que",
+    "pricierThan": "Mais caro do que",
+    "similarTo": "Semelhante a",
+    "methodHeading": "Como calculamos estes números",
+    "methodTpl": "São estimativas para 2026 construídas a partir do índice de custo de {name} ({index}/100), cruzadas com dados da Numbeo e da Nomad List e ajustadas ao que os trabalhadores remotos gastam de facto. Os preços reais variam com o bairro, a época e o estilo de vida: use isto como base a ajustar, não como orçamento fechado.",
+    "faqHeading": "Perguntas frequentes",
+    "faq": [
+      {
+        "q": "Quanto custa viver em {name}?",
+        "a": "Um nómada sozinho deve contar com cerca de {total} $ por mês, tudo incluído, em {name} em 2026. Cobre um T1 no centro, despesas, internet, compras, algumas refeições fora, uma secretária de coworking e transportes. Um casal fica perto de {couple} $ e uma família de quatro à volta de {family} $."
+      },
+      {
+        "q": "{name} é cara para nómadas digitais?",
+        "a": "Com um índice de custo de {index} em 100, {name} situa-se {position}. A maior alavanca é a renda: {rent} $ por mês no centro contra {rentOut} $ mesmo à saída. Mudar um bairro costuma valer mais do que todas as outras poupanças juntas."
+      },
+      {
+        "q": "Quanto custa a renda em {name}?",
+        "a": "Conte com cerca de {rent} $ por mês por um T1 no centro de {name}, ou aproximadamente {rentOut} $ fora do centro. Os arrendamentos curtos dirigidos a nómadas ficam acima destes valores: a poupança está no compromisso longo."
+      },
+      {
+        "q": "Dá para viver em {name} com pouco orçamento?",
+        "a": "Sim — um mês apertado em {name} ronda os {lean} $. Implica quarto partilhado ou estúdio longe do centro, cozinhar quase sempre, trabalhar de casa e de cafés em vez de coworking, e só transportes públicos."
+      },
+      {
+        "q": "Quanto é preciso por mês para viver bem em {name}?",
+        "a": "O confortável em {name} anda pelos {total} $ por mês: o seu próprio T1 numa zona decente, comer fora algumas vezes por semana, mensalidade de coworking e nenhuma conta antes de chamar um táxi. Suba para cerca de {premium} $ e entra em apartamento central com restaurante quase todas as noites."
+      }
+    ],
+    "posCheap": "na faixa acessível para trabalhadores remotos",
+    "posMid": "na faixa média para trabalhadores remotos",
+    "posExpensive": "na faixa alta para trabalhadores remotos",
+    "moreHeading": "Mais sobre {name}",
+    "fullGuideTpl": "Guia completo do nómada digital em {name}"
   }
 }

@@ -178,6 +178,48 @@ export type Dictionary = {
     'digital-nomad' | 'passive-income' | 'investor' | 'freelance',
     { label: string; desc: string }
   >;
+  cost: {
+    h1Tpl: string;
+    introTpl: string;
+    solo: string;
+    couple: string;
+    family: string;
+    perMonth: string;
+    breakdownHeading: string;
+    item: string;
+    average: string;
+    rentCenter: string;
+    rentOutside: string;
+    utilities: string;
+    internet: string;
+    mealLocal: string;
+    mealMid: string;
+    coffee: string;
+    groceries: string;
+    coworking: string;
+    transport: string;
+    tiersHeading: string;
+    tiersIntro: string;
+    leanName: string;
+    leanDesc: string;
+    comfortName: string;
+    comfortDesc: string;
+    premiumName: string;
+    premiumDesc: string;
+    contextHeading: string;
+    cheaperThan: string;
+    pricierThan: string;
+    similarTo: string;
+    methodHeading: string;
+    methodTpl: string;
+    faqHeading: string;
+    faq: { q: string; a: string }[];
+    posCheap: string;
+    posMid: string;
+    posExpensive: string;
+    moreHeading: string;
+    fullGuideTpl: string;
+  };
 };
 
 export async function getDictionary(locale: Locale): Promise<Dictionary> {

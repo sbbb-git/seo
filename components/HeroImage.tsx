@@ -7,6 +7,12 @@ type Props = {
   /** Optional badge / pill / kicker shown above the title */
   kicker?: string;
   title: string;
+  /**
+   * Descriptive tail rendered inside the <h1> but styled down, so the heading
+   * carries the full target phrase ("Portugal digital nomad guide 2026") while
+   * the design still leads with the bare name.
+   */
+  titleSuffix?: string;
   subtitle?: string;
   flagSrc?: string;
 };
@@ -15,7 +21,7 @@ type Props = {
  * Big hero block at the top of country / city / visa detail pages.
  * Uses a real photo if available, falls back to a deterministic gradient.
  */
-export function HeroImage({ src, alt, slug, kicker, title, subtitle, flagSrc }: Props) {
+export function HeroImage({ src, alt, slug, kicker, title, titleSuffix, subtitle, flagSrc }: Props) {
   return (
     <section className="relative -mx-5 sm:-mx-8 mb-10">
       <div
@@ -55,6 +61,11 @@ export function HeroImage({ src, alt, slug, kicker, title, subtitle, flagSrc }: 
               )}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tightest leading-[1.05] font-display">
                 {title}
+                {titleSuffix && (
+                  <span className="block mt-2 text-base sm:text-lg font-normal tracking-normal text-cream/80">
+                    {titleSuffix}
+                  </span>
+                )}
               </h1>
             </div>
             {subtitle && (
