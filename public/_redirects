@@ -1,0 +1,8 @@
+# Canonical host: force the apex, drop www.
+#
+# The middleware already 301s www -> apex, but scripts/finalize-routes.mjs
+# excludes /{locale}/countries/* and /{locale}/cities/* from the worker so
+# those ~1200 pages are served as static assets and never reach middleware.
+# Cloudflare Pages evaluates _redirects at the CDN edge before routing, so
+# this covers every path including the excluded ones.
+https://www.slowmadly.com/* https://slowmadly.com/:splat 301
