@@ -93,3 +93,16 @@ export function buildPageMetadata(input: PageMetaInput): Metadata {
       : { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
+
+/**
+ * Date the site's content was last genuinely updated.
+ *
+ * Both the sitemap's <lastmod> and the Article schema's dateModified used to
+ * be `new Date()`, evaluated per request — so every page told Google it had
+ * just changed, on every crawl. Google only trusts these signals when they
+ * are accurate, and permanent false freshness on a large programmatic site
+ * invites wasted re-crawling rather than better rankings.
+ *
+ * Bump this when content actually changes.
+ */
+export const CONTENT_LAST_MODIFIED = '2026-08-11';

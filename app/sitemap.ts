@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { LOCALES } from '@/lib/i18n';
-import { SITE_URL } from '@/lib/seo';
+import { SITE_URL, CONTENT_LAST_MODIFIED } from '@/lib/seo';
 import { getAllCountries } from '@/lib/data/countries';
 import { getAllCities } from '@/lib/data/cities';
 import { getAllVisas } from '@/lib/data/visas';
@@ -16,7 +16,7 @@ import { getAllCoworking } from '@/lib/data/coworking';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
-  const now = new Date();
+  const now = new Date(`${CONTENT_LAST_MODIFIED}T00:00:00Z`);
 
   for (const lang of LOCALES) {
     entries.push({ url: `${SITE_URL}/${lang}`, lastModified: now, changeFrequency: 'weekly', priority: 1 });

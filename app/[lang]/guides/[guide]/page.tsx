@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getDictionary, LOCALES, type Locale } from '@/lib/i18n';
-import { buildPageMetadata, SITE_NAME, SITE_URL } from '@/lib/seo';
+import { buildPageMetadata, SITE_NAME, SITE_URL, CONTENT_LAST_MODIFIED } from '@/lib/seo';
 import {
   getAllGuides,
   getGuide,
@@ -129,7 +129,7 @@ export default async function GuideDetailPage({ params }: Props) {
     mainEntityOfPage: articleUrl,
     image: [`${SITE_URL}/og`],
     datePublished: '2026-01-01',
-    dateModified: new Date().toISOString().slice(0, 10),
+    dateModified: CONTENT_LAST_MODIFIED,
     author: {
       '@type': 'Organization',
       name: SITE_NAME,
