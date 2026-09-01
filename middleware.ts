@@ -13,6 +13,19 @@ const PAGE_CACHE = 'public, max-age=0, s-maxage=600, stale-while-revalidate=8640
 
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
+
+  // Canonical host. www.slowmadly.com used to serve the whole site with a 200,
+  // so Google indexed both hosts and split signals between them (www URLs show
+  // up in Search Console's page report alongside the apex ones). The canonical
+  // tag already pointed at the apex, but a redirect is the unambiguous fix.
+  const host = req.headers.get('host') || '';
+  if (host.startsWith('www.')) {
+    const url = req.nextUrl.clone();
+    url.host = host.slice(4);
+    url.port = '';
+    return NextResponse.redirect(url, 301);
+  }
+
   // If path is already prefixed by a locale, pass through and add edge cache.
   const first = pathname.split('/')[1];
   if ((LOCALES as readonly string[]).includes(first)) {
