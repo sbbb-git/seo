@@ -1,6 +1,8 @@
 import { getPartners, resolvePartnerUrl, type PartnerCategory } from '@/lib/partners';
 import { partnerLogo } from '@/lib/images';
+import { partnerBlurb } from '@/lib/partner-blurbs';
 import type { Locale } from '@/lib/i18n';
+import { getUi } from '@/lib/ui';
 
 type Props = {
   locale?: Locale;
@@ -12,15 +14,16 @@ type Props = {
 export function PartnerStack({
   locale,
   categories,
-  heading = 'Useful for this trip',
+  heading,
   limit = 6,
 }: Props) {
   const partners = getPartners({ categories, locale, limit });
+  const resolvedHeading = heading || getUi(locale).partnerStackHeading;
   if (partners.length === 0) return null;
 
   return (
     <section className="mt-12 border-t border-line pt-8">
-      <h2 className="text-sm uppercase tracking-widest text-muted">{heading}</h2>
+      <h2 className="text-sm uppercase tracking-widest text-muted">{resolvedHeading}</h2>
       <ul className="mt-4 grid gap-3 sm:grid-cols-2">
         {partners.map((p) => {
           const url = resolvePartnerUrl(p, locale);
@@ -48,7 +51,7 @@ export function PartnerStack({
                     {p.category.replace('-', ' ')}
                   </span>
                 </div>
-                <p className="mt-1 text-sm text-muted leading-snug">{p.blurb}</p>
+                <p className="mt-1 text-sm text-muted leading-snug">{partnerBlurb(p.id, p.blurb, locale)}</p>
               </div>
             </a>
           </li>

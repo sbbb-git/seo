@@ -130,7 +130,7 @@ export default async function CoworkingDetailPage({ params }: Props) {
       <PartnerStack
         locale={params.lang}
         categories={['productivity', 'ai-llm', 'voice-ai', 'esim', 'vpn']}
-        heading="Tools we use on coworking days"
+        heading={dict.ui.headings.coworkingTools}
       />
     </article>
   );

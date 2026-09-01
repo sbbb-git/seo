@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getDictionary, LOCALES, type Locale } from '@/lib/i18n';
 import { buildPageMetadata } from '@/lib/seo';
+import { fillTpl } from '@/lib/ui';
 import {
   getAllNationalities,
   getNationality,
@@ -79,11 +80,11 @@ export default async function NationalityPage({ params }: Props) {
         </ul>
       </section>
 
-      <JobsCTA locale={params.lang} heading={`Remote job for ${name}? See sister site.`} />
+      <JobsCTA locale={params.lang} heading={fillTpl(dict.ui.headings.remoteJobFor, { name })} />
       <PartnerStack
         locale={params.lang}
         categories={['banking', 'insurance', 'esim', 'ai-llm', 'earn-while-traveling']}
-        heading="Set up before you apply"
+        heading={dict.ui.headings.setupBeforeApply}
       />
     </article>
   );

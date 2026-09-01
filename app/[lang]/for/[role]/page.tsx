@@ -75,7 +75,7 @@ export default async function RoleDetailPage({ params }: Props) {
       <PartnerStack
         locale={params.lang}
         categories={['productivity', 'ai-llm', 'voice-ai', 'earn-while-traveling', 'newsletter', 'banking']}
-        heading="Tools to fund the slow-travel life"
+        heading={dict.ui.headings.toolsSlowTravel}
       />
     </article>
   );

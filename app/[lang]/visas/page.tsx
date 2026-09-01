@@ -41,7 +41,7 @@ export default async function VisasIndexPage({ params }: Props) {
       </header>
       <section className="mt-10 rounded-2xl border border-line bg-paper-gradient px-6 py-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <h2 className="text-lg font-semibold tracking-tightish">Filter by your passport</h2>
+          <h2 className="text-lg font-semibold tracking-tightish">{dict.ui.page.filterByPassport}</h2>
           <p className="mt-1 text-sm text-muted">8 passport profiles. US / EU / UK / CA / AU / IN / ZA / BR.</p>
         </div>
         <a

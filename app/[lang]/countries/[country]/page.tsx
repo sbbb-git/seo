@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getDictionary, LOCALES, type Locale } from '@/lib/i18n';
 import { buildPageMetadata, SITE_URL } from '@/lib/seo';
+import { fillTpl } from '@/lib/ui';
 import { getAllCountries, getCountry, getCountryName } from '@/lib/data/countries';
 import { getCitiesByCountry } from '@/lib/data/cities';
 import { getVisasByCountry } from '@/lib/data/visas';
@@ -189,7 +190,7 @@ export default async function CountryDetailPage({ params }: Props) {
 
       {moreGuides.length > 0 && (
         <section className="mt-12">
-          <h2 className="text-xl font-semibold tracking-tightish">Working from {name}</h2>
+          <h2 className="text-xl font-semibold tracking-tightish">{fillTpl(dict.ui.headings.workingFrom, { name })}</h2>
           <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {moreGuides.map((g) => (
               <li key={g.slug}>

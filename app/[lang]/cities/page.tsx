@@ -52,7 +52,7 @@ export default async function CitiesIndexPage({ params }: Props) {
       </header>
 
       <div className="mt-10">
-        <CitiesFilters cities={cities} countries={countries} locale={params.lang} />
+        <CitiesFilters cities={cities} countries={countries} locale={params.lang} ui={dict.ui.filters} />
       </div>
 
       <div className="mt-14 grid gap-4 lg:grid-cols-2">

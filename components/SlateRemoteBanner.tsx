@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/i18n';
+import { getUi, fillTpl } from '@/lib/ui';
 import { slateremoteHomeUrl, slateremoteCountryUrl, slateremoteRoleUrl } from '@/lib/sister-sites';
 
 type Props = {
@@ -30,17 +31,18 @@ export function SlateRemoteBanner({
     ? slateremoteCountryUrl(countrySlug, locale)
     : slateremoteHomeUrl(locale);
 
+  const ui = getUi(locale);
   const headline = role
-    ? `Every remote ${role} job, in one place`
+    ? fillTpl(ui.jobs.headlineRole, { role })
     : countryName
-    ? `Remote jobs you can do from ${countryName}`
-    : 'The remote job, wherever you are';
+    ? fillTpl(ui.jobs.headlineCountry, { country: countryName })
+    : ui.jobs.headlineGeneric;
 
   const subline = role
-    ? `Slate Remote aggregates every remote ${role} role from across the web. One search, every source — refreshed daily.`
+    ? fillTpl(ui.jobs.sublineRole, { role })
     : countryName
-    ? `Slate Remote pulls remote roles from every major board. Filter by country, role, time zone — find the job that lets you stay in ${countryName}.`
-    : 'Slate Remote aggregates remote roles from every major job board. One search across all sources, refreshed daily — so you can pick a city on Slowmadly and a job on Slate Remote.';
+    ? fillTpl(ui.jobs.sublineCountry, { country: countryName })
+    : ui.jobs.sublineGeneric;
 
   if (size === 'compact') {
     return (
@@ -51,7 +53,7 @@ export function SlateRemoteBanner({
         className={`group flex items-center justify-between gap-3 rounded-xl border border-ink bg-ink text-cream px-5 py-3.5 hover:bg-accent-deep transition-colors ${className}`}
       >
         <div>
-          <p className="text-[10px] uppercase tracking-widest text-cream/70 font-semibold">Sister site · Slate Remote</p>
+          <p className="text-[10px] uppercase tracking-widest text-cream/70 font-semibold">{ui.jobs.sisterSite} · Slate Remote</p>
           <p className="mt-0.5 text-sm font-semibold tracking-tightish">{headline}</p>
         </div>
         <span aria-hidden className="text-cream group-hover:translate-x-0.5 transition-transform text-lg">↗</span>
@@ -69,7 +71,7 @@ export function SlateRemoteBanner({
         <div className="lg:col-span-8">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cream/10 border border-cream/20 text-cream text-[10px] uppercase tracking-widest font-semibold">
             <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-            Sister site · slateremote.com
+            {ui.jobs.sisterSite} · slateremote.com
           </div>
           <h2 className="mt-4 text-2xl sm:text-3xl font-semibold tracking-tightish font-display">
             {headline}
@@ -83,9 +85,9 @@ export function SlateRemoteBanner({
             rel="noopener"
             className="inline-flex items-center gap-2 rounded-md bg-cream text-ink px-6 py-3 text-sm font-semibold hover:bg-accent hover:text-cream transition-colors"
           >
-            Search jobs on Slate Remote <span aria-hidden>↗</span>
+            {ui.jobs.searchJobs} <span aria-hidden>↗</span>
           </a>
-          <p className="mt-3 text-[11px] text-cream/60">Free · No signup · Updated daily</p>
+          <p className="mt-3 text-[11px] text-cream/60">{ui.jobs.perks}</p>
         </div>
       </div>
     </section>

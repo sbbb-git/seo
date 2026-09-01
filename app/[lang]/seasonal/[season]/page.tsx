@@ -58,7 +58,7 @@ export default async function SeasonDetailPage({ params }: Props) {
 
       {cities.length > 0 && (
         <section className="mt-12">
-          <h2 className="text-xl font-semibold tracking-tightish">Cities at their best</h2>
+          <h2 className="text-xl font-semibold tracking-tightish">{dict.ui.page.citiesAtBest}</h2>
           <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {cities.slice(0, 18).map((c) => (
               <li key={c.slug}>
@@ -71,7 +71,7 @@ export default async function SeasonDetailPage({ params }: Props) {
 
       {countries.length > 0 && (
         <section className="mt-12">
-          <h2 className="text-xl font-semibold tracking-tightish">Countries to base in</h2>
+          <h2 className="text-xl font-semibold tracking-tightish">{dict.ui.page.countriesToBase}</h2>
           <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {countries.slice(0, 18).map((c) => (
               <li key={c.slug}>

@@ -228,5 +228,96 @@
     "posExpensive": "na faixa alta para trabalhadores remotos",
     "moreHeading": "Mais sobre {name}",
     "fullGuideTpl": "Guia completo do nómada digital em {name}"
+  },
+  "ui": {
+    "sponsored": "Patrocinado",
+    "promo": {
+      "setup": {
+        "eyebrow": "Antes de entrar no avião",
+        "headline": "Abra uma conta multimoeda em 2 minutos",
+        "cta": "Obter o Wise (grátis)"
+      },
+      "insurance": {
+        "eyebrow": "Seguro de viagem para nómadas",
+        "headline": "A partir de 45 $/mês. Cobre 175+ países. Cancele quando quiser.",
+        "cta": "Ver planos SafetyWing"
+      },
+      "banking": {
+        "eyebrow": "Gaste no estrangeiro sem comissões",
+        "headline": "Revolut: câmbio real, cartões virtuais, IBAN europeu grátis",
+        "cta": "Abrir o Revolut"
+      },
+      "esim": {
+        "eyebrow": "Aterre já com dados",
+        "headline": "eSIM para 200+ países. 3 $ de desconto com o código SACHA6010.",
+        "cta": "Obter o eSIM Airalo"
+      },
+      "vpn": {
+        "eyebrow": "O wifi de hotel é um campo minado",
+        "headline": "NordVPN: 6 dispositivos, 60+ países, kill switch",
+        "cta": "Obter o NordVPN"
+      },
+      "ai": {
+        "eyebrow": "O seu copiloto de trabalho remoto",
+        "headline": "Claude: pesquisa, escrita e código a partir de qualquer lugar",
+        "cta": "Experimentar o Claude"
+      }
+    },
+    "partnerStackHeading": "Útil para esta viagem",
+    "featuredPartnersHeading": "Pronto em 2 minutos",
+    "faqHeading": "Perguntas frequentes",
+    "jobs": {
+      "sisterSite": "Site parceiro",
+      "browseOn": "Ver em",
+      "searchJobs": "Procurar emprego no Slate Remote",
+      "perks": "Grátis · Sem registo · Atualizado diariamente",
+      "headlineRole": "Todas as vagas remotas de {role}, num só lugar",
+      "headlineCountry": "Empregos remotos que pode fazer a partir de {country}",
+      "headlineGeneric": "O emprego remoto, onde quer que esteja",
+      "sublineRole": "O Slate Remote reúne todas as vagas remotas de {role} da web. Uma pesquisa, todas as fontes — atualizadas diariamente.",
+      "sublineCountry": "O Slate Remote agrega vagas remotas dos principais portais. Filtre por país, função e fuso — e encontre o emprego que o deixa ficar em {country}.",
+      "sublineGeneric": "O Slate Remote agrega vagas remotas de todos os grandes portais. Uma pesquisa em todas as fontes, atualizada diariamente — escolha a cidade no Slowmadly e o emprego no Slate Remote.",
+      "ctaCity": "À procura de trabalho em {name}? Veja as vagas remotas.",
+      "ctaCountry": "Trabalha remotamente a partir de {country}? Veja as vagas abertas.",
+      "ctaGeneric": "Precisa de um emprego tech remoto?"
+    },
+    "headings": {
+      "coworkingTools": "O que usamos nos dias de coworking",
+      "setupBeforeApply": "Prepare antes de se candidatar",
+      "toolsSlowTravel": "Ferramentas para financiar a viagem lenta",
+      "dailyCosts": "Os custos diários somam — eis o que ajuda",
+      "jobToFund": "Precisa de um emprego remoto para financiar {name}?",
+      "remoteRolesPair": "Vagas remotas em {a} ou {b}?",
+      "remoteRolesAcross": "Vagas remotas por todo o {name}",
+      "remoteJobFor": "Um emprego remoto para {name}? Veja o site parceiro.",
+      "workingFrom": "Trabalhar a partir de {name}"
+    },
+    "page": {
+      "notFoundBody": "A página que procura não existe ou foi movida.",
+      "filterByPassport": "Filtre pelo seu passaporte",
+      "forNomads2026": "Para nómadas digitais em 2026.",
+      "costIndexLabel": "Índice de custo de vida",
+      "forRolesIntro": "As melhores cidades para nómadas, escolhidas segundo a sua profissão.",
+      "citiesAtBest": "Cidades no seu melhor",
+      "countriesToBase": "Países onde se instalar",
+      "seasonalIntro": "Siga as estações. Escolha destinos no melhor momento do ano.",
+      "affiliateDisclosure": "Aviso de afiliação",
+      "maxCostIndex": "Índice de custo máx.",
+      "minNomadScore": "Pontuação nómada mín."
+    },
+    "filters": {
+      "filters": "Filtros",
+      "searchCity": "Procurar uma cidade…",
+      "allRegions": "Todas as regiões",
+      "maxCostIndex": "Índice de custo máx.",
+      "minInternet": "Internet mín.",
+      "minSafety": "Segurança mín.",
+      "minNomadScore": "Pontuação nómada mín.",
+      "sortBy": "Ordenar por",
+      "sortScore": "Pontuação nómada",
+      "sortCheapest": "Mais barato",
+      "sortFastest": "Internet mais rápida",
+      "sortSafest": "Mais seguro"
+    }
   }
 }

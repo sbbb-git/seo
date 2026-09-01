@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { CityCard } from '@/components/CityCard';
 import type { City } from '@/lib/data/cities';
 import type { Country } from '@/lib/data/countries';
-import type { Locale } from '@/lib/i18n';
+import type { Locale, Ui } from '@/lib/i18n';
 
 type SortKey = 'score' | 'cheapest' | 'fastest' | 'safest';
 
@@ -12,11 +12,12 @@ type Props = {
   cities: City[];
   countries: Country[];
   locale: Locale;
+  ui: Ui['filters'];
 };
 
 const REGIONS = ['Europe', 'Asia', 'Americas', 'Africa', 'Oceania'] as const;
 
-export function CitiesFilters({ cities, countries, locale }: Props) {
+export function CitiesFilters({ cities, countries, locale, ui }: Props) {
   const [region, setRegion] = useState<string>('any');
   const [maxCost, setMaxCost] = useState<number>(100);
   const [minMbps, setMinMbps] = useState<number>(0);
@@ -65,7 +66,7 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
     <div>
       <div className="rounded-2xl border border-line bg-paper p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3 flex-wrap">
-          <p className="text-xs uppercase tracking-widest text-muted font-semibold">Filters</p>
+          <p className="text-xs uppercase tracking-widest text-muted font-semibold">{ui.filters}</p>
           <button
             type="button"
             onClick={reset}
@@ -80,13 +81,13 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search a city…"
+            placeholder={ui.searchCity}
             className="w-full rounded-md border border-line bg-cream px-4 py-2.5 text-sm placeholder:text-muted focus:outline-none focus:border-ink"
           />
         </div>
 
         <div className="mt-4 flex flex-wrap gap-1.5">
-          <Chip active={region === 'any'} onClick={() => setRegion('any')}>All regions</Chip>
+          <Chip active={region === 'any'} onClick={() => setRegion('any')}>{ui.allRegions}</Chip>
           {REGIONS.map((r) => (
             <Chip key={r} active={region === r} onClick={() => setRegion(r)}>{r}</Chip>
           ))}
@@ -94,7 +95,7 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
 
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Slider
-            label="Max cost index"
+            label={ui.maxCostIndex}
             help={`≤ ${maxCost}/100`}
             min={30}
             max={100}
@@ -103,7 +104,7 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
             onChange={setMaxCost}
           />
           <Slider
-            label="Min internet"
+            label={ui.minInternet}
             help={`≥ ${minMbps} Mbps`}
             min={0}
             max={300}
@@ -112,7 +113,7 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
             onChange={setMinMbps}
           />
           <Slider
-            label="Min safety"
+            label={ui.minSafety}
             help={`≥ ${minSafety}/100`}
             min={0}
             max={100}
@@ -121,7 +122,7 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
             onChange={setMinSafety}
           />
           <Slider
-            label="Min nomad score"
+            label={ui.minNomadScore}
             help={`≥ ${minScore}/10`}
             min={0}
             max={10}
@@ -132,12 +133,12 @@ export function CitiesFilters({ cities, countries, locale }: Props) {
         </div>
 
         <div className="mt-5 flex items-center gap-2 flex-wrap">
-          <span className="text-xs text-muted uppercase tracking-widest font-semibold">Sort by</span>
+          <span className="text-xs text-muted uppercase tracking-widest font-semibold">{ui.sortBy}</span>
           {([
-            ['score', 'Nomad score'],
-            ['cheapest', 'Cheapest'],
-            ['fastest', 'Fastest internet'],
-            ['safest', 'Safest'],
+            ['score', ui.sortScore],
+            ['cheapest', ui.sortCheapest],
+            ['fastest', ui.sortFastest],
+            ['safest', ui.sortSafest],
           ] as [SortKey, string][]).map(([v, label]) => (
             <Chip key={v} active={sort === v} onClick={() => setSort(v)}>{label}</Chip>
           ))}

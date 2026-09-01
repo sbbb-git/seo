@@ -55,3 +55,33 @@ export function aiByJobRoleUrl(role?: string, locale?: Locale | string): string 
   if (!role) return `${SISTER_AI.url}/${l}`;
   return `${SISTER_AI.url}/${l}/jobs/${slug(role)}`;
 }
+
+// Localized taglines. The `tagline` constants above stay as the English
+// source of truth (llms.txt and any non-localized surface still use them);
+// UI components resolve through these so the footer and the Jobs / AI CTA
+// blocks are not English islands on the six other locales.
+const JOBS_TAGLINE: Partial<Record<Locale, string>> = {
+  fr: 'Des offres tech en remote venues de tout le web, actualisées chaque jour.',
+  es: 'Empleos tech en remoto de toda la web, actualizados a diario.',
+  pt: 'Vagas tech remotas de toda a web, atualizadas diariamente.',
+  it: 'Offerte tech da remoto da tutto il web, aggiornate ogni giorno.',
+  de: 'Remote-Tech-Jobs aus dem ganzen Web, täglich aktualisiert.',
+  pl: 'Zdalne oferty tech z całego internetu, odświeżane codziennie.',
+};
+
+const AI_TAGLINE: Partial<Record<Locale, string>> = {
+  fr: 'Les meilleurs outils IA pour chaque métier, en 7 langues.',
+  es: 'Las mejores herramientas de IA para cada profesión, en 7 idiomas.',
+  pt: 'As melhores ferramentas de IA para cada profissão, em 7 idiomas.',
+  it: 'I migliori strumenti IA per ogni professione, in 7 lingue.',
+  de: 'Die besten KI-Tools für jeden Beruf, in 7 Sprachen.',
+  pl: 'Najlepsze narzędzia AI do każdego zawodu, w 7 językach.',
+};
+
+export function jobsTagline(locale?: Locale): string {
+  return (locale && JOBS_TAGLINE[locale]) || SISTER_JOBS.tagline;
+}
+
+export function aiTagline(locale?: Locale): string {
+  return (locale && AI_TAGLINE[locale]) || SISTER_AI.tagline;
+}

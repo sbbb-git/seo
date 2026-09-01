@@ -32,7 +32,7 @@ export default async function SeasonalIndexPage({ params }: Props) {
       ]} />
       <header className="max-w-3xl mt-4">
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tightish font-display">By season</h1>
-        <p className="mt-3 text-muted">Time the world. Pick destinations that are at their best when you visit.</p>
+        <p className="mt-3 text-muted">{dict.ui.page.seasonalIntro}</p>
       </header>
       <ul className="mt-10 grid gap-4 sm:grid-cols-2">
         {seasons.map((s) => (

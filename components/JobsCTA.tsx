@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/i18n';
-import { SISTER_JOBS, slateremoteCountryUrl, slateremoteHomeUrl } from '@/lib/sister-sites';
+import { getUi, fillTpl } from '@/lib/ui';
+import { SISTER_JOBS, slateremoteCountryUrl, slateremoteHomeUrl, jobsTagline } from '@/lib/sister-sites';
 
 type Props = {
   locale?: Locale;
@@ -12,13 +13,14 @@ type Props = {
 
 export function JobsCTA({ locale, countrySlug, countryName, cityName, heading, variant = 'card' }: Props) {
   const url = countrySlug ? slateremoteCountryUrl(countrySlug, locale) : slateremoteHomeUrl(locale);
+  const ui = getUi(locale);
   const computedHeading =
     heading ||
     (cityName
-      ? `Looking for work in ${countryName || cityName}? Browse open remote roles.`
+      ? fillTpl(ui.jobs.ctaCity, { name: countryName || cityName })
       : countryName
-      ? `Working remote from ${countryName}? See open positions.`
-      : 'Need a remote tech job?');
+      ? fillTpl(ui.jobs.ctaCountry, { country: countryName })
+      : ui.jobs.ctaGeneric);
 
   if (variant === 'inline') {
     return (
@@ -30,7 +32,7 @@ export function JobsCTA({ locale, countrySlug, countryName, cityName, heading, v
           rel="noopener"
           className="text-accent font-semibold hover:text-accent-deep transition-colors underline-offset-4 hover:underline"
         >
-          Browse on {SISTER_JOBS.domain} ↗
+          {ui.jobs.browseOn} {SISTER_JOBS.domain} ↗
         </a>
       </p>
     );
@@ -41,7 +43,7 @@ export function JobsCTA({ locale, countrySlug, countryName, cityName, heading, v
       <div>
         <p className="text-xs uppercase tracking-widest text-accent-deep font-semibold">Sister site</p>
         <h2 className="mt-1 text-xl font-semibold tracking-tightish font-display">{computedHeading}</h2>
-        <p className="mt-2 text-sm text-muted max-w-md">{SISTER_JOBS.tagline}</p>
+        <p className="mt-2 text-sm text-muted max-w-md">{jobsTagline(locale)}</p>
       </div>
       <a
         href={url}
@@ -49,7 +51,7 @@ export function JobsCTA({ locale, countrySlug, countryName, cityName, heading, v
         rel="noopener"
         className="inline-flex items-center gap-2 rounded-md bg-ink text-cream px-5 py-2.5 text-sm font-medium hover:bg-accent-deep transition-colors whitespace-nowrap"
       >
-        Browse on {SISTER_JOBS.domain} <span aria-hidden>↗</span>
+        {ui.jobs.browseOn} {SISTER_JOBS.domain} <span aria-hidden>↗</span>
       </a>
     </section>
   );

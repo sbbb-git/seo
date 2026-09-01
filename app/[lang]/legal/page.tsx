@@ -34,7 +34,7 @@ export default async function LegalPage({ params }: Props) {
           does not constitute legal, immigration, tax or financial advice. Always verify
           with the official sources linked on each visa page.
         </p>
-        <h2>Affiliate disclosure</h2>
+        <h2>{dict.ui.page.affiliateDisclosure}</h2>
         <p>
           Some outbound links are affiliate links. If you sign up or buy through them,
           we may earn a commission at no extra cost to you. This never influences our

@@ -38,7 +38,7 @@ export default async function AboutPage({ params }: Props) {
           ten cities. The data is reviewed quarterly. The guides are written without
           recycling press releases.
         </p>
-        <h2>Affiliate disclosure</h2>
+        <h2>{dict.ui.page.affiliateDisclosure}</h2>
         <p>
           Some links on this site are affiliate links. If you sign up through one of
           them we may earn a small commission at no extra cost to you. We only feature

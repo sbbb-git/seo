@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getDictionary, LOCALES, type Locale } from '@/lib/i18n';
 import { buildPageMetadata } from '@/lib/seo';
+import { fillTpl } from '@/lib/ui';
 import { getAllRegions, getRegion, getRegionName } from '@/lib/data/regions';
 import { getCountry } from '@/lib/data/countries';
 import { CountryCard } from '@/components/CountryCard';
@@ -70,7 +71,7 @@ export default async function RegionDetailPage({ params }: Props) {
         <PromoBanner locale={params.lang} variant="insurance" />
       </div>
       <SlateRemoteBanner locale={params.lang} className="mt-8" />
-      <JobsCTA locale={params.lang} heading={`Remote roles across ${name}`} />
+      <JobsCTA locale={params.lang} heading={fillTpl(dict.ui.headings.remoteRolesAcross, { name })} />
       <PartnerStack
         locale={params.lang}
         categories={['banking', 'insurance', 'esim', 'travel-meta', 'accommodation']}

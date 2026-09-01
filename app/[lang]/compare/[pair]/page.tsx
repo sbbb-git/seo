@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getDictionary, LOCALES, type Locale } from '@/lib/i18n';
 import { buildPageMetadata } from '@/lib/seo';
+import { fillTpl } from '@/lib/ui';
 import { getAllComparisons, getComparison } from '@/lib/data/comparisons';
 import { getCountry, getCountryName } from '@/lib/data/countries';
 import { getCity, getCityName } from '@/lib/data/cities';
@@ -95,7 +96,7 @@ export default async function ComparePairPage({ params }: Props) {
         <h1 className="text-3xl sm:text-5xl font-semibold tracking-tightish">
           {a.name} <span className="text-muted font-normal">vs</span> {b.name}
         </h1>
-        <p className="mt-3 text-muted">For digital nomads in 2026.</p>
+        <p className="mt-3 text-muted">{dict.ui.page.forNomads2026}</p>
       </header>
 
       <section className="mt-10 overflow-x-auto">
@@ -112,7 +113,7 @@ export default async function ComparePairPage({ params }: Props) {
             </tr>
           </thead>
           <tbody className="divide-y divide-line">
-            <tr><td className="py-3 text-muted">Cost of living index</td><td className="py-3">{a.costIndex} / 100</td><td className="py-3">{b.costIndex} / 100</td></tr>
+            <tr><td className="py-3 text-muted">{dict.ui.page.costIndexLabel}</td><td className="py-3">{a.costIndex} / 100</td><td className="py-3">{b.costIndex} / 100</td></tr>
             <tr><td className="py-3 text-muted">Internet (Mbps avg)</td><td className="py-3">{a.internetMbps}</td><td className="py-3">{b.internetMbps}</td></tr>
             <tr><td className="py-3 text-muted">Safety index</td><td className="py-3">{a.safetyIndex} / 100</td><td className="py-3">{b.safetyIndex} / 100</td></tr>
             <tr><td className="py-3 text-muted">Temperature range</td><td className="py-3">{a.tempMinC}° – {a.tempMaxC}°C</td><td className="py-3">{b.tempMinC}° – {b.tempMaxC}°C</td></tr>
@@ -130,7 +131,7 @@ export default async function ComparePairPage({ params }: Props) {
         <PromoBanner locale={params.lang} variant="insurance" />
       </div>
       <SlateRemoteBanner locale={params.lang} className="mt-8" />
-      <JobsCTA locale={params.lang} heading={`Remote roles in ${a.name} or ${b.name}?`} />
+      <JobsCTA locale={params.lang} heading={fillTpl(dict.ui.headings.remoteRolesPair, { a: a.name, b: b.name })} />
       <PartnerStack
         locale={params.lang}
         categories={['banking', 'insurance', 'esim', 'vpn', 'accommodation']}

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { LOCALES, type Locale, getDictionary } from '@/lib/i18n';
 import { buildPageMetadata, SITE_URL } from '@/lib/seo';
+import { fillTpl } from '@/lib/ui';
 import { getAllCities, getCity, getCityName } from '@/lib/data/cities';
 import { getCountry, getCountryName } from '@/lib/data/countries';
 import { estimateForCity } from '@/lib/data/cost';
@@ -293,11 +294,11 @@ export default async function CostOfLivingDetailPage({ params }: Props) {
         <PromoBanner locale={params.lang} variant="esim" />
       </div>
       <SlateRemoteBanner locale={params.lang} countrySlug={country?.slug} countryName={countryName} className="mt-8" />
-      <JobsCTA locale={params.lang} cityName={name} heading={`Need a remote job to fund ${name}?`} />
+      <JobsCTA locale={params.lang} cityName={name} heading={fillTpl(dict.ui.headings.jobToFund, { name })} />
       <PartnerStack
         locale={params.lang}
         categories={['banking', 'accommodation', 'mobility-credits', 'esim', 'insurance']}
-        heading="Daily costs add up — here's what helps"
+        heading={dict.ui.headings.dailyCosts}
       />
 
       <JsonLd data={faqLd} />

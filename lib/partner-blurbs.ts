@@ -1,0 +1,235 @@
+// Localized partner blurbs.
+//
+// lib/partners.ts holds one English `blurb` per partner. Those render inside
+// PromoBanner / PartnerStack / FeaturedPartners on essentially every page, so
+// on the six non-English locales they were the largest remaining block of
+// untranslated copy. Keyed by partner id; falls back to the English blurb from
+// the catalog for any id not listed here.
+import type { Locale } from '@/lib/i18n';
+
+type Blurbs = Partial<Record<Locale, string>>;
+
+export const PARTNER_BLURBS: Record<string, Blurbs> = {
+  wise: {
+    fr: 'Compte multidevise au taux de change réel. Encaissez dans plus de 40 devises.',
+    es: 'Cuenta multidivisa con el tipo de cambio real. Cobra en más de 40 divisas.',
+    pt: 'Conta multimoeda com câmbio real. Receba em mais de 40 moedas.',
+    it: 'Conto multivaluta al cambio reale. Incassa in oltre 40 valute.',
+    de: 'Multiwährungskonto zum echten Wechselkurs. Empfange über 40 Währungen.',
+    pl: 'Konto wielowalutowe z prawdziwym kursem. Otrzymuj płatności w ponad 40 walutach.',
+  },
+  revolut: {
+    fr: 'Compte européen gratuit avec cartes virtuelles. Payez à l’étranger au taux réel.',
+    es: 'Cuenta europea gratuita con tarjetas virtuales. Paga fuera al tipo real.',
+    pt: 'Conta europeia gratuita com cartões virtuais. Pague no estrangeiro ao câmbio real.',
+    it: 'Conto europeo gratuito con carte virtuali. Paga all’estero al cambio reale.',
+    de: 'Kostenloses EU-Konto mit virtuellen Karten. Zahle im Ausland zum echten Kurs.',
+    pl: 'Darmowe konto europejskie z kartami wirtualnymi. Płać za granicą po realnym kursie.',
+  },
+  qonto: {
+    fr: 'Banque pro pour freelances et PME en France et en Europe. Bonus de bienvenue de 60 à 100 €.',
+    es: 'Banca de empresa para autónomos y pymes en Francia y Europa. Bono de bienvenida de 60-100 €.',
+    pt: 'Banca empresarial para freelancers e PME em França e na Europa. Bónus de 60-100 €.',
+    it: 'Banca business per freelance e PMI in Francia e in Europa. Bonus di benvenuto 60-100 €.',
+    de: 'Geschäftskonto für Freelancer und KMU in Frankreich und Europa. 60-100 € Willkommensbonus.',
+    pl: 'Bankowość firmowa dla freelancerów i MŚP we Francji i Europie. Bonus powitalny 60-100 €.',
+  },
+  safetywing: {
+    fr: 'Assurance santé nomade conçue pour les travailleurs à distance. Dès 45 $/mois, valable dans 175+ pays.',
+    es: 'Seguro médico nómada pensado para trabajadores remotos. Desde 45 $/mes, en más de 175 países.',
+    pt: 'Seguro de saúde nómada feito para trabalhadores remotos. Desde 45 $/mês, em mais de 175 países.',
+    it: 'Assicurazione sanitaria per nomadi, pensata per chi lavora da remoto. Da 45 $/mese, in oltre 175 paesi.',
+    de: 'Krankenversicherung für Nomaden, gemacht für Remote-Worker. Ab 45 $/Monat, in über 175 Ländern.',
+    pl: 'Ubezpieczenie zdrowotne dla nomadów, stworzone dla pracujących zdalnie. Od 45 $/mies., w ponad 175 krajach.',
+  },
+  airalo: {
+    fr: 'Forfaits data eSIM dans plus de 200 pays. Code SACHA6010 pour 3 $ de remise sur votre premier forfait.',
+    es: 'Planes de datos eSIM en más de 200 países. Código SACHA6010 para 3 $ de descuento en tu primer plan.',
+    pt: 'Planos de dados eSIM em mais de 200 países. Código SACHA6010 para 3 $ de desconto no primeiro plano.',
+    it: 'Piani dati eSIM in oltre 200 paesi. Codice SACHA6010 per 3 $ di sconto sul primo piano.',
+    de: 'eSIM-Datentarife in über 200 Ländern. Code SACHA6010 für 3 $ Rabatt auf deinen ersten Tarif.',
+    pl: 'Pakiety danych eSIM w ponad 200 krajach. Kod SACHA6010 na 3 $ zniżki przy pierwszym pakiecie.',
+  },
+  nordvpn: {
+    fr: 'VPN pour le wifi d’hôtel, les restrictions géographiques et la confidentialité de base. 6 appareils, 60+ pays.',
+    es: 'VPN para el wifi de hotel, las restricciones geográficas y la privacidad básica. 6 dispositivos, 60+ países.',
+    pt: 'VPN para wifi de hotel, restrições geográficas e privacidade básica. 6 dispositivos, 60+ países.',
+    it: 'VPN per il wifi degli hotel, le restrizioni geografiche e la privacy di base. 6 dispositivi, 60+ paesi.',
+    de: 'VPN für Hotel-WLAN, Geosperren und grundlegende Privatsphäre. 6 Geräte, 60+ Länder.',
+    pl: 'VPN na hotelowe wifi, blokady regionalne i podstawową prywatność. 6 urządzeń, 60+ krajów.',
+  },
+  fiverr: {
+    fr: 'La plus grande marketplace freelance au monde. Vendez rédaction, design, dev, vidéo.',
+    es: 'El mayor marketplace freelance del mundo. Vende redacción, diseño, desarrollo y vídeo.',
+    pt: 'O maior marketplace freelance do mundo. Venda escrita, design, desenvolvimento e vídeo.',
+    it: 'Il più grande marketplace freelance al mondo. Vendi scrittura, design, sviluppo e video.',
+    de: 'Der größte Freelance-Marktplatz der Welt. Verkaufe Text, Design, Entwicklung und Video.',
+    pl: 'Największy na świecie marketplace freelancerski. Sprzedawaj teksty, design, kod i wideo.',
+  },
+  'airbnb-host': {
+    fr: 'Un appartement vide pendant vos voyages ? Mettez-le sur Airbnb et financez le trajet.',
+    es: '¿Piso vacío mientras viajas? Publícalo en Airbnb y cubre el viaje.',
+    pt: 'Apartamento vazio enquanto viaja? Coloque-o no Airbnb e pague a viagem.',
+    it: 'Casa vuota mentre viaggi? Mettila su Airbnb e ripaga il viaggio.',
+    de: 'Wohnung steht leer, während du reist? Biete sie auf Airbnb an und finanziere die Reise.',
+    pl: 'Puste mieszkanie, gdy podróżujesz? Wystaw je na Airbnb i sfinansuj wyjazd.',
+  },
+  beehiiv: {
+    fr: 'Plateforme de newsletter moderne avec monétisation intégrée. Utilisée par les plus gros créateurs.',
+    es: 'Plataforma de newsletter moderna con monetización integrada. La usan los grandes creadores.',
+    pt: 'Plataforma de newsletter moderna com monetização integrada. Usada pelos maiores criadores.',
+    it: 'Piattaforma newsletter moderna con monetizzazione integrata. Usata dai creator più grandi.',
+    de: 'Moderne Newsletter-Plattform mit eingebauter Monetarisierung. Genutzt von den größten Creatorn.',
+    pl: 'Nowoczesna platforma newsletterowa z wbudowaną monetyzacją. Używana przez największych twórców.',
+  },
+  aweber: {
+    fr: 'Emailing pour solopreneurs. Gratuit jusqu’à 500 abonnés, éditeur en glisser-déposer.',
+    es: 'Email marketing para solopreneurs. Gratis hasta 500 suscriptores, editor de arrastrar y soltar.',
+    pt: 'Email marketing para solopreneurs. Grátis até 500 subscritores, editor de arrastar e largar.',
+    it: 'Email marketing per solopreneur. Gratis fino a 500 iscritti, editor drag-and-drop.',
+    de: 'E-Mail-Marketing für Solopreneure. Kostenlos bis 500 Abonnenten, Drag-and-drop-Editor.',
+    pl: 'Email marketing dla solopreneurów. Za darmo do 500 subskrybentów, edytor przeciągnij i upuść.',
+  },
+  fireflies: {
+    fr: 'Comptes rendus de réunion par IA. Transcrit automatiquement Zoom, Meet et Teams.',
+    es: 'Notas de reunión con IA. Transcribe automáticamente Zoom, Meet y Teams.',
+    pt: 'Notas de reunião com IA. Transcreve automaticamente Zoom, Meet e Teams.',
+    it: 'Note delle riunioni con IA. Trascrive automaticamente Zoom, Meet e Teams.',
+    de: 'KI-Meeting-Notizen. Transkribiert Zoom, Meet und Teams automatisch.',
+    pl: 'Notatki ze spotkań od AI. Automatycznie transkrybuje Zoom, Meet i Teams.',
+  },
+  skool: {
+    fr: 'Communautés payantes pour créateurs et formateurs. Là où vivent la plupart des masterminds nomades.',
+    es: 'Comunidades de pago para creadores y formadores. Donde viven la mayoría de masterminds nómadas.',
+    pt: 'Comunidades pagas para criadores e formadores. Onde vivem a maioria dos masterminds nómadas.',
+    it: 'Community a pagamento per creator ed educatori. Dove vive la maggior parte dei mastermind nomadi.',
+    de: 'Bezahlte Communities für Creator und Kursanbieter. Wo die meisten Nomaden-Masterminds laufen.',
+    pl: 'Płatne społeczności dla twórców i edukatorów. Tam działa większość mastermindów nomadów.',
+  },
+  claude: {
+    fr: 'Claude d’Anthropic. Le meilleur LLM pour le raisonnement long, la recherche et la rédaction.',
+    es: 'Claude de Anthropic. El mejor LLM para razonamiento largo, investigación y redacción.',
+    pt: 'Claude da Anthropic. O melhor LLM para raciocínio longo, pesquisa e escrita.',
+    it: 'Claude di Anthropic. Il miglior LLM per ragionamento lungo, ricerca e scrittura.',
+    de: 'Claude von Anthropic. Das beste LLM für langes Denken, Recherche und Texte.',
+    pl: 'Claude od Anthropic. Najlepszy LLM do długiego rozumowania, researchu i pisania.',
+  },
+  elevenlabs: {
+    fr: 'Clonage de voix et synthèse vocale IA de référence. Plus de 30 langues, quasi indiscernable.',
+    es: 'Clonación de voz y TTS con IA de referencia. Más de 30 idiomas, casi indistinguible.',
+    pt: 'Clonagem de voz e TTS com IA de referência. Mais de 30 idiomas, quase indistinguível.',
+    it: 'Clonazione vocale e TTS con IA di riferimento. Oltre 30 lingue, quasi indistinguibile.',
+    de: 'Führendes KI-Voice-Cloning und TTS. Über 30 Sprachen, kaum vom Original zu unterscheiden.',
+    pl: 'Czołowe klonowanie głosu i TTS od AI. Ponad 30 języków, niemal nie do odróżnienia.',
+  },
+  speechify: {
+    fr: 'Synthèse vocale pour écouter articles, livres et emails. Parfait en déplacement.',
+    es: 'Texto a voz para escuchar artículos, libros y correos. Perfecto en movimiento.',
+    pt: 'Texto para voz para ouvir artigos, livros e emails. Perfeito em movimento.',
+    it: 'Da testo a voce per ascoltare articoli, libri ed email. Perfetto in movimento.',
+    de: 'Text-to-Speech für Artikel, Bücher und E-Mails zum Anhören. Perfekt unterwegs.',
+    pl: 'Zamiana tekstu na mowę — słuchaj artykułów, książek i maili. Idealne w drodze.',
+  },
+  murf: {
+    fr: 'Voix off IA pour vidéos et podcasts. Plus de 120 voix réalistes en 20+ langues.',
+    es: 'Voz en off con IA para vídeos y podcasts. Más de 120 voces realistas en 20+ idiomas.',
+    pt: 'Locução com IA para vídeos e podcasts. Mais de 120 vozes realistas em 20+ idiomas.',
+    it: 'Voce fuori campo IA per video e podcast. Oltre 120 voci realistiche in 20+ lingue.',
+    de: 'KI-Voiceover für Videos und Podcasts. Über 120 realistische Stimmen in 20+ Sprachen.',
+    pl: 'Lektor AI do filmów i podcastów. Ponad 120 realistycznych głosów w 20+ językach.',
+  },
+  mercor: {
+    fr: 'Soyez payé par des labos IA pour entraîner des LLM dans votre domaine. Revenu d’appoint pour experts.',
+    es: 'Cobra de laboratorios de IA por entrenar LLM en tu especialidad. Ingreso extra para expertos.',
+    pt: 'Seja pago por laboratórios de IA para treinar LLM na sua área. Rendimento extra para especialistas.',
+    it: 'Fatti pagare dai laboratori IA per addestrare LLM nel tuo campo. Reddito extra per esperti.',
+    de: 'Lass dich von KI-Laboren dafür bezahlen, LLMs in deinem Fachgebiet zu trainieren. Nebeneinkommen für Experten.',
+    pl: 'Otrzymuj wynagrodzenie od laboratoriów AI za trenowanie LLM w swojej dziedzinie. Dodatkowy dochód dla ekspertów.',
+  },
+  braintrust: {
+    fr: 'Marketplace freelance tech sans commission de plateforme. Pour devs, designers et PM.',
+    es: 'Marketplace freelance tech sin comisiones de plataforma. Para devs, diseñadores y PM.',
+    pt: 'Marketplace freelance tech sem comissões de plataforma. Para devs, designers e PM.',
+    it: 'Marketplace freelance tech senza commissioni di piattaforma. Per dev, designer e PM.',
+    de: 'Tech-Freelance-Marktplatz ohne Plattformgebühren. Für Devs, Designer und PMs.',
+    pl: 'Marketplace freelance tech bez prowizji platformy. Dla devów, projektantów i PM-ów.',
+  },
+  esketit: {
+    fr: 'Prêt entre particuliers avec 10-13 % de rendement. Diversifiez une partie de votre épargne nomade.',
+    es: 'Préstamos P2P con rendimientos del 10-13 %. Diversifica parte de tus ahorros nómadas.',
+    pt: 'Empréstimos P2P com rendimentos de 10-13 %. Diversifique parte das suas poupanças nómadas.',
+    it: 'Prestiti P2P con rendimenti del 10-13 %. Diversifica parte dei tuoi risparmi da nomade.',
+    de: 'P2P-Kredite mit 10-13 % Rendite. Diversifiziere einen Teil deiner Nomaden-Ersparnisse.',
+    pl: 'Pożyczki P2P z zyskiem 10-13 %. Zdywersyfikuj część swoich nomadzkich oszczędności.',
+  },
+  enerfip: {
+    fr: 'Financement participatif de projets d’énergies renouvelables en France. 5-8 % de rendement, avantages fiscaux.',
+    es: 'Crowdfunding de proyectos de energía renovable en Francia. 5-8 % de rendimiento, ventajas fiscales.',
+    pt: 'Crowdfunding de projetos de energia renovável em França. 5-8 % de rendimento, vantagens fiscais.',
+    it: 'Crowdfunding per progetti di energia rinnovabile in Francia. 5-8 % di rendimento, vantaggi fiscali.',
+    de: 'Crowdfunding für Erneuerbare-Energien-Projekte in Frankreich. 5-8 % Rendite, Steuervorteile.',
+    pl: 'Crowdfunding projektów energii odnawialnej we Francji. 5-8 % zysku, korzyści podatkowe.',
+  },
+  appsumo: {
+    fr: 'Deals à vie sur des outils SaaS pour freelances, créateurs et nomades. Payez une fois.',
+    es: 'Ofertas de por vida en herramientas SaaS para freelancers, creadores y nómadas. Paga una vez.',
+    pt: 'Ofertas vitalícias em ferramentas SaaS para freelancers, criadores e nómadas. Pague uma vez.',
+    it: 'Offerte a vita su strumenti SaaS per freelance, creator e nomadi. Paghi una volta.',
+    de: 'Lifetime-Deals für SaaS-Tools für Freelancer, Creator und Nomaden. Einmal zahlen.',
+    pl: 'Dożywotnie oferty na narzędzia SaaS dla freelancerów, twórców i nomadów. Płacisz raz.',
+  },
+  'amazon-fr': {
+    fr: 'Marketplace pour accessoires nomades : batteries externes, cubes de rangement, bouchons d’oreilles.',
+    es: 'Marketplace de accesorios nómadas: baterías externas, organizadores de equipaje, tapones.',
+    pt: 'Marketplace de acessórios nómadas: power banks, organizadores de mala, tampões.',
+    it: 'Marketplace di accessori da nomade: power bank, organizer da valigia, tappi per orecchie.',
+    de: 'Marktplatz für Nomaden-Zubehör: Powerbanks, Packwürfel, Ohrstöpsel.',
+    pl: 'Marketplace z akcesoriami dla nomadów: powerbanki, kostki do pakowania, zatyczki do uszu.',
+  },
+  uber: {
+    fr: 'VTC dans toutes les villes nomades. 50 % de réduction sur vos 5 premières courses via ce lien.',
+    es: 'Transporte en todas las ciudades nómadas. 50 % de descuento en tus 5 primeros viajes con este enlace.',
+    pt: 'Transporte em todas as cidades nómadas. 50 % de desconto nas 5 primeiras viagens com este link.',
+    it: 'Ride-share in ogni città da nomadi. 50 % di sconto sulle prime 5 corse con questo link.',
+    de: 'Fahrdienst in jeder Nomadenstadt. 50 % Rabatt auf deine ersten 5 Fahrten über diesen Link.',
+    pl: 'Przejazdy w każdym mieście nomadów. 50 % zniżki na pierwsze 5 kursów przez ten link.',
+  },
+  'uber-eats': {
+    fr: 'Livraison de repas. 10 € de réduction sur la première commande pour les nouveaux utilisateurs.',
+    es: 'Entrega de comida. Los nuevos usuarios reciben 10 € de descuento en su primer pedido.',
+    pt: 'Entrega de comida. Os novos utilizadores recebem 10 € de desconto na primeira encomenda.',
+    it: 'Consegna di cibo. I nuovi utenti ricevono 10 € di sconto sul primo ordine.',
+    de: 'Essenslieferung. Neukunden erhalten 10 € Rabatt auf die erste Bestellung.',
+    pl: 'Dostawa jedzenia. Nowi użytkownicy dostają 10 € zniżki na pierwsze zamówienie.',
+  },
+  lime: {
+    fr: 'Trottinettes et vélos électriques dans plus de 200 villes. 5 € de crédit offert à l’inscription.',
+    es: 'Patinetes y bicis eléctricas en más de 200 ciudades. 5 € de crédito gratis al registrarte.',
+    pt: 'Trotinetes e bicicletas elétricas em mais de 200 cidades. 5 € de crédito grátis no registo.',
+    it: 'Monopattini e bici elettriche in oltre 200 città. 5 € di credito gratis all’iscrizione.',
+    de: 'E-Scooter und Räder in über 200 Städten. 5 € Gratis-Guthaben bei der Anmeldung.',
+    pl: 'Hulajnogi i rowery elektryczne w ponad 200 miastach. 5 € darmowego kredytu przy rejestracji.',
+  },
+  classpass: {
+    fr: 'Cours de yoga, salle de sport et pilates dans plus de 1 800 villes. Restez en forme en bougeant.',
+    es: 'Clases de yoga, gimnasio y pilates en más de 1 800 ciudades. Mantente en forma mientras viajas.',
+    pt: 'Aulas de ioga, ginásio e pilates em mais de 1 800 cidades. Mantenha-se em forma em viagem.',
+    it: 'Lezioni di yoga, palestra e pilates in oltre 1 800 città. Resta in forma mentre ti sposti.',
+    de: 'Yoga-, Gym- und Pilates-Kurse in über 1 800 Städten. Bleib fit, während du unterwegs bist.',
+    pl: 'Zajęcia jogi, siłowni i pilatesu w ponad 1 800 miastach. Utrzymuj formę w podróży.',
+  },
+  vinted: {
+    fr: 'Vendez les vêtements dont vous n’avez plus besoin avant de partir. Marketplace européenne.',
+    es: 'Vende la ropa que ya no necesitas antes de irte. Marketplace europeo.',
+    pt: 'Venda a roupa de que já não precisa antes de partir. Marketplace europeu.',
+    it: 'Vendi i vestiti che non ti servono più prima di partire. Marketplace europeo.',
+    de: 'Verkaufe Kleidung, die du nicht mehr brauchst, bevor du losziehst. Europäischer Marktplatz.',
+    pl: 'Sprzedaj ubrania, których już nie potrzebujesz, przed wyjazdem. Europejski marketplace.',
+  },
+};
+
+/** Localized blurb for a partner, falling back to the catalog's English text. */
+export function partnerBlurb(id: string, fallback: string, locale?: Locale): string {
+  if (!locale || locale === 'en') return fallback;
+  return PARTNER_BLURBS[id]?.[locale] || fallback;
+}

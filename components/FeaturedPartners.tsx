@@ -1,6 +1,8 @@
 import { getPartners, resolvePartnerUrl, type Partner, type PartnerCategory } from '@/lib/partners';
 import { partnerLogo } from '@/lib/images';
+import { partnerBlurb } from '@/lib/partner-blurbs';
 import type { Locale } from '@/lib/i18n';
+import { getUi } from '@/lib/ui';
 
 type Props = {
   locale: Locale;
@@ -13,13 +15,14 @@ type Props = {
  * Eye-catching primary CTA block. Used at the TOP of detail pages
  * to capture attention before the user reads the data.
  */
-export function FeaturedPartners({ locale, categories, heading = 'Set up in 2 minutes', limit = 3 }: Props) {
+export function FeaturedPartners({ locale, categories, heading, limit = 3 }: Props) {
   const partners = getPartners({ categories, locale, tier: 'primary', limit });
   if (partners.length === 0) return null;
+  const resolvedHeading = heading || getUi(locale).featuredPartnersHeading;
 
   return (
     <section className="mt-6 rounded-2xl border border-accent-soft bg-accent-soft/30 px-5 py-5 sm:px-6 sm:py-6">
-      <p className="text-[10px] uppercase tracking-widest text-accent-deep font-semibold">{heading}</p>
+      <p className="text-[10px] uppercase tracking-widest text-accent-deep font-semibold">{resolvedHeading}</p>
       <ul className="mt-3 grid gap-2 sm:grid-cols-3">
         {partners.map((p: Partner) => {
           const url = resolvePartnerUrl(p, locale);
@@ -45,7 +48,7 @@ export function FeaturedPartners({ locale, categories, heading = 'Set up in 2 mi
                   <span className="font-semibold text-sm tracking-tightish">{p.name}</span>
                   <span aria-hidden className="text-accent text-sm">↗</span>
                 </div>
-                <p className="mt-1 text-xs text-muted line-clamp-2">{p.blurb}</p>
+                <p className="mt-1 text-xs text-muted line-clamp-2">{partnerBlurb(p.id, p.blurb, locale)}</p>
               </div>
             </a>
           </li>

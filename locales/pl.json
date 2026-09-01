@@ -228,5 +228,96 @@
     "posExpensive": "w wyższym przedziale dla pracowników zdalnych",
     "moreHeading": "Więcej o {name}",
     "fullGuideTpl": "Pełny przewodnik cyfrowego nomady po {name}"
+  },
+  "ui": {
+    "sponsored": "Materiał sponsorowany",
+    "promo": {
+      "setup": {
+        "eyebrow": "Zanim wsiądziesz do samolotu",
+        "headline": "Załóż konto wielowalutowe w 2 minuty",
+        "cta": "Weź Wise (za darmo)"
+      },
+      "insurance": {
+        "eyebrow": "Ubezpieczenie podróżne dla nomadów",
+        "headline": "Od 45 $/mies. Obejmuje 175+ krajów. Anuluj kiedy chcesz.",
+        "cta": "Zobacz plany SafetyWing"
+      },
+      "banking": {
+        "eyebrow": "Płać za granicą bez prowizji",
+        "headline": "Revolut: prawdziwy kurs, karty wirtualne, darmowy europejski IBAN",
+        "cta": "Załóż Revolut"
+      },
+      "esim": {
+        "eyebrow": "Ląduj z już działającym internetem",
+        "headline": "eSIM na 200+ krajów. 3 $ zniżki z kodem SACHA6010.",
+        "cta": "Weź eSIM Airalo"
+      },
+      "vpn": {
+        "eyebrow": "Hotelowe wifi to pole minowe",
+        "headline": "NordVPN: 6 urządzeń, 60+ krajów, kill switch",
+        "cta": "Weź NordVPN"
+      },
+      "ai": {
+        "eyebrow": "Twój drugi pilot w pracy zdalnej",
+        "headline": "Claude: research, pisanie i kod z dowolnego miejsca",
+        "cta": "Wypróbuj Claude"
+      }
+    },
+    "partnerStackHeading": "Przyda się w tej podróży",
+    "featuredPartnersHeading": "Gotowe w 2 minuty",
+    "faqHeading": "Najczęstsze pytania",
+    "jobs": {
+      "sisterSite": "Serwis siostrzany",
+      "browseOn": "Zobacz na",
+      "searchJobs": "Szukaj pracy na Slate Remote",
+      "perks": "Za darmo · Bez rejestracji · Aktualizowane codziennie",
+      "headlineRole": "Wszystkie zdalne oferty dla {role} w jednym miejscu",
+      "headlineCountry": "Praca zdalna, którą wykonasz z kraju {country}",
+      "headlineGeneric": "Praca zdalna, gdziekolwiek jesteś",
+      "sublineRole": "Slate Remote zbiera wszystkie zdalne oferty dla {role} z sieci. Jedno wyszukiwanie, wszystkie źródła — odświeżane codziennie.",
+      "sublineCountry": "Slate Remote agreguje zdalne oferty z największych portali. Filtruj po kraju, roli i strefie czasowej — i znajdź pracę, dzięki której zostaniesz w kraju {country}.",
+      "sublineGeneric": "Slate Remote agreguje zdalne oferty ze wszystkich dużych portali. Jedno wyszukiwanie po wszystkich źródłach, odświeżane codziennie — wybierz miasto na Slowmadly, a pracę na Slate Remote.",
+      "ctaCity": "Szukasz pracy w {name}? Przejrzyj zdalne oferty.",
+      "ctaCountry": "Pracujesz zdalnie z kraju {country}? Zobacz otwarte rekrutacje.",
+      "ctaGeneric": "Potrzebujesz zdalnej pracy w IT?"
+    },
+    "headings": {
+      "coworkingTools": "Czego używamy w dni coworkingowe",
+      "setupBeforeApply": "Przygotuj przed złożeniem wniosku",
+      "toolsSlowTravel": "Narzędzia, które sfinansują powolne podróżowanie",
+      "dailyCosts": "Codzienne koszty się sumują — oto co pomaga",
+      "jobToFund": "Potrzebujesz zdalnej pracy, by sfinansować {name}?",
+      "remoteRolesPair": "Zdalne role w {a} czy {b}?",
+      "remoteRolesAcross": "Zdalne role w całym regionie {name}",
+      "remoteJobFor": "Zdalna praca dla {name}? Zobacz serwis siostrzany.",
+      "workingFrom": "Praca z {name}"
+    },
+    "page": {
+      "notFoundBody": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
+      "filterByPassport": "Filtruj według swojego paszportu",
+      "forNomads2026": "Dla cyfrowych nomadów w 2026.",
+      "costIndexLabel": "Indeks kosztów życia",
+      "forRolesIntro": "Najlepsze miasta dla nomadów, dobrane pod Twój zawód.",
+      "citiesAtBest": "Miasta w najlepszej formie",
+      "countriesToBase": "Kraje na bazę",
+      "seasonalIntro": "Podróżuj z porami roku. Wybieraj kierunki wtedy, gdy są najpiękniejsze.",
+      "affiliateDisclosure": "Informacja o afiliacji",
+      "maxCostIndex": "Maks. indeks kosztów",
+      "minNomadScore": "Min. ocena nomady"
+    },
+    "filters": {
+      "filters": "Filtry",
+      "searchCity": "Szukaj miasta…",
+      "allRegions": "Wszystkie regiony",
+      "maxCostIndex": "Maks. indeks kosztów",
+      "minInternet": "Min. internet",
+      "minSafety": "Min. bezpieczeństwo",
+      "minNomadScore": "Min. ocena nomady",
+      "sortBy": "Sortuj według",
+      "sortScore": "Ocena nomady",
+      "sortCheapest": "Najtańsze",
+      "sortFastest": "Najszybszy internet",
+      "sortSafest": "Najbezpieczniejsze"
+    }
   }
 }

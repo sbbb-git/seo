@@ -1,5 +1,5 @@
 import type { Locale } from '@/lib/i18n';
-import { SISTER_AI, aiByJobRoleUrl, aiByJobHomeUrl } from '@/lib/sister-sites';
+import { SISTER_AI, aiByJobRoleUrl, aiByJobHomeUrl, aiTagline } from '@/lib/sister-sites';
 
 type Props = {
   locale?: Locale;
@@ -37,7 +37,7 @@ export function AiToolsCTA({ locale, role, heading, variant = 'card' }: Props) {
       <div>
         <p className="text-xs uppercase tracking-widest text-accent-deep font-semibold">Sister site</p>
         <h2 className="mt-1 text-xl font-semibold tracking-tightish font-display">{computedHeading}</h2>
-        <p className="mt-2 text-sm text-muted max-w-md">{SISTER_AI.tagline}</p>
+        <p className="mt-2 text-sm text-muted max-w-md">{aiTagline(locale)}</p>
       </div>
       <a
         href={url}

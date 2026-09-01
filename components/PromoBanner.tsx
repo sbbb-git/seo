@@ -1,52 +1,19 @@
 import { getPartner, resolvePartnerUrl } from '@/lib/partners';
 import { partnerLogo } from '@/lib/images';
+import { partnerBlurb } from '@/lib/partner-blurbs';
 import type { Locale } from '@/lib/i18n';
+import { getUi } from '@/lib/ui';
 
 type Variant = 'setup' | 'insurance' | 'banking' | 'esim' | 'vpn' | 'ai';
 
-const VARIANTS: Record<Variant, { partnerId: string; eyebrow: string; headline: string; cta: string; tone: 'accent' | 'sage' | 'sky' | 'sand' }> = {
-  setup: {
-    partnerId: 'wise',
-    eyebrow: 'Before you board the flight',
-    headline: 'Open a multi-currency account in 2 minutes',
-    cta: 'Get Wise (free)',
-    tone: 'sage',
-  },
-  insurance: {
-    partnerId: 'safetywing',
-    eyebrow: 'Travel insurance for nomads',
-    headline: 'From $45/mo. Covers 175+ countries. Cancel anytime.',
-    cta: 'See SafetyWing plans',
-    tone: 'accent',
-  },
-  banking: {
-    partnerId: 'revolut',
-    eyebrow: 'Spend abroad without fees',
-    headline: 'Revolut: real exchange rate, virtual cards, free EU IBAN',
-    cta: 'Open Revolut',
-    tone: 'sky',
-  },
-  esim: {
-    partnerId: 'airalo',
-    eyebrow: 'Land with data already on',
-    headline: 'eSIM for 200+ countries. $3 off with code SACHA6010.',
-    cta: 'Get Airalo eSIM',
-    tone: 'sand',
-  },
-  vpn: {
-    partnerId: 'nordvpn',
-    eyebrow: 'Hotel wifi is a minefield',
-    headline: 'NordVPN: 6 devices, 60+ countries, kill switch',
-    cta: 'Get NordVPN',
-    tone: 'sky',
-  },
-  ai: {
-    partnerId: 'claude',
-    eyebrow: 'Your remote-work copilot',
-    headline: 'Claude: long-form research, writing, and code from anywhere',
-    cta: 'Try Claude',
-    tone: 'accent',
-  },
+// Partner + styling per variant; the copy itself is localized via `ui.promo`.
+const VARIANTS: Record<Variant, { partnerId: string; tone: 'accent' | 'sage' | 'sky' | 'sand' }> = {
+  setup: { partnerId: 'wise', tone: 'sage' },
+  insurance: { partnerId: 'safetywing', tone: 'accent' },
+  banking: { partnerId: 'revolut', tone: 'sky' },
+  esim: { partnerId: 'airalo', tone: 'sand' },
+  vpn: { partnerId: 'nordvpn', tone: 'sky' },
+  ai: { partnerId: 'claude', tone: 'accent' },
 };
 
 const TONE_CLASSES: Record<'accent' | 'sage' | 'sky' | 'sand', string> = {
@@ -67,6 +34,8 @@ export function PromoBanner({ locale, variant, className = '' }: Props) {
   const partner = getPartner(cfg.partnerId);
   if (!partner || !partner.active) return null;
   const url = resolvePartnerUrl(partner, locale);
+  const ui = getUi(locale);
+  const copy = ui.promo[variant];
 
   return (
     <a
@@ -87,13 +56,13 @@ export function PromoBanner({ locale, variant, className = '' }: Props) {
         />
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] uppercase tracking-widest text-accent-deep font-semibold">{cfg.eyebrow}</span>
-            <span className="text-[10px] uppercase tracking-widest text-muted border border-line/70 bg-cream/60 px-1.5 py-0.5 rounded">Sponsored</span>
+            <span className="text-[10px] uppercase tracking-widest text-accent-deep font-semibold">{copy.eyebrow}</span>
+            <span className="text-[10px] uppercase tracking-widest text-muted border border-line/70 bg-cream/60 px-1.5 py-0.5 rounded">{ui.sponsored}</span>
           </div>
-          <h3 className="mt-1.5 font-semibold tracking-tightish text-base sm:text-lg leading-snug">{cfg.headline}</h3>
-          <p className="mt-1 text-xs text-muted line-clamp-2">{partner.blurb}</p>
+          <h3 className="mt-1.5 font-semibold tracking-tightish text-base sm:text-lg leading-snug">{copy.headline}</h3>
+          <p className="mt-1 text-xs text-muted line-clamp-2">{partnerBlurb(partner.id, partner.blurb, locale)}</p>
           <div className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-ink group-hover:text-accent-deep transition-colors">
-            {cfg.cta} <span aria-hidden>↗</span>
+            {copy.cta} <span aria-hidden>↗</span>
           </div>
         </div>
       </div>

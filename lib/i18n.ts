@@ -220,6 +220,72 @@ export type Dictionary = {
     moreHeading: string;
     fullGuideTpl: string;
   };
+  ui: Ui;
+};
+
+/** Shared UI copy used by components that only receive a `locale`. */
+export type Ui = {
+  sponsored: string;
+  promo: Record<
+    'setup' | 'insurance' | 'banking' | 'esim' | 'vpn' | 'ai',
+    { eyebrow: string; headline: string; cta: string }
+  >;
+  partnerStackHeading: string;
+  featuredPartnersHeading: string;
+  faqHeading: string;
+  jobs: {
+    sisterSite: string;
+    browseOn: string;
+    searchJobs: string;
+    perks: string;
+    headlineRole: string;
+    headlineCountry: string;
+    headlineGeneric: string;
+    sublineRole: string;
+    sublineCountry: string;
+    sublineGeneric: string;
+    ctaCity: string;
+    ctaCountry: string;
+    ctaGeneric: string;
+  };
+  headings: {
+    coworkingTools: string;
+    setupBeforeApply: string;
+    toolsSlowTravel: string;
+    dailyCosts: string;
+    jobToFund: string;
+    remoteRolesPair: string;
+    remoteRolesAcross: string;
+    remoteJobFor: string;
+    workingFrom: string;
+  };
+  filters: {
+    filters: string;
+    searchCity: string;
+    allRegions: string;
+    maxCostIndex: string;
+    minInternet: string;
+    minSafety: string;
+    minNomadScore: string;
+    sortBy: string;
+    sortScore: string;
+    sortCheapest: string;
+    sortFastest: string;
+    sortSafest: string;
+  };
+  page: {
+    notFoundBody: string;
+    filterByPassport: string;
+    forNomads2026: string;
+    costIndexLabel: string;
+    forRolesIntro: string;
+    citiesAtBest: string;
+    countriesToBase: string;
+    seasonalIntro: string;
+    affiliateDisclosure: string;
+    maxCostIndex: string;
+    minNomadScore: string;
+  };
 };
 
 export async function getDictionary(locale: Locale): Promise<Dictionary> {

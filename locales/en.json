@@ -228,5 +228,96 @@
     "posExpensive": "at the pricier end for remote workers",
     "moreHeading": "More on {name}",
     "fullGuideTpl": "Full digital nomad guide to {name}"
+  },
+  "ui": {
+    "sponsored": "Sponsored",
+    "promo": {
+      "setup": {
+        "eyebrow": "Before you board the flight",
+        "headline": "Open a multi-currency account in 2 minutes",
+        "cta": "Get Wise (free)"
+      },
+      "insurance": {
+        "eyebrow": "Travel insurance for nomads",
+        "headline": "From $45/mo. Covers 175+ countries. Cancel anytime.",
+        "cta": "See SafetyWing plans"
+      },
+      "banking": {
+        "eyebrow": "Spend abroad without fees",
+        "headline": "Revolut: real exchange rate, virtual cards, free EU IBAN",
+        "cta": "Open Revolut"
+      },
+      "esim": {
+        "eyebrow": "Land with data already on",
+        "headline": "eSIM for 200+ countries. $3 off with code SACHA6010.",
+        "cta": "Get Airalo eSIM"
+      },
+      "vpn": {
+        "eyebrow": "Hotel wifi is a minefield",
+        "headline": "NordVPN: 6 devices, 60+ countries, kill switch",
+        "cta": "Get NordVPN"
+      },
+      "ai": {
+        "eyebrow": "Your remote-work copilot",
+        "headline": "Claude: long-form research, writing, and code from anywhere",
+        "cta": "Try Claude"
+      }
+    },
+    "partnerStackHeading": "Useful for this trip",
+    "featuredPartnersHeading": "Set up in 2 minutes",
+    "faqHeading": "Frequently asked",
+    "jobs": {
+      "sisterSite": "Sister site",
+      "browseOn": "Browse on",
+      "searchJobs": "Search jobs on Slate Remote",
+      "perks": "Free · No signup · Updated daily",
+      "headlineRole": "Every remote {role} job, in one place",
+      "headlineCountry": "Remote jobs you can do from {country}",
+      "headlineGeneric": "The remote job, wherever you are",
+      "sublineRole": "Slate Remote aggregates every remote {role} role from across the web. One search, every source — refreshed daily.",
+      "sublineCountry": "Slate Remote pulls remote roles from every major board. Filter by country, role, time zone — find the job that lets you stay in {country}.",
+      "sublineGeneric": "Slate Remote aggregates remote roles from every major job board. One search across all sources, refreshed daily — so you can pick a city on Slowmadly and a job on Slate Remote.",
+      "ctaCity": "Looking for work in {name}? Browse open remote roles.",
+      "ctaCountry": "Working remote from {country}? See open positions.",
+      "ctaGeneric": "Need a remote tech job?"
+    },
+    "headings": {
+      "coworkingTools": "Tools we use on coworking days",
+      "setupBeforeApply": "Set up before you apply",
+      "toolsSlowTravel": "Tools to fund the slow-travel life",
+      "dailyCosts": "Daily costs add up — here’s what helps",
+      "jobToFund": "Need a remote job to fund {name}?",
+      "remoteRolesPair": "Remote roles in {a} or {b}?",
+      "remoteRolesAcross": "Remote roles across {name}",
+      "remoteJobFor": "Remote job for {name}? See sister site.",
+      "workingFrom": "Working from {name}"
+    },
+    "page": {
+      "notFoundBody": "The page you are looking for does not exist or has moved.",
+      "filterByPassport": "Filter by your passport",
+      "forNomads2026": "For digital nomads in 2026.",
+      "costIndexLabel": "Cost of living index",
+      "forRolesIntro": "Best digital nomad cities curated for your specific job.",
+      "citiesAtBest": "Cities at their best",
+      "countriesToBase": "Countries to base in",
+      "seasonalIntro": "Time the world. Pick destinations that are at their best when you visit.",
+      "affiliateDisclosure": "Affiliate disclosure",
+      "maxCostIndex": "Max cost index",
+      "minNomadScore": "Min nomad score"
+    },
+    "filters": {
+      "filters": "Filters",
+      "searchCity": "Search a city…",
+      "allRegions": "All regions",
+      "maxCostIndex": "Max cost index",
+      "minInternet": "Min internet",
+      "minSafety": "Min safety",
+      "minNomadScore": "Min nomad score",
+      "sortBy": "Sort by",
+      "sortScore": "Nomad score",
+      "sortCheapest": "Cheapest",
+      "sortFastest": "Fastest internet",
+      "sortSafest": "Safest"
+    }
   }
 }

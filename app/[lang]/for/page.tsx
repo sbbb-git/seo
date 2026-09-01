@@ -32,7 +32,7 @@ export default async function RolesIndexPage({ params }: Props) {
       ]} />
       <header className="max-w-3xl mt-4">
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tightish font-display">By job role</h1>
-        <p className="mt-3 text-muted">Best digital nomad cities curated for your specific job.</p>
+        <p className="mt-3 text-muted">{dict.ui.page.forRolesIntro}</p>
       </header>
       <ul className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {roles.map((r) => (

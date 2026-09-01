@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Dictionary, Locale } from '@/lib/i18n';
 import { Logo } from './Logo';
-import { SISTER_JOBS, SISTER_AI, slateremoteHomeUrl, aiByJobHomeUrl } from '@/lib/sister-sites';
+import { SISTER_JOBS, SISTER_AI, slateremoteHomeUrl, aiByJobHomeUrl, jobsTagline, aiTagline } from '@/lib/sister-sites';
 
 type Props = {
   locale: Locale;
@@ -78,7 +78,7 @@ export function Footer({ locale, dict }: Props) {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <p className="text-xs uppercase tracking-widest text-accent-deep font-semibold">Need a remote tech job?</p>
-              <p className="mt-1 text-sm font-medium tracking-tightish">{SISTER_JOBS.tagline}</p>
+              <p className="mt-1 text-sm font-medium tracking-tightish">{jobsTagline(locale)}</p>
             </div>
             <a
               href={jobsUrl}
@@ -92,7 +92,7 @@ export function Footer({ locale, dict }: Props) {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:pl-4 sm:border-l sm:border-line/70">
             <div>
               <p className="text-xs uppercase tracking-widest text-accent-deep font-semibold">Need AI tools?</p>
-              <p className="mt-1 text-sm font-medium tracking-tightish">{SISTER_AI.tagline}</p>
+              <p className="mt-1 text-sm font-medium tracking-tightish">{aiTagline(locale)}</p>
             </div>
             <a
               href={aiUrl}
