@@ -15,17 +15,14 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 // Cloudflare Pages rejects an exclude list where any wildcard rule overlaps
 // another rule. Keep patterns disjoint: prefer the broader wildcard and drop
 // any sibling literal it already catches (eg. /secret* covers /secrets.yml).
+// Country and city pages used to be excluded here so Cloudflare would serve
+// them from the static-asset layer and apply _headers' Cache-Control, because
+// worker responses carried Next's hard-coded must-revalidate. scripts/
+// wrap-worker.mjs now rewrites Cache-Control (to the identical value) and the
+// security headers on every worker response, so that reason is gone — while
+// the exclusion had a real cost: middleware never ran on those ~1200 URLs, so
+// the www -> apex redirect silently did not apply to them.
 const SCANNER_EXCLUDES = [
-  // Bypass the Next worker for prerendered country & city HTML so
-  // Cloudflare Pages serves them directly from the static-assets
-  // layer (where _headers' Cache-Control rules apply, unlike worker
-  // responses where Next hard-codes must-revalidate).
-  '/en/countries/*', '/fr/countries/*', '/es/countries/*',
-  '/pt/countries/*', '/it/countries/*', '/de/countries/*',
-  '/pl/countries/*',
-  '/en/cities/*', '/fr/cities/*', '/es/cities/*',
-  '/pt/cities/*', '/it/cities/*', '/de/cities/*',
-  '/pl/cities/*',
   '/c7468c4053484ae9ba32038f762f4085.txt',
   // WordPress probes
   '/wp-admin/*', '/wp-login.php', '/wp-content/*', '/wp-includes/*',

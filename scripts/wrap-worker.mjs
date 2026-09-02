@@ -71,6 +71,11 @@ const __NOP_wrapped = {
     if (cc.includes('must-revalidate') || (!cc.includes('s-maxage') && !cc.includes('immutable'))) {
       headers.set('Cache-Control', __NOP_PAGE_CACHE);
     }
+    // _headers only applies to responses served from the static-asset layer,
+    // so worker-served pages need these set here. Country and city pages used
+    // to bypass the worker purely to pick them up from _headers.
+    if (!headers.has('X-Content-Type-Options')) headers.set('X-Content-Type-Options', 'nosniff');
+    if (!headers.has('Referrer-Policy')) headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
 
     const cached = new Response(res.body, {
       status: res.status,
